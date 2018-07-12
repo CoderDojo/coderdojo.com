@@ -32,9 +32,9 @@ export default {
     display: flex;
 
     a {
-      margin: 0 26px;
-      font-size: 18px;
-      color: #222;
+      padding: 0 28px;
+      line-height: 45px;
+      color: #fff;
       text-decoration: none;
     }
   }

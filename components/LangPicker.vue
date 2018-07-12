@@ -1,42 +1,38 @@
 <template>
-  <div class="c-lang-picker">
-    <nuxt-link :to="switchLocalePath(value)" v-for="{ text, value } in availableLanguages" :key="value" :value="value">{{ text }}</nuxt-link>
-  </div>
+  <select class="c-lang-picker" v-model="locale">
+    <option v-for="{ name, code } in $i18n.locales" :key="code" :value="code">{{ name }}</option>
+  </select>
 </template>
 
 <script>
 export default {
-  data() {
-    return {
-      locale: 'en',
-      availableLanguages: [
-        {
-          value: 'en',
-          text: 'English',
-        },
-        {
-          value: 'fr',
-          text: 'French',
-        },
-      ],
-    };
+  computed: {
+    locale: {
+      get() {
+        return this.$route.name.substr(this.$route.name.length - 2, 2);
+      },
+      set(locale) {
+        this.$router.push(this.switchLocalePath(locale));
+      }
+    }
   },
-  // watch: {
-  //   locale(lang) {
-  //     console.log(this.$i18n);
-  //     this.$i18n.switchLocalePath(lang);
-  //   },
-  // },
 };
 </script>
 
 <style lang="scss" scoped>
   .c-lang-picker {
-    background: #fff;
-    border: 1px solid #222;
-    border-radius: 5px;
-    font-size: 18px;
-    padding: 10px;
     appearance: none;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background-color: transparent;
+    background-image: url(~/static/images/down-chevron.svg);
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position: center right 12px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 40px;
+    padding: 0 40px 0 12px;
   }
 </style>
