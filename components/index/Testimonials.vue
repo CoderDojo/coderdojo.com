@@ -18,13 +18,17 @@
         </div>
       </div>
     </div>
+    <div class="c-testimonials__cta">
+      <a href="#" class="c-button c-button--teal c-button--search">Find a Dojo Event</a>
+    </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
   .c-testimonials {
     max-width: 960px;
-    margin: 40px auto;
+    margin: 0 auto;
+    padding: 40px 0;
 
     &__header {
       text-align: center;
@@ -50,6 +54,7 @@
       flex-direction: column;
       justify-content: space-between;
       padding: 24px 32px;
+      border-radius: 5px;
     }
 
     &__quote {
@@ -70,6 +75,11 @@
           margin-left: 10px;
         }
       }
+    }
+
+    &__cta {
+      text-align: center;
+      margin: 40px 0;
     }
   }
 </style>

@@ -3,8 +3,8 @@
     <h1 class="c-hero__header1">The global community of 1800 free programming clubs for young people</h1>
     <h2 class="c-hero__header2">70,000 young people learning with the help of 240,000 volunteer hours in 92 countries</h2>
     <div class="c-hero__cta">
-      <a href="#" class="c-hero__find">Find a Dojo</a>
-      <a href="#" class="c-hero__volunteer">Volunteer at a Dojo</a>
+      <a href="#" class="c-button c-button--orange">Find a Dojo</a>
+      <a href="#" class="c-button c-button--teal">Volunteer at a Dojo</a>
     </div>
     <div class="c-hero__images">
       <div class="c-hero__image">
@@ -53,31 +53,9 @@
       margin: 40px auto;
       max-width: 680px;
 
-      a {
+      .c-button {
         display: block;
         flex: 1;
-        color: white;
-        text-decoration: none;
-        font-size: 18px;
-        font-weight: bold;
-        margin: 0 20px;
-        padding: 16px 20px;
-        text-align: center;
-        border-radius: 1000px;
-        transition: box-shadow 0.2s ease-out, transform 0.2s ease-out;
-
-        &:hover {
-          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-          transform: scale(1.025);
-        }
-      }
-
-      .c-hero__find {
-        background: #ED684A;
-      }
-
-      .c-hero__volunteer {
-        background: #41BAC1;
       }
     }
 

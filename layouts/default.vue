@@ -20,7 +20,7 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 html {
   font-family: "Lato", Arial, sans-serif;
   font-size: 16px;
@@ -46,4 +46,6 @@ html {
 .content {
   flex: 1;
 }
+
+@import '~/assets/button.scss';
 </style>
