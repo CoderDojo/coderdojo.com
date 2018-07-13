@@ -90,6 +90,10 @@ export default {
       text-decoration: none;
     }
 
+    &__hamburger {
+      display: none;
+    }
+
     &__mobile-nav {
       height: 0;
       padding: 0 28px;
@@ -118,6 +122,10 @@ export default {
 
       &__right {
         display: none;
+      }
+
+      &__hamburger {
+        display: block;
       }
 
       &--mobile-nav-open {
