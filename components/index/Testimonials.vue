@@ -78,4 +78,12 @@
       margin: 40px 0;
     }
   }
+
+  @include media-breakpoint-max(sm) {
+    .c-testimonials {
+      &__quote-cards {
+        flex-direction: column;
+      }
+    }
+  }
 </style>

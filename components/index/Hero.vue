@@ -37,13 +37,14 @@
       font-size: 40px;
       max-width: 900px;
       margin: 0 auto;
-      padding: 50px 0;
+      padding: 50px 20px;
     }
 
     &__header2 {
       color: $white;
       max-width: 900px;
       margin: 0 auto;
+      padding: 0 20px;
     }
 
     &__cta {
@@ -71,6 +72,45 @@
 
       img {
         width: 100%;
+      }
+    }
+  }
+
+  @include media-breakpoint-max(sm) {
+    .c-hero {
+      background-image:
+        radial-gradient(ellipse at bottom, $white, $white calc(70% - 2px), transparent 70%, transparent 100%),
+        linear-gradient(to bottom, $cd-purple 0%, $cd-purple-gradient 100%);
+      background-size: 300% 300px, 100%;
+      background-position: bottom 0 center, top right;
+      background-repeat: no-repeat;
+
+      &__header1 {
+        font-size: 22px;
+      }
+
+      &__header2 {
+        font-size: 12px;
+      }
+
+      &__cta {
+        flex-direction: column;
+
+        .c-button {
+          margin: 10px 40px;
+        }
+      }
+
+      &__images {
+        flex-direction: column;
+      }
+
+      &__image {
+        margin: 20px 40px;
+
+        &:first-child {
+          display: none;
+        }
       }
     }
   }

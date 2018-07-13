@@ -69,6 +69,10 @@
       box-shadow: 0 20px 40px 0 rgba(14,24,9,0.20);
       transition: box-shadow 0.2s ease-out, color 0.2s ease-out;
 
+      img {
+        width: 100%;
+      }
+
       &-text {
         margin: 20px 20px 40px 20px;
         text-align: center;
@@ -81,6 +85,23 @@
       &:hover {
         box-shadow: 0 25px 45px 0 rgba(14,24,9,0.40);
         color: $cd-purple;
+      }
+    }
+  }
+
+  @include media-breakpoint-max(sm) {
+    .c-community {
+      &__cards {
+        flex-direction: column;
+      }
+
+      &__card {
+        margin: 20px 40px;
+      }
+
+      &__text {
+        max-width: 100%;
+        padding: 0 20px;
       }
     }
   }

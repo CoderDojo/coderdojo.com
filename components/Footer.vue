@@ -52,6 +52,8 @@
 </script>
 
 <style lang="scss" scoped>
+  @import '~/assets/_variables.scss';
+
   .c-footer {
     background: #222222;
     color: white;
@@ -62,7 +64,8 @@
     }
 
     &__content {
-      max-width: 960px;
+      max-width: 980px;
+      padding: 0 20px;
       margin: 0 auto;
     }
 
@@ -89,6 +92,14 @@
 
       a {
         margin: 0 5px;
+
+        &:first-child {
+          margin-left: 0;
+        }
+
+        &:last-child {
+          margin-right: 0;
+        }
       }
 
       img {
@@ -105,6 +116,8 @@
     }
 
     &__links {
+      flex: 1;
+
       a {
         display: block;
         text-decoration: none;
@@ -126,6 +139,24 @@
 
     &__address {
       margin-top: 40px;
+      color: #a6a6a6;
+    }
+  }
+
+  @include media-breakpoint-max(sm) {
+    .c-footer {
+      &__row {
+        flex-direction: column;
+      }
+
+      &__social {
+        margin: 40px 0;
+      justify-content: flex-start;
+      }
+
+      &__links {
+        margin: 10px 0;
+      }
     }
   }
 </style>

@@ -39,6 +39,7 @@
 
     &__text {
       flex: 1;
+      padding-right: 20px;
 
       h1, h2 {
         text-align: left;
@@ -46,6 +47,27 @@
 
       p {
         margin: 40px 0;
+      }
+    }
+  }
+
+  @include media-breakpoint-max(md) {
+    .c-volunteer {
+      &__illustration {
+        max-width: 350px;
+        padding: 0 40px;
+      }
+    }
+  }
+
+  @include media-breakpoint-max(sm) {
+    .c-volunteer {
+      &__content {
+        flex-direction: column;
+      }
+
+      &__text {
+        padding: 0 20px;
       }
     }
   }

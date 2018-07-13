@@ -27,10 +27,16 @@
     }
 
     &__photo {
+      flex: 1;
       margin-right: 20px;
+
+      img {
+        width: 100%;
+      }
     }
 
     &__text {
+      flex: 1;
       display: flex;
       flex-direction: column;
       margin-left: 20px;
@@ -51,6 +57,22 @@
     &__header {
       margin-top: 0;
       text-align: left;
+    }
+  }
+
+  @include media-breakpoint-max(sm) {
+    .c-our-team {
+      &__content {
+        flex-direction: column-reverse;
+      }
+
+      &__photo {
+        margin: 0;
+      }
+
+      &__text {
+        margin: 0 20px;
+      }
     }
   }
 </style>

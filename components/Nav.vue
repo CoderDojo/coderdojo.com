@@ -1,6 +1,7 @@
 <template>
   <nav class="c-nav">
     <nuxt-link v-for="navItem in navItems" :key="navItem.title" :to="localePath({ name: navItem.name })">{{ $t(navItem.title) }}</nuxt-link>
+    <a class="c-nav__login">{{ $t('Login') }}</a>
   </nav>
 </template>
 
@@ -28,6 +29,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+  @import '~/assets/_variables.scss';
+
   .c-nav {
     display: flex;
 
@@ -36,6 +39,26 @@ export default {
       line-height: 45px;
       color: #fff;
       text-decoration: none;
+    }
+
+    &__login {
+      display: none;
+    }
+  }
+
+  @include media-breakpoint-max(md) {
+    .c-nav {
+      flex-direction: column;
+
+      a {
+        padding: 0;
+        line-height: 60px;
+      }
+
+      &__login {
+        display: block;
+        margin-bottom: 10px;
+      }
     }
   }
 </style>
