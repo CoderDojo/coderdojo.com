@@ -11,37 +11,40 @@
 </template>
 
 <style lang="scss" scoped>
-.c-slack {
-  margin-top: 40px;
+  @import '~/assets/_variables.scss';
 
-  &__illustration {
-    text-align: center;
-  }
+  .c-slack {
+    background: $grey-bg;
 
-  &__content {
-    padding-top: 96px;
-    margin-top: -96px;
-    background: #ED684A;
-    padding-bottom: 40px;
-    text-align: center;
-  }
+    &__illustration {
+      text-align: center;
+    }
 
-  &__header {
-    font-size: 28px;
-  }
+    &__content {
+      padding-top: 96px;
+      margin-top: -96px;
+      background: $cd-orange;
+      padding-bottom: 40px;
+      text-align: center;
+    }
 
-  &__link {
-    display: block;
-    color: #fff;
-    margin: 20px 0;
-    padding: 20px 0;
-    font-size: 18px;
-    font-weight: bold;
-    text-decoration: none;
+    &__header {
+      font-size: 28px;
+      margin: 10px 0;
+    }
 
-    &:hover {
-      text-decoration: underline;
+    &__link {
+      display: block;
+      color: $white;
+      margin: 20px 0;
+      padding: 20px 0;
+      font-size: 18px;
+      font-weight: bold;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
-}
 </style>

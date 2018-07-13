@@ -6,7 +6,6 @@
     <StartADojo />
     <Community />
     <OurTeam />
-    <GetInvolved />
     <Slack />
   </div>
 </template>
@@ -18,7 +17,6 @@ import Volunteer from '~/components/index/Volunteer';
 import StartADojo from '~/components/index/StartADojo';
 import Community from '~/components/index/Community';
 import OurTeam from '~/components/index/OurTeam';
-import GetInvolved from '~/components/index/GetInvolved';
 import Slack from '~/components/index/Slack';
 
 export default {
@@ -29,7 +27,6 @@ export default {
     StartADojo,
     Community,
     OurTeam,
-    GetInvolved,
     Slack,
   },
 };

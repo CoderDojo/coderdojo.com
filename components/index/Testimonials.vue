@@ -25,21 +25,17 @@
 </template>
 
 <style lang="scss" scoped>
+  @import '~/assets/_variables.scss';
+
   .c-testimonials {
-    max-width: 960px;
+    max-width: $content-width;
     margin: 0 auto;
     padding: 40px 0;
 
-    &__header {
-      text-align: center;
-      font-size: 32px;
-      font-weight: bold;
-      padding: 40px 0;
-    }
-
     &__illustration {
       display: block;
-      margin: 0 auto;
+      margin: 40px auto 0 auto;
+      width: calc(100% - 80px);
     }
 
     &__quote-cards {

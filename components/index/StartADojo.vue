@@ -2,6 +2,10 @@
   <div class="c-start">
     <div class="c-start__content">
       <div class="c-start__text">
+        <h1>Want to start a Dojo?</h1>
+        <h2>It's just 3  steps!</h2>
+        <p>CoderDojo Champions are passionate, driven (<em>not always techie!</em>) volunteers who take charge of setting up, running and maintaining a Dojo.</p>
+        <a href="#" class="c-button c-button--teal">Start a Dojo</a>
       </div>
       <div class="c-start__illustration">
         <img src="~/static/images/start-a-dojo.svg" />
@@ -11,25 +15,37 @@
 </template>
 
 <style lang="scss" scoped>
+  @import '~/assets/_variables.scss';
+
   .c-start {
-    background: #F4F4F4;
+    background: $grey-bg;
 
     &__content {
-      max-width: 960px;
+      max-width: $content-width;
       margin: 0 auto;
       padding-top: 80px;
       display: flex;
     }
 
     &__illustration {
-      flex: 1;
-      width: 50%;
-      text-align: center;
+      max-width: 500px;
+      padding: 0 40px;
+
+      img {
+        width: 100%;
+      }
     }
 
     &__text {
       flex: 1;
-      width: 50%;
+
+      h1, h2 {
+        text-align: left;
+      }
+
+      p {
+        margin: 40px 0;
+      }
     }
   }
 </style>

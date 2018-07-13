@@ -1,7 +1,7 @@
 <template>
   <div class="c-hero">
-    <h1 class="c-hero__header1">The global community of 1800 free programming clubs for young people</h1>
-    <h2 class="c-hero__header2">70,000 young people learning with the help of 240,000 volunteer hours in 92 countries</h2>
+    <h1 class="c-hero__header1">The community of {count} free, open and local programming clubs for young people</h1>
+    <h2 class="c-hero__header2">70,000 young people are creating with technology with the help of  240,000 volunteers in {92} countries. Join us!</h2>
     <div class="c-hero__cta">
       <a href="#" class="c-button c-button--orange">Find a Dojo</a>
       <a href="#" class="c-button c-button--teal">Volunteer at a Dojo</a>
@@ -21,30 +21,29 @@
 </template>
 
 <style lang="scss" scoped>
+  @import '~/assets/_variables.scss';
+
   .c-hero {
     background-image:
-      radial-gradient(ellipse at bottom, white, white calc(50% - 2px), transparent 50%, transparent 100%),
-      linear-gradient(to bottom, #642580 0%, #9266a6 100%);
+      radial-gradient(ellipse at bottom, $white, $white calc(50% - 2px), transparent 50%, transparent 100%),
+      linear-gradient(to bottom, $cd-purple 0%, $cd-purple-gradient 100%);
     background-size: 200% 300px, 100%;
     background-position: bottom -100px center, top right;
     background-repeat: no-repeat;
 
     &__header1 {
-      color: white;
+      color: $white;
       font-weight: 300;
       font-size: 40px;
-      text-align: center;
-      max-width: 680px;
+      max-width: 900px;
       margin: 0 auto;
       padding: 50px 0;
     }
 
     &__header2 {
-      color: white;
-      text-align: center;
-      max-width: 780px;
+      color: $white;
+      max-width: 900px;
       margin: 0 auto;
-      font-size: 20px;
     }
 
     &__cta {
@@ -54,14 +53,14 @@
       max-width: 680px;
 
       .c-button {
-        display: block;
         flex: 1;
+        margin: 0 20px;
       }
     }
 
     &__images {
       display: flex;
-      max-width: 980px;
+      max-width: $content-width;
       margin: 60px auto 0 auto;
     }
 

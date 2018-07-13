@@ -1,0 +1,35 @@
+@import './_variables.scss';
+
+html {
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  color: $black;
+}
+
+h1, h2, h3 {
+  font-family: 'Libre Franklin', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 40px 0 10px 0;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 8px 0;
+}
