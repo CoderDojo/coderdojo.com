@@ -3,8 +3,8 @@
     <div class="c-header__content">
       <div class="c-header__logo">
         <nuxt-link :to="localePath({ name: 'index' })">
-          <img v-show="mobileNavOpen" src="/images/coderdojo-black.svg" />
-          <img v-show="!mobileNavOpen" src="/images/coderdojo.svg" />
+          <img class="c-header__logo-img" src="/images/coderdojo.svg" />
+          <img class="c-header__logo-img--black" src="/images/coderdojo-black.svg" />
         </nuxt-link>
       </div>
       <cd-nav class="c-header__nav"></cd-nav>
@@ -13,8 +13,8 @@
         <lang-picker></lang-picker>
       </div>
       <div class="c-header__hamburger">
-        <img v-show="mobileNavOpen" src="~/static/images/x-orange.svg" @click="toggleMobileNav" />
-        <img v-show="!mobileNavOpen" src="~/static/images/hamburger.svg" @click="toggleMobileNav" />
+        <img class="c-header__hamburger-close" src="~/static/images/x-orange.svg" @click="toggleMobileNav" />
+        <img class="c-header__hamburger-icon" src="~/static/images/hamburger.svg" @click="toggleMobileNav" />
       </div>
     </div>
     <div class="c-header__mobile-nav">
@@ -43,6 +43,11 @@ export default {
       this.mobileNavOpen = !this.mobileNavOpen;
     },
   },
+  watch: {
+    $route() {
+      this.mobileNavOpen = false;
+    },
+  },
 };
 </script>
 
@@ -69,6 +74,12 @@ export default {
       flex: 1;
       img {
         height: 45px;
+      }
+
+      &-img {
+        &--black {
+          display: none;
+        }
       }
     }
 
@@ -126,6 +137,10 @@ export default {
 
       &__hamburger {
         display: block;
+
+        &-close {
+          display: none;
+        }
       }
 
       &--mobile-nav-open {
@@ -145,8 +160,24 @@ export default {
             display: block;
             overflow: auto;
             padding: 28px;
-            height: calc(100vh - 70px);
+            height: calc(100vh - 66px);
             background-position: bottom right 20px, top left;
+          }
+
+          &__logo-img {
+            display: none;
+
+            &--black {
+              display: block;
+            }
+          }
+
+          &__hamburger-icon {
+            display: none;
+          }
+
+          &__hamburger-close {
+            display: block;
           }
         }
       }

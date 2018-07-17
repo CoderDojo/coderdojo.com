@@ -64,6 +64,10 @@
         flex-direction: column;
       }
 
+      &__illustration {
+        margin: 0 auto;
+      }
+
       &__text {
         padding: 0 20px;
       }

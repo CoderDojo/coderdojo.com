@@ -37,7 +37,7 @@ export default {
     a {
       padding: 0 28px;
       line-height: 45px;
-      color: #fff;
+      color: $white;
       text-decoration: none;
     }
 
