@@ -5,14 +5,45 @@
 </template>
 
 <script>
+import Cookies from 'js-cookie';
+
 export default {
   computed: {
     locale: {
       get() {
-        return this.$route.name.substr(this.$route.name.length - 2, 2);
+        return this.$route.name && this.$route.name.substr(this.$route.name.length - 5, 5);
       },
       set(locale) {
+        this.localeCookie = locale;
         this.$router.push(this.switchLocalePath(locale));
+      }
+    },
+    localeCookie: {
+      get() {
+        const cookie = Cookies.get('NG_TRANSLATE_LANG_KEY');
+        if (!cookie) return;
+        return cookie.substring(1, cookie.length - 1).replace('_', '-');
+      },
+      set(locale) {
+        Cookies.set('NG_TRANSLATE_LANG_KEY', `"${locale.replace('-', '_')}"`);
+      },
+    },
+    closestMatchingLocale() {
+      const browserLocaleCode = navigator.language;
+      const browserLocaleShortCode = navigator.language.split('-')[0];
+      const matchingCode = this.$i18n.locales.find(locale => locale.code === browserLocaleCode);
+      if (matchingCode) return matchingCode.code;
+      const matchingShortCode = this.$i18n.locales.find(locale => locale.shortCode === browserLocaleShortCode);
+      if (matchingShortCode) return matchingShortCode.code;
+      return 'en-US';
+    },
+  },
+  created() {
+    if (process.browser && this.locale === 'en-US') {
+      if (this.localeCookie && this.localeCookie !== this.locale) {
+        this.$router.replace(this.switchLocalePath(this.localeCookie));
+      } else if (!this.localeCookie && this.closestMatchingLocale !== this.locale) {
+        this.$router.replace(this.switchLocalePath(this.closestMatchingLocale));
       }
     }
   },

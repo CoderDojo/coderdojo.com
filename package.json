@@ -13,6 +13,7 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "js-cookies": "^1.0.4",
     "node-sass": "^4.9.2",
     "nuxt": "^1.0.0",
     "nuxt-i18n": "^4.1.0",
