@@ -1,11 +1,6 @@
 <template>
   <div class="c-hero">
-    <h1 class="c-hero__header1">{{ $t('The community of {count} free, open and local programming clubs for young people', { count: 1800 }) }}</h1>
-    <h2 class="c-hero__header2">{{ $t('70,000 young people are creating with technology with the help of 240,000 volunteers in {countries} countries. Join us!', { countries: 92 }) }}</h2>
-    <div class="c-hero__cta">
-      <a href="#" class="c-button c-button--orange">{{ $t('Find a Dojo') }}</a>
-      <a href="/volunteer" class="c-button c-button--teal">{{ $t('Volunteer at a Dojo') }}</a>
-    </div>
+    <h1 class="c-hero__header1">{{ $t('Volunteer at a Dojo near you') }}</h1>
     <div class="c-hero__images">
       <div class="c-hero__image">
         <img src="https://picsum.photos/480/320?image=1" />
@@ -24,8 +19,9 @@
   @import '~/assets/_variables.scss';
 
   .c-hero {
+    padding: 0 0 80px 0;
     background-image:
-      radial-gradient(ellipse at bottom, $white, $white calc(50% - 2px), transparent 50%, transparent 100%),
+      radial-gradient(transparent 50%, transparent 100%),
       linear-gradient(to bottom, $cd-purple 0%, $cd-purple-gradient 100%);
     background-size: 200% 300px, 100%;
     background-position: bottom -100px center, top right;
