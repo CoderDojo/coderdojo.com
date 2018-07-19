@@ -1,0 +1,35 @@
+@import './_variables.scss';
+
+.c-button {
+  display: inline-block;
+  color: $white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 16px 32px;
+  text-align: center;
+  border-radius: 1000px;
+  transition: box-shadow 0.2s ease-out, transform 0.2s ease-out;
+  font-family: 'Libre Franklin', sans-serif;
+
+  &:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1.025);
+  }
+
+  &--orange {
+    background-color: $cd-orange;
+  }
+
+  &--teal {
+    background-color: $cd-teal;
+  }
+
+  &--search {
+    background-image: url(~/static/images/search.svg);
+    background-repeat: no-repeat;
+    background-size: 32px;
+    background-position: center left 24px;
+    padding: 16px 32px 16px 64px;
+  }
+}

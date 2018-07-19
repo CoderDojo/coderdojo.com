@@ -1,0 +1,33 @@
+$content-width: 960px;
+$black: #222;
+$white: #fff;
+$grey-bg: #f2f2f2;
+$cd-purple: #642580;
+$cd-purple-gradient: #9266a6;
+$cd-orange: #ED684A;
+$cd-orange-gradient: #EC431D;
+$cd-teal: #41BAC1;
+
+$breakpoints: (sm: 576px, md: 768px, lg: 992px, xl: 1200px);
+
+@function get-breakpoint($name) {
+  @return map-get($breakpoints, $name);
+}
+
+@mixin media-breakpoint-min($name) {
+  @media (min-width: get-breakpoint($name)) {
+    @content;
+  }
+}
+
+@mixin media-breakpoint-max($name) {
+  @media (max-width: get-breakpoint($name)) {
+    @content;
+  }
+}
+
+@mixin media-breakpoint-between($min, $max) {
+  @media (min-width: get-breakpoint($min)) and (max-width: get-breakpoint($max)) {
+    @content;
+  }
+}

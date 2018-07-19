@@ -10,7 +10,8 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'CoderDojo Main Site' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', type: 'text/css', href: 'https://fonts.googleapis.com/css?family=Lato:400,400i,700,900|Libre+Franklin:300,600,700' }
     ]
   },
   /*
@@ -40,10 +41,12 @@ module.exports = {
       locales: [
         {
           code: 'en',
+          name: 'English',
           file: 'en.json',
         },
         {
           code: 'fr',
+          name: 'Français',
           file: 'fr.json',
         }
       ],

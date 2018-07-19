@@ -1,18 +1,8 @@
 <template>
-  <section class="container">
-    <cd-header></cd-header>
+  <div>
     <h1>{{ $t('Get Involved') }}</h1>
-  </section>
+  </div>
 </template>
-
-<script>
-import CdHeader from '@/components/Header';
-export default {
-  components: {
-    CdHeader,
-  },
-};
-</script>
 
 <style>
 </style>
