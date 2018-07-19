@@ -2,10 +2,10 @@
   <div class="c-start">
     <div class="c-start__content">
       <div class="c-start__text">
-        <h1>Want to start a Dojo?</h1>
-        <h2>It's just 3  steps!</h2>
-        <p>CoderDojo Champions are passionate, driven (<em>not always techie!</em>) volunteers who take charge of setting up, running and maintaining a Dojo.</p>
-        <a href="#" class="c-button c-button--teal">Start a Dojo</a>
+        <h1>{{ $t('Want to start a Dojo?') }}</h1>
+        <h2>{{ $t('It\'s just 3 steps!') }}</h2>
+        <p>{{ $t('CoderDojo Champions are passionate, driven (not always techie!) volunteers who take charge of setting up, running and maintaining a Dojo.') }}</p>
+        <a href="#" class="c-button c-button--teal">{{ $t('Start a Dojo') }}</a>
       </div>
       <div class="c-start__illustration">
         <img src="~/static/images/start-a-dojo.svg" />

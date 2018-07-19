@@ -5,9 +5,9 @@
         <img src="https://picsum.photos/484/242" />
       </div>
       <div class="c-our-team__text">
-        <h1 class="c-our-team__header">Our team &amp; history</h1>
-        <p>We’re a 6 year old foundation with amazing growth and many twists and turns on the way.</p>
-        <a href="#">Find Out More </a>
+        <h1 class="c-our-team__header">{{ $t('Our team & history') }}</h1>
+        <p>{{ $t('We\’re a 6 year old foundation with amazing growth and many twists and turns on the way.') }}</p>
+        <a href="#">{{ $t('Find Out More') }}</a>
       </div>
     </div>
   </div>

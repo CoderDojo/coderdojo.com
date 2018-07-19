@@ -4,8 +4,8 @@
       <img src="~/static/images/globe.svg" />
     </div>
     <div class="c-slack__content">
-      <h1 class="c-slack__header">Talk to our community</h1>
-      <a href="#" class="c-slack__link">Join our Slack community</a>
+      <h1 class="c-slack__header">{{ $t('Talk to our community') }}</h1>
+      <a href="#" class="c-slack__link">{{ $t('Join our Slack community') }}</a>
     </div>
   </div>
 </template>

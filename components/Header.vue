@@ -9,7 +9,7 @@
       </div>
       <cd-nav class="c-header__nav"></cd-nav>
       <div class="c-header__right">
-        <a class="c-header__login" href="https://zen.coderdojo.com/login">Login</a>
+        <a class="c-header__login" href="https://zen.coderdojo.com/login">{{ $t('Login') }}</a>
         <lang-picker></lang-picker>
       </div>
       <div class="c-header__hamburger">
