@@ -23,7 +23,7 @@ export default {
       get() {
         const cookie = Cookies.get('NG_TRANSLATE_LANG_KEY');
         if (!cookie) return;
-        return cookie.substring(1, cookie.length - 1).replace('_', '-');
+        return cookie.replace('"', '').replace('_', '-');
       },
       set(locale) {
         Cookies.set('NG_TRANSLATE_LANG_KEY', `"${locale.replace('-', '_')}"`);
