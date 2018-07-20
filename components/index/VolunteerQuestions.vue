@@ -37,8 +37,8 @@
     &__link {
       display: block;
       color: $cd-orange;
-      margin: 20px 0;
-      padding: 20px 0;
+      margin: 48px 0;
+      padding: 24px 0;
       font-size: 18px;
       font-weight: bold;
       text-decoration: none;
@@ -48,7 +48,8 @@
       }
     }
 
-    &__divider { 
+    &__divider {
+      margin: 48px auto;
       background-color: #D3D3D3; 
       height: 2px; 
       border: 0; 

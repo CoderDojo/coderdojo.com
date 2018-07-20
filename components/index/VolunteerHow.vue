@@ -23,8 +23,7 @@
   @import '~/assets/_variables.scss';
 
   .c-how {
-    margin: 40px auto;
-    padding: 20px 0;
+    padding: 48px 0;
 
     &__divider { 
       background-color: #D3D3D3; 
@@ -33,7 +32,7 @@
     }
 
     &__section {
-      margin: 20px auto 20px;
+      margin: 48px auto;
       max-width: $content-width;
       display: flex;
     }
@@ -57,6 +56,9 @@
       &__section {
         flex-direction: column;
       }
+      &__images {
+        padding: 20px 0 0;
+      }      
     }
   }
 </style>
