@@ -1,24 +1,40 @@
 <template>
   <div class="c-hero">
-    <h1 class="c-hero__header1">{{ $t('The community of {count} free, open and local programming clubs for young people', { count: 1800 }) }}</h1>
-    <h2 class="c-hero__header2">{{ $t('70,000 young people are creating with technology with the help of 240,000 volunteers in {countries} countries. Join us!', { countries: 92 }) }}</h2>
+    <h1 class="c-hero__header1">{{ $t('The community of {count} free, open and local programming clubs for young people', { count: numOfDojos }) }}</h1>
+    <h2 class="c-hero__header2">{{ $t('70,000 young people are creating with technology with the help of 240,000 volunteers in {countries} countries. Join us!', { countries: numOfCountries }) }}</h2>
     <div class="c-hero__cta">
       <a href="#" class="c-button c-button--orange">{{ $t('Find a Dojo') }}</a>
       <a href="#" class="c-button c-button--teal">{{ $t('Volunteer at a Dojo') }}</a>
     </div>
     <div class="c-hero__images">
       <div class="c-hero__image">
-        <img src="https://picsum.photos/480/320?image=1" />
+        <img src="~/static/images/index/hero/1.jpg" />
       </div>
       <div class="c-hero__image">
-        <img src="https://picsum.photos/480/320?image=2" />
+        <img src="~/static/images/index/hero/2.jpg" />
       </div>
       <div class="c-hero__image">
-        <img src="https://picsum.photos/480/320?image=3" />
+        <img src="~/static/images/index/hero/3.jpg" />
       </div>
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  props: ['dojos'],
+  computed: {
+    numOfDojos() {
+      return this.dojos.length;
+    },
+    numOfCountries() {
+      const countries = this.dojos.map(dojo => dojo.alpha2)
+      return countries.filter((item, pos) => countries.indexOf(item) == pos).length;
+    },
+  },
+};
+</script>
+
 
 <style lang="scss" scoped>
   @import '~/assets/_variables.scss';
@@ -72,6 +88,7 @@
 
       img {
         width: 100%;
+        border-radius: 3px;
       }
     }
   }

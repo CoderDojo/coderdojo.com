@@ -1,19 +1,19 @@
 <template>
   <div class="c-testimonials">
     <h1 class="c-testimonials__header">{{ $t('Dojos are relaxed and fun!') }}</h1>
-    <img class="c-testimonials__illustration" src="~/static/images/dojo.svg" />
+    <img class="c-testimonials__illustration" src="~/static/images/index/dojo.png" />
     <div class="c-testimonials__quote-cards">
       <div class="c-testimonials__quote-card">
         <p class="c-testimonials__quote">{{ $t('“Learning to code is done in a relaxed friendly atmosphere. I really like being creative and coding gives me an opportunity to put my ideas into a digital world.”') }}</p>
         <div class="c-testimonials__quote-attr">
-          <img class="c-testimonials__quote-attr-image" src="https://picsum.photos/36/36?image=1" />
+          <img class="c-testimonials__quote-attr-image" src="~/static/images/index/lauren.png" />
           <span class="c-testimonials__quote-attr-text">Lauren - CoderDojo Dun Laoghaire, Ireland</span>
         </div>
       </div>
       <div class="c-testimonials__quote-card">
         <p class="c-testimonials__quote">{{ $t('"I met a lot of new friends in our CoderDojo club, I met a lot of new friends in our CoderDojo club"') }}</p>
         <div class="c-testimonials__quote-attr">
-          <img class="c-testimonials__quote-attr-image" src="https://picsum.photos/36/36?image=1" />
+          <img class="c-testimonials__quote-attr-image" src="~/static/images/index/lauren.png" />
           <span class="c-testimonials__quote-attr-text">Lauren - CoderDojo Dun Laoghaire, Ireland</span>
         </div>
       </div>
