@@ -11,7 +11,8 @@ export default {
   computed: {
     locale: {
       get() {
-        return this.$route.name && this.$route.name.substr(this.$route.name.length - 5, 5);
+        // The only place I can find the current locale is at the end of the route name
+        return this.$route.name.split(this.$i18n.routesNameSeparator)[1];
       },
       set(locale) {
         this.localeCookie = locale;
@@ -40,9 +41,9 @@ export default {
   },
   created() {
     if (process.browser && this.locale === 'en-US') {
-      if (this.localeCookie && this.localeCookie !== this.locale) {
+      if (this.localeCookie) {
         this.$router.replace(this.switchLocalePath(this.localeCookie));
-      } else if (!this.localeCookie && this.closestMatchingLocale !== this.locale) {
+      } else if (!this.localeCookie) {
         this.$router.replace(this.switchLocalePath(this.closestMatchingLocale));
       }
     }
