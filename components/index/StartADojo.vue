@@ -40,10 +40,6 @@
       flex: 1;
       padding-left: 20px;
 
-      h1, h2 {
-        text-align: left;
-      }
-
       p {
         margin: 40px 0;
       }

@@ -1,5 +1,5 @@
 <template>
-  <div class="c-hero">
+  <div class="c-hero center-text">
     <h1 class="c-hero__header1">{{ $t('The community of {count} free, open and local programming clubs for young people', { count: 1800 }) }}</h1>
     <h2 class="c-hero__header2">{{ $t('70,000 young people are creating with technology with the help of 240,000 volunteers in {countries} countries. Join us!', { countries: 92 }) }}</h2>
     <div class="c-hero__cta">
