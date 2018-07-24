@@ -12,7 +12,6 @@
 import VolunteerHero from '~/components/index/volunteer/Hero';
 import VolunteerTestimonials from '~/components/index/volunteer/Testimonials';
 import VolunteerHow from '~/components/index/volunteer/How';
-import Volunteer from '~/components/index/volunteer/';
 import StartADojo from '~/components/index/StartADojo';
 import VolunteerResources from '~/components/index/volunteer/Resources';
 import VolunteerQuestions from '~/components/index/volunteer/Questions';
@@ -22,7 +21,6 @@ export default {
     VolunteerHero,
     VolunteerTestimonials,
     VolunteerHow,
-    Volunteer,
     StartADojo,
     VolunteerResources,
     VolunteerQuestions,
