@@ -23,7 +23,7 @@
     }
 
     &__content {
-      padding: 96px 100px 40px;
+      padding: 80px 80px 40px;
       margin-top: -50px;
       background: $grey-bg;
       text-align: center;
@@ -50,8 +50,8 @@
 
     &__divider {
       margin: 48px auto;
-      background-color: #D3D3D3; 
-      height: 2px; 
+      background-color: #CAC4CE; 
+      height: 1px; 
       border: 0; 
     }
   }

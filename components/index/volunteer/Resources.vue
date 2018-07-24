@@ -1,8 +1,7 @@
 <template>
   <div class="c-resources">
     <div class="c-resources__content">
-      <img class="c-resources__images" src="~/static/images/doc.svg" />
-      <div class="c-resources__individual">
+      <div class="c-resources__individual c-resources__doc">
         <h1>{{ $t('Ready-made resources') }}</h1>
         <p>{{ $t('We have loads of resources to get you started as a volunteer, and you can always create and share your own.') }}</p>
       </div>
@@ -31,13 +30,19 @@
       align-items: flex-start;
       display: flex;
       flex-direction: column;
-      padding: 0px 64px;
       justify-content: center;
 
       &-link {
         margin-top: 86px;
       }
-    }    
+    }
+
+    &__doc {
+      padding-left: 48px;
+      background-image: url('~/static/images/doc.svg');
+      background-repeat: no-repeat;
+      background-position: 0 50%;    
+    }        
 
     &__images {
       align-items: flex-start;
