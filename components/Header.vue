@@ -113,12 +113,13 @@ export default {
       left: 0;
       right: 0;
       top: 66px;
-      padding: 0 28px;
+      padding: 28px;
       opacity: 0;
-      transition: opacity 0.2s ease-out, transform 0.2s ease-out, padding 0.2s ease-out, background-position 0.2s ease-out;
+      transition: opacity 0.2s ease-out, transform 0.2s ease-out;
       background-image: url(~/static/images/nav-character.svg), linear-gradient(to bottom, $cd-orange-gradient 0%, $cd-orange 100%);
-      background-position: bottom -250px right 20px, top left;
+      background-position: bottom right 20px, top left;
       background-repeat: no-repeat;
+      box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.2);
     }
   }
 
@@ -165,10 +166,8 @@ export default {
 
           &__mobile-nav {
             display: block;
-            padding: 28px;
             transform: scaleY(1);
             opacity: 1;
-            background-position: bottom right 20px, top left;
           }
 
           &__logo-img {
