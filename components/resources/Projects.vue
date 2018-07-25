@@ -1,33 +1,34 @@
 <template>
   <div class="c-projects center-text">
-    <h1>Projects for your Dojo</h1>
+    <h1>{{ $t('Projects for your Dojo') }}</h1>
     <div class="c-projects__cards">
-      <div class="c-projects__card">
-        <img src="https://projects.raspberrypi.org/static/media/appInventor.4162c393.png" />
-        <h3>App Inventor for social enterprise</h3>
-        <p>Learn to make apps for Android devices by doing projects that can help people in your community.</p>
-      </div>
-      <div class="c-projects__card">
-        <img src="https://projects.raspberrypi.org/static/media/scratch.6d8141ec.png" />
-        <h3>Scratch for social enterprise</h3>
-        <p>Learn Scratch, a beginner-friendly graphical programming language, while building apps and games to help people learn about important issues.</p>
-      </div>
-      <div class="c-projects__card">
-        <img src="https://projects.raspberrypi.org/static/media/sushi.1ba8ebeb.png" />
-        <h3>HTML & CSS for social enterprise</h3>
-        <p>Learn HTML & CSS by creating a website about bird conservation.</p>
+      <div class="c-projects__card" v-for="(project, i) in projects" :key="i">
+        <img :src="project.imgSrc" />
+        <h3>{{ $t(project.title) }}</h3>
+        <p>{{ $t(project.description) }}</p>
       </div>
     </div>
     <div class="c-projects__cta">
-      <a href="#" class="c-button c-button--orange">View more CoderDojo projects</a>
+      <a href="#" class="c-button c-button--orange">{{ $t('View more CoderDojo projects') }}</a>
     </div>
     <div class="c-projects__discuss">
-      <p>If you have produced a piece of original content for your Dojo, or found a useful resource online that you think others might find useful,
-please contribute it to the collection!</p>
-      <a href="#">Discuss your content on our forums</a>
+      <p>{{ $t('If you have produced a piece of original content for your Dojo, or found a useful resource online that you think others might find useful, please contribute it to the collection!') }}</p>
+      <a href="https://forums.coderdojo.com/">{{ $t('Discuss your content on our forums') }}</a>
     </div>
   </div>
 </template>
+
+<script>
+  import projects from '~/data/resources/projects';
+  export default {
+    data() {
+      return {
+        projects,
+      };
+    },
+  };
+</script>
+
 
 <style lang="scss" scoped>
   @import '~/assets/_variables.scss';
