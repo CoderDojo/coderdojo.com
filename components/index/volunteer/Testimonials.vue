@@ -94,9 +94,24 @@
 
   @include media-breakpoint-max(sm) {
     .c-testimonials {
+      &__header {
+        margin: 0 40px;
+      }      
       &__content {
-        display: block;
-      }   
+        margin-top: 0;
+        flex-direction: column;
+      }
+      &__text {
+        max-width: 100%;
+        margin: 0 40px;
+      }
+      &__cta {
+        flex-direction: column;
+
+        .c-button {
+          margin: 10px 40px;
+        }
+      }         
     }
   }
 </style>

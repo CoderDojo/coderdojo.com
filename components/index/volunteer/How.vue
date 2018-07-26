@@ -54,9 +54,19 @@
       &__section {
         flex-direction: column;
       }
-      &__images {
-        padding: 20px 0 0;
+      &__individual {
+        text-align: center;
+        h1 {
+          text-align: center;
+        }
       }      
+      &__led {
+        background-position: 10% 25%;    
+      } 
+
+      &__rpi {
+        background-position: 10% 25%;  
+      }       
     }
   }
 </style>
