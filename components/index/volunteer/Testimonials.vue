@@ -1,12 +1,12 @@
 <template>
   <div class="c-testimonials">
     <h1 class="c-testimonials__header">{{ $t('What does it mean to volunteer at a Dojo?') }}</h1>
-    <div class="c-testimonials__stuff">
-      <div class="c-testimonials__text c-testimonials__stuffs">
+    <div class="c-testimonials__content">
+      <div class="c-testimonials__text c-testimonials__individual-content">
         <p>{{ $t('There are {number} Volunteers in {dojonumber} Dojos and they come in many forms.', { number: 100, dojonumber: 1000 }) }}</p>
         <p>{{ $t('You do not have to be a coder to mentor at a Dojo. Dojos benefit from a mix of Mentors providing support, guidance and encouragement to CoderDojo youth (Ninjas) and general volunteers who focus on organising the events. A lot of mentors are parents of attendees with no technical experience at all. The easiest way to see if you might want to volunteer is to check out our videos above and then find a Dojo event to turn up to and see how a Dojo session works! ') }}</p>
       </div>    
-      <div class="c-testimonials__stuffs">
+      <div class="c-testimonials__individual-content">
         <div class="c-testimonials__quote-card">
           <p class="c-testimonials__quote">{{ $t('CoderDojo isn\'t primarily about code. It\'s about providing a place where children can be inquisitive and create things without fear of failure. They can be themselves') }}</p>
           <div class="c-testimonials__quote-attr">
@@ -31,12 +31,12 @@
     margin: 0 auto;
     padding: 40px 0;
 
-    &__stuff {
+    &__content {
       display: flex;
       max-width: $content-width;
       margin: 60px auto 0 auto;
     }
-    &__stuffs {
+    &__individual-content {
       flex: 1;
       justify-content: space-between;
     }
@@ -94,7 +94,7 @@
 
   @include media-breakpoint-max(sm) {
     .c-testimonials {
-      &__stuff {
+      &__content {
         display: block;
       }   
     }
