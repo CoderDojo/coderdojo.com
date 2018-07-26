@@ -8,10 +8,10 @@
 </template>
 
 <script>
-import VolunteerHero from '~/components/index/volunteer/Hero';
-import VolunteerTestimonials from '~/components/index/volunteer/Testimonials';
-import VolunteerHow from '~/components/index/volunteer/How';
-import VolunteerResources from '~/components/index/volunteer/Resources';
+import VolunteerHero from '~/components/volunteer/Hero';
+import VolunteerTestimonials from '~/components/volunteer/Testimonials';
+import VolunteerHow from '~/components/volunteer/How';
+import VolunteerResources from '~/components/volunteer/Resources';
 
 export default {
   components: {
