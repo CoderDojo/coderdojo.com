@@ -7,9 +7,9 @@
       <h1 class="c-resources__header">{{ $t('Resources to help you mentor') }}</h1>
       <a href="#" class="c-resources__link">{{ $t('View our help articles') }}</a>
       <hr class="c-resources__divider">
-      <a href="#" class="c-resources__link">{{ $t('View our other resources for mentors') }}</a>
+      <a href="#" class="c-resources__link">{{ $t('View our other resources for mentors') }}<img class="c-resources__arrow" src="~/static/images/right-arrow-orange.svg" /></a>
       <hr class="c-resources__divider">
-      <a href="#" class="c-resources__link">{{ $t('Or ask us directly') }}</a>
+      <a href="#" class="c-resources__link">{{ $t('Or ask us directly') }}<img class="c-resources__arrow" src="~/static/images/right-arrow-orange.svg" /></a>
     </div>
   </div>
 </template>
@@ -47,9 +47,13 @@
 
       &:hover {
         text-decoration: underline;
-      }
+      }     
     }
 
+    &__arrow {
+      height: 16px;
+    }
+     
     &__divider {
       margin: 48px auto;
       background-color: #CAC4CE; 
