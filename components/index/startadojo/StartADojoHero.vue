@@ -29,11 +29,7 @@
   .c-hero {
     padding: 0 0 80px 0;
     background-image:
-      radial-gradient(transparent 50%, transparent 100%),
       linear-gradient(to bottom, $cd-purple 0%, $cd-purple-gradient 100%);
-    background-size: 200% 300px, 100%;
-    background-position: bottom -100px center, top right;
-    background-repeat: no-repeat;
     &__header1 {
       color: $white;
       font-weight: 300;
@@ -51,7 +47,7 @@
     &__cta {
       display: flex;
       justify-content: center;
-      margin: 40px auto;
+      margin: 40px auto 0;
       max-width: 480px;
       .c-button {
         flex: 1;
@@ -72,7 +68,8 @@
     &__step-cards {
       display: flex;
       max-width: 1200px;
-      margin: 60px auto 0 auto;
+      margin: 30px auto 0;
+      padding: 0 0 40px;
     }
  
     &__step-card {
@@ -107,17 +104,19 @@
   @include media-breakpoint-max(sm) {
     .c-hero {
       background-image:
-        radial-gradient(ellipse at bottom, $white, $white calc(70% - 2px), transparent 70%, transparent 100%),
         linear-gradient(to bottom, $cd-purple 0%, $cd-purple-gradient 100%);
-      background-size: 300% 300px, 100%;
-      background-position: bottom 0 center, top right;
-      background-repeat: no-repeat;
       &__header1 {
         font-size: 22px;
       }
       &__header2 {
         font-size: 12px;
       }
+      &__step-cards {
+        flex-direction: column;
+      }
+      &__step-card {
+         margin: 20px 40px;
+      }      
       &__cta {
         flex-direction: column;
         .c-button {

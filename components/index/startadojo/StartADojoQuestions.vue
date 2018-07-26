@@ -78,4 +78,23 @@
       height: 16px;
     }    
   }
+
+  @include media-breakpoint-max(sm) {
+    .c-questions {
+      &__wrapper {
+         flex-direction: column;
+      }
+      &__text {
+        max-width: 100%;
+        margin: auto auto 0;
+      }
+      &__link {
+        margin-top: 0;
+        padding: 0;
+      }  
+      &__arrow {
+        display: none;
+      }                       
+    }
+  }
 </style>
