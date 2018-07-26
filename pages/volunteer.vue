@@ -1,24 +1,24 @@
 <template>
   <div>
-    <VolunteerHero />
-    <VolunteerTestimonials />
-    <VolunteerHow />
-    <VolunteerResources />
+    <Hero />
+    <Testimonials />
+    <How />
+    <Resources />
   </div>
 </template>
 
 <script>
-import VolunteerHero from '~/components/volunteer/Hero';
-import VolunteerTestimonials from '~/components/volunteer/Testimonials';
-import VolunteerHow from '~/components/volunteer/How';
-import VolunteerResources from '~/components/volunteer/Resources';
+import Hero from '~/components/volunteer/Hero';
+import Testimonials from '~/components/volunteer/Testimonials';
+import How from '~/components/volunteer/How';
+import Resources from '~/components/volunteer/Resources';
 
 export default {
   components: {
-    VolunteerHero,
-    VolunteerTestimonials,
-    VolunteerHow,
-    VolunteerResources,
+    Hero,
+    Testimonials,
+    How,
+    Resources,
   },
 };
 </script>
