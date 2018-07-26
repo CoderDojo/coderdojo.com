@@ -4,17 +4,17 @@
     <div class="c-hero__step-cards">
       <div class="c-hero__step-card">
         <img class="c-hero__image" src="~/static/images/doc.svg" />
-        <h1 class="c-hero__step-header c-hero__orange">Step 1</h1>
+        <h1 class="c-hero__step-header c-hero__orange">{{ $t('Step 1') }}</h1>
         <p class="c-hero__step-text"><span class="c-hero__step-text-first-word c-hero__orange">{{ $t('Register ') }}</span>{{ $t('with us as a Champion so we can support you as you build your club.') }}</p>
       </div>
       <div class="c-hero__step-card">
         <img class="c-hero__image" src="~/static/images/pin.svg" />
-        <h1 class="c-hero__step-header c-hero__purple">Step 2</h1>
+        <h1 class="c-hero__step-header c-hero__purple">{{ $t('Step 2') }}</h1>
         <p class="c-hero__step-text"><span class="c-hero__step-text-first-word c-hero__purple">{{ $t('Find ') }}</span>{{ $t('a public location to hold your Dojo. Libraries, schools, businesses and clubs are often used.') }}</p>
       </div>
       <div class="c-hero__step-card">
         <img class="c-hero__image" src="~/static/images/screen.svg" />
-        <h1 class="c-hero__step-header c-hero__teal">Step 3</h1>
+        <h1 class="c-hero__step-header c-hero__teal">{{ $t('Step 3') }}</h1>
         <p class="c-hero__step-text"><span class="c-hero__step-text-first-word c-hero__teal">{{ $t('Create ') }}</span>{{ $t('an event using our events system and use over 200 ready made projects to run a great first event.') }}</p>
       </div>      
     </div>
