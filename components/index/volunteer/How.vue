@@ -1,6 +1,5 @@
 <template>
-  <div>
-    <hr class="c-how__divider">
+  <div class="c-how">
     <div class="c-how__section"> 
       <div class="c-how__individual c-how__led">
         <h1>{{ $t('How can I help?') }}</h1>
@@ -19,15 +18,9 @@
   @import '~/assets/_variables.scss';
 
   .c-how {
-    &__divider { 
-      background-color: #CAC4CE; 
-      height: 1px; 
-      border: 0; 
-    }
-
     &__section {
-      padding: 48px 0;
-      margin: 48px auto;
+      padding: 0 0 40px;
+      margin: auto auto 40px;
       max-width: $content-width;
       display: flex;
     }
