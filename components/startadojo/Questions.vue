@@ -12,7 +12,7 @@
       <hr class="c-questions__divider">
       <div class="c-questions__wrapper">
         <p class="c-questions__text">{{ $t('Here\'s a help centre of great articles to answer your questions or ask us new ones!') }}</p>
-        <a href="#" class="c-questions__link">{{ $t('CoderDojo Help Center') }}<img class="c-questions__arrow" src="~/static/images/right-arrow-orange.svg" /></a>  
+        <a href="#" class="c-questions__link">{{ $t('CoderDojo Help Center') }}</a>  
       </div>  
       <hr class="c-questions__divider">
       <div class="c-questions__wrapper">
@@ -68,7 +68,7 @@
       font-weight: bold;
       text-decoration: none;
       &:hover {
-        text-decoration: underline;
+        text-decoration: underline;       
       }
     }
     &__divider {
@@ -78,10 +78,7 @@
       background-color: #CAC4CE; 
       height: 1px; 
       border: 0; 
-    }
-    &__arrow {
-      height: 16px;
-    }    
+    }   
   }
 
   @include media-breakpoint-max(sm) {
