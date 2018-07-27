@@ -58,4 +58,15 @@
       border: 0; 
     }
   }
+
+  @include media-breakpoint-max(sm) {
+    .c-resources {
+      &__link {
+        margin: 16px 0;
+      }
+      &__divider {
+      margin: 0px auto;
+      }     
+    }
+  }
 </style>
