@@ -11,7 +11,7 @@
         <img src="https://picsum.photos/480/320?image=1" />
       </div>
       <div class="c-hero__image">
-        <img src="https://picsum.photos/480/320?image=2" />
+        <VideoModal img="https://picsum.photos/480/320?image=2" src="https://www.youtube.com/embed/7XQOVKd-vVI" text="What is CoderDojo?"/>
       </div>
       <div class="c-hero__image">
         <img src="https://picsum.photos/480/320?image=3" />
@@ -19,7 +19,15 @@
     </div>
   </div>
 </template>
+<script>
+import VideoModal from '../VideoModal';
 
+export default {
+  components: {
+    VideoModal,
+  },
+};
+</script>
 <style lang="scss" scoped>
   @import '~/assets/_variables.scss';
 
