@@ -34,7 +34,7 @@
 
     &__header {
       font-size: 41px;
-      font-family: LibreFranklin-Light;
+      font-family: Libre Franklin;
       font-weight: 300;
     }
 
