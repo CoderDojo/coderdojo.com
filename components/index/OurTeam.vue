@@ -49,14 +49,12 @@
       a {
         color: $cd-orange;
         margin: 25px 0;
-        font-size: 18px;
         font-weight: bold;
       }
     }
 
     &__header {
       margin-top: 0;
-      text-align: left;
     }
   }
 
