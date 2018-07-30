@@ -42,11 +42,10 @@
 
     &__section {
       display: flex;
-      margin: 80px -20px;
+      margin: 80px 0px;
 
       &-image {
         flex: 1;
-        margin: 0 20px;
         img, iframe {
           width: 100%;
         }
@@ -54,7 +53,7 @@
 
       &-text {
         flex: 1;
-        margin: 0 20px;
+        margin: 0 20px 0 30px;
 
         h1 {
           font-size: 28px;
@@ -69,6 +68,16 @@
           color: $cd-orange;
           font-weight: bold;
           text-decoration: underline;
+        }
+      }
+    }
+  }
+  @include media-breakpoint-max(md) {
+    .c-organisational-resources {
+      &__section {
+        flex-direction: column;
+        &-text {
+          padding: 0px 15px;
         }
       }
     }
