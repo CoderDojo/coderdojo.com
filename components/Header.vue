@@ -110,6 +110,7 @@ export default {
       transform: scaleY(0);
       transform-origin: 0 0;
       position: absolute;
+      z-index: 1;
       left: 0;
       right: 0;
       top: 66px;
