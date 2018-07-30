@@ -36,10 +36,21 @@ export default {
   methods: {
     openModal() {
       this.isOpen = true;
-      document.addEventListener('keyup', this.shortcutHandler, { once: true });
+      this.registerClosingEvents();
+    },
+    registerClosingEvents() {
+      document.addEventListener('keyup', this.shortcutHandler);
+      const underlay = (document.getElementsByClassName('c-video__underlay'))[0];
+      underlay.addEventListener('click', this.closeModal);
+    },
+    deregisterClosingEvents() {
+      document.removeEventListener('keyup', this.shortcutHandler);
+      const underlay = (document.getElementsByClassName('c-video__underlay'))[0];
+      underlay.removeEventListener('click', this.closeModal);
     },
     closeModal() {
       this.isOpen = false;
+      this.deregisterClosingEvents();
     },
     shortcutHandler(e) {
       if (e.keyCode === 27) {
