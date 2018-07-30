@@ -4,7 +4,7 @@
     <h2 class="c-hero__header2">{{ $t('70,000 young people are creating with technology with the help of 240,000 volunteers in {countries} countries. Join us!', { countries: 92 }) }}</h2>
     <div class="c-hero__cta">
       <a href="#" class="c-button c-button--orange">{{ $t('Find a Dojo') }}</a>
-      <a href="#" class="c-button c-button--teal">{{ $t('Volunteer at a Dojo') }}</a>
+      <a href="/volunteer" class="c-button c-button--teal">{{ $t('Volunteer at a Dojo') }}</a>
     </div>
     <div class="c-hero__images">
       <div class="c-hero__image">

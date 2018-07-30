@@ -8,7 +8,7 @@
         <h1>{{ $t('Volunteer at a Dojo') }}</h1>
         <h2>{{ $t('Join us and meet like 6742 like minded mentors') }}</h2>
         <p>{{ $t('Whether you can code or not you can help a local club with just a few hours a month! Clubs need general volunteers and mentors. Even mentors don’t have to be technical, they help mainly by encouraging young people to discover their own way forward.') }}</p>
-        <a href="#" class="c-button c-button--orange">{{ $t('See how easy it is to begin') }}</a>
+        <a href="/volunteer" class="c-button c-button--orange">{{ $t('See how easy it is to begin') }}</a>
       </div>
     </div>
   </div>
