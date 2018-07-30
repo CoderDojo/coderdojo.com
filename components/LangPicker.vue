@@ -23,7 +23,7 @@ export default {
       get() {
         const cookie = Cookies.get('NG_TRANSLATE_LANG_KEY');
         if (!cookie) return;
-        return cookie.replace('"', '').replace('_', '-');
+        return cookie.replace(/"/g, '').replace('_', '-');
       },
       set(locale) {
         Cookies.set('NG_TRANSLATE_LANG_KEY', `"${locale.replace('-', '_')}"`);
@@ -46,6 +46,7 @@ export default {
       } else if (!this.localeCookie) {
         this.$router.replace(this.switchLocalePath(this.closestMatchingLocale));
       }
+      this.$store.commit('setLocale', this.localeCookie || this.closestMatchingLocale);
     }
   },
 };
