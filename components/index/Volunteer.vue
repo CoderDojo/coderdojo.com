@@ -15,7 +15,7 @@
             <span class="c-volunteer__quote-attr-text">Lauren - CoderDojo Dun Laoghaire, Ireland</span>
           </div>
         </div>
-        <a href="#" class="c-button c-button--orange">{{ $t('See how easy it is to begin') }}</a>
+        <a href="/volunteer" class="c-button c-button--orange">{{ $t('See how easy it is to begin') }}</a>
       </div>
     </div>
   </div>
