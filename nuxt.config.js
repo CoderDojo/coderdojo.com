@@ -3,11 +3,11 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'coderdojo.com',
+    title: 'CoderDojo – Enabling young people worldwide to create and explore technology together',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'CoderDojo Main Site' }
+      { hid: 'description', name: 'description', content: 'CoderDojo believes that an understanding of programming languages is increasingly important in the modern world, that it’s both better and easier to learn these skills early, and that nobody should be denied the opportunity to do so! Any young person aged 7 - 17 can join and attend a Dojo for FREE...' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -17,7 +17,7 @@ module.exports = {
   /*
   ** Customize the progress bar color
   */
-  loading: { color: '#3B8070' },
+  loading: false,
   /*
   ** Build configuration
   */
@@ -40,22 +40,27 @@ module.exports = {
     ['nuxt-i18n', {
       locales: [
         {
-          code: 'en',
+          code: 'en-US',
+          shortCode: 'en',
+          iso: 'en-US',
           name: 'English',
-          file: 'en.json',
+          file: 'en-US.json',
         },
         {
-          code: 'fr',
+          code: 'fr-FR',
+          shortCode: 'fr',
+          iso: 'fr-FR',
           name: 'Français',
-          file: 'fr.json',
+          file: 'fr-FR.json',
         }
       ],
       lazy: true,
       langDir: 'locales/',
-      defaultLocale: 'en',
+      defaultLocale: 'en-US',
       vueI18n: {
-        fallbackLocale: 'en'
-      }
+        fallbackLocale: 'en-US'
+      },
+      detectBrowserLanguage: false,
     }]
-  ]
+  ],
 }
