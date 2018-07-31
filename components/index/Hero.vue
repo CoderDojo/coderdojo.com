@@ -8,13 +8,15 @@
     </div>
     <div class="c-hero__images">
       <div class="c-hero__image">
-        <img src="~/static/images/index/hero/1.jpg" />
+        <img src="/images/index/hero/anvil.jpg" />
+        <a href="https://zen.coderdojo.com/dojos/us/indiana/west-lafayette-in/west-lafayette-indiana-anvil" class="c-hero__image-desc">CoderDojo Anvil, Indiana, USA</a>
       </div>
       <div class="c-hero__image">
-        <VideoModal img="https://picsum.photos/480/320?image=2" src="https://www.youtube.com/embed/7XQOVKd-vVI" text="What is CoderDojo?"/>
+        <VideoModal img="/images/index/hero/what-is.png" src="https://www.youtube.com/embed/7XQOVKd-vVI" text="What is CoderDojo?"/>
       </div>
       <div class="c-hero__image">
-        <img src="~/static/images/index/hero/3.jpg" />
+        <img src="/images/index/hero/nurnberg.jpg"/>
+        <a href="https://zen.coderdojo.com/dojos/de/nuremberg/nuernberg" class="c-hero__image-desc">CoderDojo Nürnberg, Germany</a>
       </div>
     </div>
   </div>
@@ -92,6 +94,13 @@ export default {
       img {
         width: 100%;
         border-radius: 3px;
+      }
+      &-desc {
+        display: block;
+        text-decoration: none;
+        font-size: 13px;
+        text-align: left;
+        color: $black;
       }
     }
   }

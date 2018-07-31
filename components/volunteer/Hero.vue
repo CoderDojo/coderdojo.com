@@ -3,18 +3,28 @@
     <h1 class="c-hero__header1">{{ $t('Volunteer at a Dojo near you') }}</h1>
     <div class="c-hero__images">
       <div class="c-hero__image">
-        <img src="https://picsum.photos/480/320?image=1" />
+        <img src="/images/volunteer/nurnberg.jpg" />
+        <a href="https://zen.coderdojo.com/dojos/de/nuremberg/nuernberg" class="c-hero__image-desc">CoderDojo Nürnberg, Germany</a>
       </div>
       <div class="c-hero__image">
-        <img src="https://picsum.photos/480/320?image=2" />
+        <VideoModal img="/images/volunteer/why.png" src="https://www.youtube.com/embed/Q6M0IdEn07E" text="Being a mentor"/>
       </div>
       <div class="c-hero__image">
-        <img src="https://picsum.photos/480/320?image=3" />
+        <img src="/images/volunteer/nyc.jpg" />
+        <a href="https://zen.coderdojo.com/dojos/us/new-york/new-york-ny/new-york-city" class="c-hero__image-desc">CoderDojo NYC, USA</a>
       </div>
     </div>
   </div>
 </template>
 
+<script>
+import VideoModal from '../VideoModal';
+export default {
+  components: {
+    VideoModal,
+  },
+};
+</script>
 <style lang="scss" scoped>
   @import '~/assets/_variables.scss';
 
@@ -45,6 +55,12 @@
 
       img {
         width: 100%;
+      }
+      &-desc {
+        display: block;
+        font-size: 13px;
+        text-decoration: none;
+        color: $white;
       }
     }
   }
