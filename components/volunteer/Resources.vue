@@ -39,7 +39,7 @@
     &__link {
       display: block;
       color: $cd-orange;
-      margin: 48px 0;
+      margin: 16px 0;
       padding: 24px 0;
       font-size: 18px;
       font-weight: bold;
@@ -52,7 +52,7 @@
      
     &__divider {
       max-width: $content-width;
-      margin: 48px auto;
+      margin: 16px auto;
       background-color: #CAC4CE; 
       height: 1px; 
       border: 0; 
