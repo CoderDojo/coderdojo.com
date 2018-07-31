@@ -8,14 +8,14 @@
     </div>
     <div class="c-hero__images">
       <div class="c-hero__image">
-        <img src="/images/home/anvil.jpg" />
+        <img src="/images/index/hero/anvil.jpg" />
         <div class="c-hero__image-desc">CoderDojo Anvil, Indiana, USA</div>
       </div>
       <div class="c-hero__image">
-        <VideoModal img="/images/home/what-is.png" src="https://www.youtube.com/embed/7XQOVKd-vVI" text="What is CoderDojo?"/>
+        <VideoModal img="/images/index/hero/what-is.png" src="https://www.youtube.com/embed/7XQOVKd-vVI" text="What is CoderDojo?"/>
       </div>
       <div class="c-hero__image">
-        <img src="/images/home/nurnberg.jpg"/>
+        <img src="/images/index/hero/nurnberg.jpg"/>
         <div class="c-hero__image-desc">CoderDojo Nürnberg, Germany</div>
       </div>
     </div>
