@@ -8,15 +8,15 @@
         <div class="c-start__steps">
           <div class="c-start__step">
             <span class="c-start__step-number">1</span>
-            <span class="c-start__step-text"><strong>Register</strong> with us as a Champion so we can support you as you build your club.</span>
+            <span class="c-start__step-text">{{ $t('Register with us as a Champion so we can support you as you build your club.') }}</span>
           </div>
           <div class="c-start__step">
             <span class="c-start__step-number">2</span>
-            <span class="c-start__step-text"><strong>Find</strong> a public location to hold your Dojo. Libraries, schools, businesses and clubs are often used.</span>
+            <span class="c-start__step-text">{{ $t('Find a public location to hold your Dojo. Libraries, schools, businesses and clubs are often used.') }}</span>
           </div>
           <div class="c-start__step">
             <span class="c-start__step-number">3</span>
-            <span class="c-start__step-text"><strong>Create</strong> an event using our events system and use over 200 ready made projects to run a great first event.</span>
+            <span class="c-start__step-text">{{ $t('Create an event using our events system and use over 200 ready made projects to run a great first event.') }}</span>
           </div>
         </div>
         <a href="/start-dojo" class="c-button c-button--teal">{{ $t('Start a Dojo') }}</a>
@@ -82,21 +82,17 @@
         flex: 1;
         margin: 5px 20px 20px 20px;
         font-size: 18px;
-
-        strong {
-          font-weight: 900;
-        }
       }
 
-      &:nth-child(1) &-number, &:nth-child(1) &-text strong {
+      &:nth-child(1) &-number {
         color: $cd-orange;
       }
 
-      &:nth-child(2) &-number, &:nth-child(2) &-text strong {
+      &:nth-child(2) &-number {
         color: $cd-purple;
       }
 
-      &:nth-child(3) &-number, &:nth-child(3) &-text strong {
+      &:nth-child(3) &-number {
         color: $cd-teal;
       }
     }
