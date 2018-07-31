@@ -1,6 +1,6 @@
 <template>
   <div class="c-champion">
-    <h1 class="c-champion__header">{{ $t('What is a Champion?') }}</h1>
+    <h1 class="c-champion__header center-text">{{ $t('What is a Champion?') }}</h1>
     <div class="c-champion__content">
       <div class="c-champion__content-individual">
         <div class="c-champion__text">

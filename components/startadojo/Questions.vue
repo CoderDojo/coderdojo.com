@@ -4,7 +4,7 @@
       <img src="~/static/images/help.svg" />
     </div>
     <div class="c-questions__content">
-      <h1 class="c-questions__header">{{ $t('Have more questions?') }}</h1>
+      <h1 class="c-questions__header center-text">{{ $t('Have more questions?') }}</h1>
       <div class="c-questions__wrapper">
         <p class="c-questions__text">{{ $t('We\'ve created a course for people who want a structured way to start a Dojo') }}</p>
         <a href="#" class="c-questions__link">{{ $t('View our help articles') }}</a>  
@@ -39,7 +39,6 @@
       padding: 96px 100px 40px;
       margin-top: -50px;
       background: $grey-bg;
-      text-align: center;
     }
     &__header {
       font-size: 28px;

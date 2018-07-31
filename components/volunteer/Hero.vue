@@ -1,5 +1,5 @@
 <template>
-  <div class="c-hero">
+  <div class="c-hero center-text">
     <h1 class="c-hero__header1">{{ $t('Volunteer at a Dojo near you') }}</h1>
     <div class="c-hero__images">
       <div class="c-hero__image">
