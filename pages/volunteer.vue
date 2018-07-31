@@ -14,6 +14,21 @@ import How from '~/components/volunteer/How';
 import Resources from '~/components/volunteer/Resources';
 
 export default {
+  head () {
+    return {
+      title: 'How you can volunteer with CoderDojo',
+      meta: [
+        { hid: 'title', name: 'title', property: 'title', content: 'How you can volunteer with CoderDojo' },
+        { hid: 'description', name: 'description', property: 'description', content: 'Dojos benefit from a mix of Mentors providing support, guidance and encouragement to CoderDojo attendees (Ninjas). Maybe you love working with kids, perhaps you want to share your technical skills, or maybe you are creative and have an eye for design. All of these traits make you the perfect Dojo volunteer!' },
+        { hid: 'og:title', name: 'og:title', property: 'og:title', content: 'How you can volunteer with CoderDojo' },
+        { hid: 'og:site-name', name: 'og:site-name', property: 'og:site-name', content: 'CoderDojo' },
+        { hid: 'og:url', name: 'og:url', property: 'og:url', content: 'https://coderdojo.com' },
+        { hid: 'og:type', name: 'og:type', property: 'og:type', content: 'website' },
+        { hid: 'og:image', name: 'og:image', property: 'og:image', content: '' },
+        { hid: 'og:description', name: 'og:description', property: 'og:description', content: 'Dojos benefit from a mix of Mentors providing support, guidance and encouragement to CoderDojo attendees (Ninjas). Maybe you love working with kids, perhaps you want to share your technical skills, or maybe you are creative and have an eye for design. All of these traits make you the perfect Dojo volunteer!' }
+      ]
+    }
+  },
   components: {
     Hero,
     Testimonials,
