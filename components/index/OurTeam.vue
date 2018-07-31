@@ -7,7 +7,7 @@
       <div class="c-our-team__text">
         <h1 class="c-our-team__header">{{ $t('Our team & history') }}</h1>
         <p>{{ $t('We\’re a 6 year old foundation with amazing growth and many twists and turns on the way.') }}</p>
-        <a href="#">{{ $t('Find Out More') }}</a>
+        <a href="/team">{{ $t('Find Out More') }}</a>
       </div>
     </div>
   </div>

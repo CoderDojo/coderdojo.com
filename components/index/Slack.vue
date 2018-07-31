@@ -5,7 +5,7 @@
     </div>
     <div class="c-slack__content center-text">
       <h1 class="c-slack__header">{{ $t('Talk to our community') }}</h1>
-      <a href="#" class="c-slack__link">{{ $t('Join our Slack community') }}</a>
+      <a href="/coderdojo-global-slack/" class="c-slack__link">{{ $t('Join our Slack community') }}</a>
     </div>
   </div>
 </template>

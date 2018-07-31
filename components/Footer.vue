@@ -7,37 +7,37 @@
           <p>{{ $t('The CoderDojo movement believes that an understanding of programming languages is increasingly important in the modern world, that it’s both better and easier to learn these skills early, and that nobody should be denied the opportunity to do so.') }}</p>
         </div>
         <div class="c-footer__social">
-          <a href="#"><img src="~/static/images/social/twitter.svg" /></a>
-          <a href="#"><img src="~/static/images/social/facebook.svg" /></a>
-          <a href="#"><img src="~/static/images/social/google.svg" /></a>
-          <a href="#"><img src="~/static/images/social/linkedin.svg" /></a>
-          <a href="#"><img src="~/static/images/social/email.svg" /></a>
-          <a href="#"><img src="~/static/images/social/slack.svg" /></a>
+          <a href="https://twitter.com/CoderDojo"><img src="~/static/images/social/twitter.svg" /></a>
+          <a href="https://facebook.com/CoderDojo"><img src="~/static/images/social/facebook.svg" /></a>
+          <a href="https://plus.google.com/+coderdojo"><img src="~/static/images/social/google.svg" /></a>
+          <a href="https://www.linkedin.com/company/coderdojo"><img src="~/static/images/social/linkedin.svg" /></a>
+          <a href="https://www.coderdojo.com/contact/"><img src="~/static/images/social/email.svg" /></a>
+          <a href="https://coderdojo.com/coderdojo-global-slack/"><img src="~/static/images/social/slack.svg" /></a>
         </div>
       </div>
       <div class="c-footer__row">
         <div class="c-footer__links">
           <a href="#">{{ $t('Get Involved') }}</a>
-          <a href="#">{{ $t('Find a Dojo near you') }}</a>
-          <a href="#">{{ $t('Volunteer') }}</a>
-          <a href="#">{{ $t('Start a Dojo') }}</a>
-          <a href="#">{{ $t('Donate') }}</a>
+          <a href="https://zen.coderdojo.com/">{{ $t('Find a Dojo near you') }}</a>
+          <a href="/volunteer">{{ $t('Volunteer') }}</a>
+          <a href="/start-a-dojo">{{ $t('Start a Dojo') }}</a>
+          <a href="/donate">{{ $t('Donate') }}</a>
         </div>
         <div class="c-footer__links">
-          <a href="#">{{ $t('About CoderDojo') }}</a>
-          <a href="#">{{ $t('Foundation') }}</a>
-          <a href="#">{{ $t('History') }}</a>
-          <a href="#">{{ $t('Our team') }}</a>
-          <a href="#">{{ $t('Contact Us') }}</a>
+          <a href="/about">{{ $t('About CoderDojo') }}</a>
+          <a href="/foundation">{{ $t('Foundation') }}</a>
+          <a href="/movement">{{ $t('History') }}</a>
+          <a href="/team">{{ $t('Our team') }}</a>
+          <a href="/contact">{{ $t('Contact Us') }}</a>
         </div>
         <div class="c-footer__links">
           <a href="#">{{ $t('Community') }}</a>
-          <a href="#">{{ $t('Badges') }}</a>
-          <a href="#">{{ $t('Join our Slack') }}</a>
-          <a href="#">{{ $t('Newsletter') }}</a>
+          <a href="https://zen.coderdojo.com/badges">{{ $t('Badges') }}</a>
+          <a href="/coderdojo-global-slack/">{{ $t('Join our Slack') }}</a>
+          <a href="/newsletter/">{{ $t('Newsletter') }}</a>
         </div>
         <div class="c-footer__links">
-          <a href="#">{{ $t('Help') }}</a>
+          <a href="https://help.coderdojo.com/hc">{{ $t('Help') }}</a>
         </div>
       </div>
       <div class="c-footer__address">

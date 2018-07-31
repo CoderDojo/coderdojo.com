@@ -19,7 +19,7 @@
             <span class="c-start__step-text">{{ $t('Create an event using our events system and use over 200 ready made projects to run a great first event.') }}</span>
           </div>
         </div>
-        <a href="/start-dojo" class="c-button c-button--teal">{{ $t('Start a Dojo') }}</a>
+        <a href="/start-a-dojo" class="c-button c-button--teal">{{ $t('Start a Dojo') }}</a>
       </div>
       <div class="c-start__illustration">
         <img src="~/static/images/index/start-a-dojo.png" />

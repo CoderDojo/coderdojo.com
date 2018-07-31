@@ -6,7 +6,7 @@
         <p>{{ $t('We\'re a global family with many places we socialise and get together. We have numerous Coolest Projects where once a year a region get\'s together and show\'s off all the youths work. We also have MegaDojos which are less formal one day Dojos where the kids can do whatever they want. And every year we host many DojoCons around the world for volunteers to get together and share their joys and learnings from the past year and hopefully make new friends.') }}</p>
       </div>
       <div class="c-community__cards">
-        <a href="#" class="c-community__card">
+        <a href="https://coolestprojects.org" class="c-community__card">
           <img src="~/static/images/index/coolest-projects.jpg" />
           <div class="c-community__card-text center-text">
             <h3>Coolest Projects</h3>
@@ -20,7 +20,7 @@
             <p>{{ $t('Lorem ipsum dolor sit amet, nec ex timeam prompta invenire, no mea') }}</p>
           </div>
         </a>
-        <a href="#" class="c-community__card">
+        <a href="https://dojocon.coderdojo.com" class="c-community__card">
           <img src="~/static/images/index/dojocon.jpg" />
           <div class="c-community__card-text center-text">
             <h3>DojoCons</h3>

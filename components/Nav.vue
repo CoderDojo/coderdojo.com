@@ -1,7 +1,7 @@
 <template>
   <nav class="c-nav">
     <nuxt-link v-for="navItem in navItems" :key="navItem.title" :to="localePath({ name: navItem.name })">{{ $t(navItem.title) }}</nuxt-link>
-    <a class="c-nav__login">{{ $t('Login') }}</a>
+    <a href="https://zen.coderdojo.com/login" class="c-nav__login">{{ $t('Login') }}</a>
   </nav>
 </template>
 

@@ -5,11 +5,11 @@
     </div>
     <div class="c-resources__content">
       <h1 class="c-resources__header">{{ $t('Resources to help you mentor') }}</h1>
-      <a href="#" class="c-resources__link">{{ $t('View our help articles') }}</a>
+      <a href="https://help.coderdojo.com/hc" class="c-resources__link">{{ $t('View our help articles') }}</a>
       <hr class="c-resources__divider">
       <a href="#" class="c-resources__link">{{ $t('View our other resources for mentors') }}</a>
       <hr class="c-resources__divider">
-      <a href="#" class="c-resources__link">{{ $t('Or ask us directly') }}</a>
+      <a href="/contact" class="c-resources__link">{{ $t('Or ask us directly') }}</a>
     </div>
   </div>
 </template>
