@@ -1,5 +1,5 @@
 <template>
-  <div class="c-hero">
+  <div class="c-hero center-text">
     <h1 class="c-hero__header1">{{ $t('The community of {count} free, open and local programming clubs for young people', { count: numOfDojos }) }}</h1>
     <h2 class="c-hero__header2">{{ $t('70,000 young people are creating with technology with the help of 240,000 volunteers in {countries} countries. Join us!', { countries: numOfCountries }) }}</h2>
     <div class="c-hero__cta">
@@ -11,7 +11,7 @@
         <img src="~/static/images/index/hero/1.jpg" />
       </div>
       <div class="c-hero__image">
-        <img src="~/static/images/index/hero/2.jpg" />
+        <VideoModal img="https://picsum.photos/480/320?image=2" src="https://www.youtube.com/embed/7XQOVKd-vVI" text="What is CoderDojo?"/>
       </div>
       <div class="c-hero__image">
         <img src="~/static/images/index/hero/3.jpg" />
@@ -21,8 +21,12 @@
 </template>
 
 <script>
+import VideoModal from '../VideoModal';
 export default {
   props: ['dojos'],
+  components: {
+    VideoModal,
+  },
   computed: {
     numOfDojos() {
       return this.dojos.length;
@@ -34,7 +38,6 @@ export default {
   },
 };
 </script>
-
 
 <style lang="scss" scoped>
   @import '~/assets/_variables.scss';

@@ -1,0 +1,18 @@
+
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="HOME" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="CD_Home_Final" transform="translate(-696.000000, -601.000000)">
+            <g id="3-column" transform="translate(258.000000, 504.000000)">
+                <g id="video" transform="translate(320.000000, 0.000000)">
+                    <g id="play-button" transform="translate(120.000000, 99.000000)">
+                        <path d="M32.5075936,21.9770697 L19.1363896,11.2880415 C18.7419808,10.9727854 18.2013117,10.9109088 17.7454967,11.1291549 C17.289892,11.3472962 17,11.8067563 17,12.3109983 L17,33.6890547 C17,34.1932967 17.289892,34.6526519 17.7454967,34.8708981 C17.9265609,34.9577351 18.1207686,35 18.3141351,35 C18.6076022,35 18.8986508,34.9019413 19.1362845,34.7120115 L32.5075936,24.0229833 C32.8188306,23.7741135 33,23.3979246 33,23.0000265 C33,22.6021284 32.8188306,22.2259396 32.5075936,21.9770697 Z M19.628796,30.9581984 L19.628796,15.0417497 L29.5840688,23.0000265 L19.628796,30.9581984 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                        <circle id="Oval-3" stroke="#FFFFFF" stroke-width="2" cx="23" cy="23" r="24"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

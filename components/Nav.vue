@@ -19,8 +19,8 @@ export default {
           title: 'About',
         },
         {
-          name: 'projects',
-          title: 'Projects',
+          name: 'resources',
+          title: 'Resources',
         },
       ],
     };
