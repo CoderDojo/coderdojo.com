@@ -18,12 +18,14 @@ export default {
     return {
       title: 'How you can volunteer with CoderDojo',
       meta: [
-        { property: 'og:title', content: 'How you can volunteer with CoderDojo' },
-        { property: 'og:site-name', content: 'CoderDojo' },
-        { property: 'og:url', content: 'https://coderdojo.com' },
-        { property: 'og:type', content: 'website' },
-        { property: 'og:image', content: '' },
-        { property: 'og:description', content: 'Dojos benefit from a mix of Mentors providing support, guidance and encouragement to CoderDojo attendees (Ninjas). Maybe you love working with kids, perhaps you want to share your technical skills, or maybe you are creative and have an eye for design. All of these traits make you the perfect Dojo volunteer!' }
+        { hid: 'title', name: 'title', property: 'title', content: 'How you can volunteer with CoderDojo' },
+        { hid: 'description', name: 'description', property: 'description', content: 'Dojos benefit from a mix of Mentors providing support, guidance and encouragement to CoderDojo attendees (Ninjas). Maybe you love working with kids, perhaps you want to share your technical skills, or maybe you are creative and have an eye for design. All of these traits make you the perfect Dojo volunteer!' },
+        { hid: 'og:title', name: 'og:title', property: 'og:title', content: 'How you can volunteer with CoderDojo' },
+        { hid: 'og:site-name', name: 'og:site-name', property: 'og:site-name', content: 'CoderDojo' },
+        { hid: 'og:url', name: 'og:url', property: 'og:url', content: 'https://coderdojo.com' },
+        { hid: 'og:type', name: 'og:type', property: 'og:type', content: 'website' },
+        { hid: 'og:image', name: 'og:image', property: 'og:image', content: '' },
+        { hid: 'og:description', name: 'og:description', property: 'og:description', content: 'Dojos benefit from a mix of Mentors providing support, guidance and encouragement to CoderDojo attendees (Ninjas). Maybe you love working with kids, perhaps you want to share your technical skills, or maybe you are creative and have an eye for design. All of these traits make you the perfect Dojo volunteer!' }
       ]
     }
   },
