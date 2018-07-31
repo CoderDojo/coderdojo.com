@@ -1,7 +1,7 @@
 <template>
   <div class="c-slack">
     <div class="c-slack__illustration">
-      <img src="~/static/images/globe.svg" />
+      <img src="~/static/images/index/globe.png" />
     </div>
     <div class="c-slack__content center-text">
       <h1 class="c-slack__header">{{ $t('Talk to our community') }}</h1>
@@ -18,6 +18,10 @@
 
     &__illustration {
       text-align: center;
+
+      img {
+        max-width: 250px;
+      }
     }
 
     &__content {

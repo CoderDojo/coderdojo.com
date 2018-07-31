@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Hero />
+    <Hero :dojos="dojos" />
     <Testimonials />
     <Volunteer />
     <StartADojo />
@@ -11,6 +11,7 @@
 </template>
 
 <script>
+import axios from 'axios';
 import Hero from '~/components/index/Hero';
 import Testimonials from '~/components/index/Testimonials';
 import Volunteer from '~/components/index/Volunteer';
@@ -28,6 +29,21 @@ export default {
     Community,
     OurTeam,
     Slack,
+  },
+  async asyncData () {
+    const { data } = await axios.post('https://zen.coderdojo.com/api/2.0/dojos', {
+      query: {
+        verified: 1,
+        deleted: 0,
+        stage: {
+          ne$: 4,
+        },
+        fields$: ['alpha2'],
+      }
+    });
+    return {
+      dojos: data,
+    };
   },
 };
 </script>

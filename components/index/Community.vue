@@ -7,21 +7,21 @@
       </div>
       <div class="c-community__cards">
         <a href="#" class="c-community__card">
-          <img src="https://picsum.photos/285/175?image=1" />
+          <img src="~/static/images/index/coolest-projects.jpg" />
           <div class="c-community__card-text center-text">
             <h3>Coolest Projects</h3>
             <p>{{ $t('Lorem ipsum dolor sit amet, nec ex timeam prompta invenire, no mea') }}</p>
           </div>
         </a>
         <a href="#" class="c-community__card">
-          <img src="https://picsum.photos/285/175?image=2" />
+          <img src="~/static/images/index/megadojo.jpg" />
           <div class="c-community__card-text center-text">
             <h3>MegaDojos</h3>
             <p>{{ $t('Lorem ipsum dolor sit amet, nec ex timeam prompta invenire, no mea') }}</p>
           </div>
         </a>
         <a href="#" class="c-community__card">
-          <img src="https://picsum.photos/285/175?image=3" />
+          <img src="~/static/images/index/dojocon.jpg" />
           <div class="c-community__card-text center-text">
             <h3>DojoCons</h3>
             <p>{{ $t('Lorem ipsum dolor sit amet, nec ex timeam prompta invenire, no mea') }}</p>
@@ -65,6 +65,7 @@
       background: $white;
       color: #222;
       border-radius: 5px;
+      overflow: hidden;
       text-decoration: none;
       box-shadow: 0 20px 40px 0 rgba(14,24,9,0.20);
       transition: box-shadow 0.2s ease-out, color 0.2s ease-out;
