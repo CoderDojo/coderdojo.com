@@ -4,14 +4,14 @@
     <div class="c-hero__images">
       <div class="c-hero__image">
         <img src="/images/volunteer/nurnberg.jpg" />
-        <div class="c-hero__image-desc">CoderDojo Nürnberg, Germany</div>
+        <a href="https://zen.coderdojo.com/dojos/de/nuremberg/nuernberg" class="c-hero__image-desc">CoderDojo Nürnberg, Germany</a>
       </div>
       <div class="c-hero__image">
         <VideoModal img="/images/volunteer/why.png" src="https://www.youtube.com/embed/Q6M0IdEn07E" text="Being a mentor"/>
       </div>
       <div class="c-hero__image">
         <img src="/images/volunteer/nyc.jpg" />
-        <div class="c-hero__image-desc">CoderDojo NYC, USA</div>
+        <a href="https://zen.coderdojo.com/dojos/us/new-york/new-york-ny/new-york-city" class="c-hero__image-desc">CoderDojo NYC, USA</a>
       </div>
     </div>
   </div>
@@ -57,7 +57,9 @@ export default {
         width: 100%;
       }
       &-desc {
+        display: block;
         font-size: 13px;
+        text-decoration: none;
         color: $white;
       }
     }
