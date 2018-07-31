@@ -30,7 +30,12 @@ export default {
         { hid: 'og:url', name: 'og:url', property: 'og:url', content: 'https://coderdojo.com' },
         { hid: 'og:type', name: 'og:type', property: 'og:type', content: 'website' },
         { hid: 'og:image', name: 'og:image', property: 'og:image', content: '' },
-        { hid: 'og:description', name: 'og:description', property: 'og:description', content: 'CoderDojo believes that an understanding of programming languages is increasingly important in the modern world, that it’s both better and easier to learn these skills early, and that nobody should be denied the opportunity to do so! Any young person aged 7 - 17 can join and attend a Dojo for FREE...' }
+        { hid: 'og:description', name: 'og:description', property: 'og:description', content: 'CoderDojo believes that an understanding of programming languages is increasingly important in the modern world, that it’s both better and easier to learn these skills early, and that nobody should be denied the opportunity to do so! Any young person aged 7 - 17 can join and attend a Dojo for FREE...' },
+        { hid: 'twitter:title', name: 'twitter:title', property: 'twitter:title', content: 'CoderDojo – Enabling young people worldwide to create and explore technology together' },
+        { hid: 'twitter:url', name: 'twitter:url', property: 'twitter:url', content: 'https://coderdojo.com' },
+        { hid: 'twitter:image', name: 'twitter:image', property: 'twitter:image', content: '' },
+        { hid: 'twitter:description', name: 'twitter:description', property: 'twitter:description', content: 'CoderDojo believes that an understanding of programming languages is increasingly important in the modern world, that it’s both better and easier to learn these skills early, and that nobody should be denied the opportunity to do so! Any young person aged 7 - 17 can join and attend a Dojo for FREE...' },
+        { hid: 'twitter:card', name: 'twitter:card', property: 'twitter:card', content: 'summary_large_image' }
       ]
     }
   },

@@ -22,7 +22,12 @@ export default {
         { hid: 'og:url', name: 'og:url', property: 'og:url', content: 'https://coderdojo.com' },
         { hid: 'og:type', name: 'og:type', property: 'og:type', content: 'website' },
         { hid: 'og:image', name: 'og:image', property: 'og:image', content: '' },
-        { hid: 'og:description', name: 'og:description', property: 'og:description', content: 'Starting a Dojo is a fun and incredibly rewarding experience. The most important attribute you should have is that you can bring people together for a shared goal. Our registration process will guide you every step of the way making sure you have the most useful resources to hand.' }
+        { hid: 'og:description', name: 'og:description', property: 'og:description', content: 'Starting a Dojo is a fun and incredibly rewarding experience. The most important attribute you should have is that you can bring people together for a shared goal. Our registration process will guide you every step of the way making sure you have the most useful resources to hand.' },
+        { hid: 'twitter:title', name: 'twitter:title', property: 'twitter:title', content: 'Start a CoderDojo club in your local area' },
+        { hid: 'twitter:url', name: 'twitter:url', property: 'twitter:url', content: 'https://coderdojo.com' },
+        { hid: 'twitter:image', name: 'twitter:image', property: 'twitter:image', content: '' },
+        { hid: 'twitter:description', name: 'twitter:description', property: 'twitter:description', content: 'Starting a Dojo is a fun and incredibly rewarding experience. The most important attribute you should have is that you can bring people together for a shared goal. Our registration process will guide you every step of the way making sure you have the most useful resources to hand.' },
+        { hid: 'twitter:card', name: 'twitter:card', property: 'twitter:card', content: 'summary_large_image' }
       ]
     }
   },
