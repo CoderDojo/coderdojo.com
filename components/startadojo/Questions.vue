@@ -54,7 +54,7 @@
     &__text {
        display: flex;
        align-items: flex-start;
-       margin: 48px 0;
+       margin: 16px 0;
        padding: 24px 0;
        max-width: 50%;
     }       
@@ -62,7 +62,7 @@
       align-items: flex-end;
       display: block;
       color: $cd-orange;
-      margin: 48px 0;
+      margin: 16px 0;
       padding: 24px 0;
       font-size: 18px;
       font-weight: bold;

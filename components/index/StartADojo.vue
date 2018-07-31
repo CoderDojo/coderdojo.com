@@ -5,7 +5,7 @@
         <h1>{{ $t('Want to start a Dojo?') }}</h1>
         <h2>{{ $t('It\'s just 3 steps!') }}</h2>
         <p>{{ $t('CoderDojo Champions are passionate, driven (not always techie!) volunteers who take charge of setting up, running and maintaining a Dojo.') }}</p>
-        <a href="/start-a-dojo" class="c-button c-button--teal">{{ $t('Start a Dojo') }}</a>
+        <a href="/start-dojo" class="c-button c-button--teal">{{ $t('Start a Dojo') }}</a>
       </div>
       <div class="c-start__illustration">
         <img src="~/static/images/start-a-dojo.svg" />

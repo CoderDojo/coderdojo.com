@@ -3,19 +3,28 @@
     <h1 class="c-hero__header1">{{ $t('Let\'s start a Dojo to help engage young people near you') }}</h1>
     <div class="c-hero__step-cards">
       <div class="c-hero__step-card">
-        <img class="c-hero__image" src="~/static/images/doc.svg" />
-        <h1 class="c-hero__step-header c-hero__orange">{{ $t('Step 1') }}</h1>
-        <p class="c-hero__step-text"><span class="c-hero__step-text-first-word c-hero__orange">{{ $t('Register ') }}</span>{{ $t('with us as a Champion so we can support you as you build your club.') }}</p>
+        <img class="c-hero__step-image" src="~/static/images/doc.svg" />
+        <h1 class="c-hero__step-header">
+          <span class="c-hero__step-number">{{ $t('1') }}</span>
+          <span class="c-hero__step-name">{{ $t('Register') }}</span>
+        </h1>
+        <p class="c-hero__step-text">{{ $t('Register with us as a Champion so we can support you as you build your club.') }}</p>
       </div>
       <div class="c-hero__step-card">
-        <img class="c-hero__image" src="~/static/images/pin.svg" />
-        <h1 class="c-hero__step-header c-hero__purple">{{ $t('Step 2') }}</h1>
-        <p class="c-hero__step-text"><span class="c-hero__step-text-first-word c-hero__purple">{{ $t('Find ') }}</span>{{ $t('a public location to hold your Dojo. Libraries, schools, businesses and clubs are often used.') }}</p>
+        <img class="c-hero__step-image" src="~/static/images/pin.svg" />
+        <h1 class="c-hero__step-header">
+          <span class="c-hero__step-number">{{ $t('2') }}</span>
+          <span class="c-hero__step-name">{{ $t('Find') }}</span>
+        </h1>
+        <p class="c-hero__step-text">{{ $t('Find a public location to hold your Dojo. Libraries, schools, businesses and clubs are often used.') }}</p>
       </div>
       <div class="c-hero__step-card">
-        <img class="c-hero__image" src="~/static/images/screen.svg" />
-        <h1 class="c-hero__step-header c-hero__teal">{{ $t('Step 3') }}</h1>
-        <p class="c-hero__step-text"><span class="c-hero__step-text-first-word c-hero__teal">{{ $t('Create ') }}</span>{{ $t('an event using our events system and use over 200 ready made projects to run a great first event.') }}</p>
+        <img class="c-hero__step-image" src="~/static/images/screen.svg" />
+        <h1 class="c-hero__step-header">
+          <span class="c-hero__step-number">{{ $t('3') }}</span>
+          <span class="c-hero__step-name">{{ $t('Create') }}</span>
+        </h1>
+        <p class="c-hero__step-text">{{ $t('Create an event using our events system and use over 200 ready made projects to run a great first event.') }}</p>
       </div>      
     </div>
      <div class="c-hero__cta">
@@ -55,16 +64,6 @@
       }
     }
 
-    &__orange {
-      color: $cd-orange;
-    }
-    &__purple {
-      color: $cd-purple;
-    }
-    &__teal {
-      color: $cd-teal;
-    } 
-
     &__step-cards {
       display: flex;
       max-width: 1200px;
@@ -81,25 +80,66 @@
       flex-direction: column;
       padding: 24px 32px;
       border-radius: 3px;
-    }
-
-    &__image {
-      display: flex;
-    }
-
-    &__step-header {
-      margin: 20px auto;
-      display: flex;           
-    }
-
-    &__step-text {
-      margin: auto auto 16px;
-      align-items: center;
-      font-size: 18px;
-      &-first-word {
-        font-weight: bold;
+      &:nth-child(1) .c-hero__step-number {
+        background: $cd-orange;
       }
-    }    
+      &:nth-child(2) .c-hero__step-number{
+        background: $cd-purple;
+      }
+      &:nth-child(3) .c-hero__step-number{
+        background: $cd-teal;
+      }
+      &:nth-child(1) .c-hero__step-name {
+        color: $cd-orange;
+      }
+      &:nth-child(2) .c-hero__step-name{
+        color: $cd-purple;
+      }
+      &:nth-child(3) .c-hero__step-name{
+        color: $cd-teal;
+      }              
+    }
+
+    &__step {
+
+      &-image {
+        display: flex;
+        margin-top: 16px;
+      }
+
+      &-header {
+        margin: 20px auto;
+        display: flex;                        
+      }
+
+      &-number {
+        color: #fff;
+        border-radius: 100%;
+        width: 32px;
+        height: 32px;
+        line-height: 32px;
+        text-align: center;
+        font-weight: 900;
+        font-size: 20px;
+        flex: 1 50px 50px;
+        margin-top: 12px;                  
+      }
+
+      &-name {
+        margin-top: 8px;
+        padding-left: 16px;
+      }
+
+      &-text {
+        margin: auto auto 16px;
+        align-items: center;
+        font-size: 18px;
+        &-first-word {
+          font-weight: bold;
+        }
+      }
+    }
+   
   }
   @include media-breakpoint-max(sm) {
     .c-hero {
@@ -116,17 +156,17 @@
       }
       &__step-card {
          margin: 20px 40px;
-      }      
+      }
+      &__step-name {
+         margin-top: 16px;
+      }              
       &__cta {
         flex-direction: column;
         .c-button {
           margin: 10px 40px;
         }
       }
-      &__images {
-        flex-direction: column;
-      }
-      &__image {
+      &__step-image {
         margin: 20px 40px;
         &:first-child {
           display: none;
