@@ -20,8 +20,8 @@
         </div> 
       </div>     
     </div>
-    <div class="c-champion__image">
-      <img src="https://picsum.photos/960/480" />
+    <div class="c-champion__video">
+      <iframe src="https://www.youtube.com/embed/y5v0dZGZoJY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
   </div>      
 </template>
@@ -88,12 +88,13 @@
       margin: 80px auto 80px auto;
     }
 
-    &__image {
+    &__video {
       padding: 24px 32px;
       display: flex;
       max-width: $content-width;
-      img {
+      iframe {
         width: 100%;
+        min-height: 460px;
       }
     }     
   }
@@ -105,8 +106,8 @@
       &__content {
         display: block;
       }
-      &__image {
-        img {
+      &__video {
+        iframe {
           width: 100%;
           height: 100%; 
         }   
