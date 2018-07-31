@@ -57,8 +57,8 @@ export default {
         width: 100%;
       }
       &-desc {
+        font-size: 13px;
         color: $white;
-        font-weight: 300;
       }
     }
   }

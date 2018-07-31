@@ -96,8 +96,8 @@ export default {
         border-radius: 3px;
       }
       &-desc {
+        font-size: 13px;
         text-align: left;
-        font-weight: 300;
       }
     }
   }
