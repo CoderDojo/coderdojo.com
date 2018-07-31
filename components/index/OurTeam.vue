@@ -2,7 +2,7 @@
   <div class="c-our-team">
     <div class="c-our-team__content">
       <div class="c-our-team__photo">
-        <img src="https://picsum.photos/484/242" />
+        <img src="~/static/images/index/team.jpg" />
       </div>
       <div class="c-our-team__text">
         <h1 class="c-our-team__header">{{ $t('Our team & history') }}</h1>
@@ -32,6 +32,7 @@
 
       img {
         width: 100%;
+        border-radius: 5px;
       }
     }
 
@@ -49,14 +50,12 @@
       a {
         color: $cd-orange;
         margin: 25px 0;
-        font-size: 18px;
         font-weight: bold;
       }
     }
 
     &__header {
       margin-top: 0;
-      text-align: left;
     }
   }
 
