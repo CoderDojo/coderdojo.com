@@ -106,7 +106,7 @@ export default {
       justify-content: space-evenly;
       background-color: rgba(123, 123, 123, 0.6);
       width: 100%;
-      height: 100%;
+      height: 98%;
       position: absolute;
       top: 0;
       cursor: pointer;
