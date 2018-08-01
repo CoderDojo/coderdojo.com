@@ -2,29 +2,29 @@
   <div class="c-community">
     <div class="c-community__content">
       <div class="c-community__text">
-        <h1 class="center-text">{{ $t('Our community is a giant family with lots of great events!') }}</h1>
+        <h2 class="center-text">{{ $t('Our community is a giant family with lots of great events!') }}</h2>
         <p>{{ $t('We\'re a global family with many places we socialise and get together. We have numerous Coolest Projects where once a year a region get\'s together and show\'s off all the youths work. We also have MegaDojos which are less formal one day Dojos where the kids can do whatever they want. And every year we host many DojoCons around the world for volunteers to get together and share their joys and learnings from the past year and hopefully make new friends.') }}</p>
       </div>
       <div class="c-community__cards">
         <a href="#" class="c-community__card">
           <img src="~/static/images/index/coolest-projects.jpg" />
           <div class="c-community__card-text center-text">
-            <h3>Coolest Projects</h3>
-            <p>{{ $t('Lorem ipsum dolor sit amet, nec ex timeam prompta invenire, no mea') }}</p>
+            <p class="c-community__card-title">Coolest Projects</p>
+            <p class="c-community__card-text-content">{{ $t('Lorem ipsum dolor sit amet, nec ex timeam prompta invenire, no mea') }}</p>
           </div>
         </a>
         <a href="#" class="c-community__card">
           <img src="~/static/images/index/megadojo.jpg" />
           <div class="c-community__card-text center-text">
-            <h3>MegaDojos</h3>
-            <p>{{ $t('Lorem ipsum dolor sit amet, nec ex timeam prompta invenire, no mea') }}</p>
+            <p class="c-community__card-title">MegaDojos</p>
+            <p class="c-community__card-text-content">{{ $t('Lorem ipsum dolor sit amet, nec ex timeam prompta invenire, no mea') }}</p>
           </div>
         </a>
         <a href="#" class="c-community__card">
           <img src="~/static/images/index/dojocon.jpg" />
           <div class="c-community__card-text center-text">
-            <h3>DojoCons</h3>
-            <p>{{ $t('Lorem ipsum dolor sit amet, nec ex timeam prompta invenire, no mea') }}</p>
+            <p class="c-community__card-title">DojoCons</p>
+            <p class="c-community__card-text-content">{{ $t('Lorem ipsum dolor sit amet, nec ex timeam prompta invenire, no mea') }}</p>
           </div>
         </a>
       </div>
@@ -76,13 +76,18 @@
 
       &-text {
         margin: 20px 20px 40px 20px;
-
-        p {
-          font-size: 13px;
+        &-content {
+          font-size: $subtext;
         }
       }
 
-      &:hover {
+      &-title {
+        font-size: $mobile-h3-size;
+        font-weight: bold;
+      }
+
+      &:h
+      over {
         box-shadow: 0 25px 45px 0 rgba(14,24,9,0.40);
         color: $cd-purple;
       }
@@ -97,11 +102,16 @@
 
       &__card {
         margin: 20px 40px;
-          &-text {
-            p {
-              font-size: 14px;
-            }
-        }  
+        &-title {
+          font-size: $mobile-h3-size;
+          font-weight: bold;
+        }
+        &-text {
+          &-content {
+            font-size: $subtext;
+          }
+        }
+
       }
 
       &__text {

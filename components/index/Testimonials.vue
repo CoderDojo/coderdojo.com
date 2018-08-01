@@ -1,6 +1,6 @@
 <template>
   <div class="c-testimonials">
-    <h1 class="c-testimonials__header center-text">{{ $t('Dojos are relaxed and fun!') }}</h1>
+    <h2 class="c-testimonials__header center-text">{{ $t('Dojos are relaxed and fun!') }}</h2>
     <img class="c-testimonials__illustration" src="~/static/images/index/dojo.png" />
     <div class="c-testimonials__quote-cards">
       <div class="c-testimonials__quote-card">
@@ -65,7 +65,7 @@
         }
 
         &-text {
-          font-size: 14px;
+          font-size: $subtext;
           margin-left: 10px;
         }
       }

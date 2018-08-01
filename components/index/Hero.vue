@@ -97,7 +97,7 @@ export default {
       &-desc {
         display: block;
         text-decoration: none;
-        font-size: 14px;
+        font-size: $subtext;
         text-align: left;
         color: $black;
       }
@@ -114,12 +114,13 @@ export default {
       background-repeat: no-repeat;
 
       &__header1 {
-        font-size: 28px;
+        font-size: $mobile-h1-size;
+        font-weight: $mobile-h1-weight;
       }
 
       &__header2 {
-        font-size: 18px;
-        font-weight: normal;
+        font-size: $mobile-h2-size;
+        font-weight: $mobile-h2-weight;
       }
 
       &__cta {

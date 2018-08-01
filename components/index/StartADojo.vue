@@ -2,8 +2,8 @@
   <div class="c-start">
     <div class="c-start__content">
       <div class="c-start__text">
-        <h1>{{ $t('Want to start a Dojo?') }}</h1>
-        <h2>{{ $t('It\'s just 3 steps!') }}</h2>
+        <h2>{{ $t('Want to start a Dojo?') }}</h2>
+        <h3>{{ $t('It\'s just 3 steps!') }}</h3>
         <p>{{ $t('CoderDojo Champions are passionate, driven (not always techie!) volunteers who take charge of setting up, running and maintaining a Dojo.') }}</p>
         <div class="c-start__steps">
           <div class="c-start__step">
@@ -119,8 +119,11 @@
       &__text {
         padding: 0 20px;
         h2 {
-          font-size: 18px;
+          font-size: $mobile-h2-size;
         }
+        h3 {
+          font-size: $mobile-h3-size;
+        }        
       }
     }
   }
