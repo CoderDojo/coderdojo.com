@@ -1,6 +1,6 @@
 <template>
   <div class="c-hero center-text">
-    <h1 class="c-hero__header1">{{ $t('Let\'s start a Dojo to help engage young people near you') }}</h1>
+    <h1 class="c-hero__header1">{{ $t('Let\'s start a Dojo for young people near you') }}</h1>
     <div class="c-hero__step-cards">
       <div class="c-hero__step-card">
         <img class="c-hero__step-image" src="~/static/images/doc.svg" />
@@ -8,7 +8,7 @@
           <span class="c-hero__step-number">{{ $t('1') }}</span>
           <span class="c-hero__step-name">{{ $t('Register') }}</span>
         </h1>
-        <p class="c-hero__step-text">{{ $t('Register with us as a Champion so we can support you as you build your club.') }}</p>
+        <p class="c-hero__step-text">{{ $t('Register with us as a champion so we can support you as you build and grow your Dojo.') }}</p>
       </div>
       <div class="c-hero__step-card">
         <img class="c-hero__step-image" src="~/static/images/pin.svg" />
@@ -16,15 +16,15 @@
           <span class="c-hero__step-number">{{ $t('2') }}</span>
           <span class="c-hero__step-name">{{ $t('Find') }}</span>
         </h1>
-        <p class="c-hero__step-text">{{ $t('Find a public location to hold your Dojo. Libraries, schools, businesses and clubs are often used.') }}</p>
+        <p class="c-hero__step-text">{{ $t('Find a public venue to hold your Dojo events. Libraries, schools, offices, and clubs are often used.') }}</p>
       </div>
       <div class="c-hero__step-card">
         <img class="c-hero__step-image" src="~/static/images/screen.svg" />
         <h1 class="c-hero__step-header">
           <span class="c-hero__step-number">{{ $t('3') }}</span>
-          <span class="c-hero__step-name">{{ $t('Create') }}</span>
+          <span class="c-hero__step-name">{{ $t('Start') }}</span>
         </h1>
-        <p class="c-hero__step-text">{{ $t('Create an event using our events system and use over 200 ready made projects to run a great first event.') }}</p>
+        <p class="c-hero__step-text">{{ $t('Schedule your first event using our events system, and use some of over 200 projects to run a great first Dojo session.') }}</p>
       </div>      
     </div>
      <div class="c-hero__cta">

@@ -2,12 +2,13 @@
   <div class="c-how">
     <div class="c-how__section"> 
       <div class="c-how__individual c-how__led">
-        <h1>{{ $t('How can I help?') }}</h1>
-        <p>{{ $t('You can attend your Dojo\'s meetings and help out for a couple of hours, whether that’s weekly, fortnightly or monthly.') }}</p>
+        <h1>{{ $t('How much time do I need to put in?') }}</h1>
+        <p>{{ $t('You can attend your Dojo’s events to help out for a couple of hours, whether they are weekly, fortnightly, or monthly.') }}</p>
       </div>
       <div class="c-how__individual c-how__rpi">
         <h1>{{ $t('How much technical expertise do I need?') }}</h1>
-        <p>{{ $t('No problem! We need awesome people to help with registration, updating social media, producing fliers etc. Any help is appreciated!') }}</p>
+        <p>{{ $t('It\'s OK to have no technical experience, or lots of experience, or anything in between — there will be something useful you can do for your local Dojo.') }}</p>
+        <p>{{ $t('We need awesome people to help with organisation as well as mentoring: registration at events, updating social media, producing fliers etc. All help is appreciated!') }}</p>
       </div>  
     </div>    
    </div>
@@ -29,6 +30,7 @@
       display: flex;
       flex-direction: column;
       padding: 0px 64px;
+      flex: 1;
       h1 {
         text-align: left;
       }
@@ -61,11 +63,11 @@
         }
       }      
       &__led {
-        background-position: 10% 25%;    
+        background-position: 5% 25%;    
       } 
 
       &__rpi {
-        background-position: 10% 25%;  
+        background-position: 5% 10%;  
       }       
     }
   }

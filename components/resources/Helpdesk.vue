@@ -3,10 +3,10 @@
     <div class="c-helpdesk__image">
       <img src="~/static/images/help.svg" />
     </div>
-    <h1 class="center-text">{{ $t('Our Helpdesk content') }}</h1>
-    <p class="c-helpdesk__text center-text">{{ $t('We provide lots of indepth articles and help on running a Dojo. It should be your first stop shop on everything Dojo related and you can contact us through there to get more help if you still cannot find answers.') }}</p>
+    <h1 class="center-text">{{ $t('Our Helpdesk') }}</h1>
+    <p class="c-helpdesk__text center-text">{{ $t('We provide lots of in-depth articles on running your Dojo in our help desk section. This is your go-to place for answers to all your Dojo-related questions, and it also has a chat box for you to contact us if you need anything else.') }}</p>
     <div class="c-helpdesk__cta">
-      <a class="c-button c-button--orange" href="https://help.coderdojo.com/">{{ $t('Visit our helpdesk') }}</a>
+      <a class="c-button c-button--orange" href="https://help.coderdojo.com/">{{ $t('Visit our help desk') }}</a>
     </div>
   </div>
 </template>

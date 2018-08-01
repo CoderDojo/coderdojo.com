@@ -2,7 +2,7 @@
   <div class="c-hero">
     <div class="c-hero__content center-text">
       <h1 class="c-hero__header">{{ $t('Resources') }}</h1>
-      <p class="c-hero__text">{{ $t('We have collected resources, produced by community members, partners and the Foundation itself, that can help you in setting up and running your Dojo.') }}</p>
+      <p class="c-hero__text">{{ $t('To help you with setting up and running your Dojo, we\'ve collected many useful resources created by community members, partners, and our team.') }}</p>
       <Projects />
     </div>
   </div>

@@ -11,7 +11,7 @@
       <a :href="projectsUrl" class="c-button c-button--orange">{{ $t('View more CoderDojo projects') }}</a>
     </div>
     <div class="c-projects__discuss">
-      <p>{{ $t('If you have produced a piece of original content for your Dojo, or found a useful resource online that you think others might find useful, please contribute it to the collection!') }}</p>
+      <p>{{ $t('If you\'ve created a piece of learning content for your Dojo or found an online resource that others might find useful, please share and talk about it on our forums!') }}</p>
       <a href="https://forums.coderdojo.com/">{{ $t('Discuss your content on our forums') }}</a>
     </div>
   </div>
