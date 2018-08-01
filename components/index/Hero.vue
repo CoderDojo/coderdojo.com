@@ -54,7 +54,6 @@ export default {
 
     &__header1 {
       color: $white;
-      font-weight: 300;
       font-size: 40px;
       max-width: 900px;
       margin: 0 auto;
@@ -115,12 +114,13 @@ export default {
       background-repeat: no-repeat;
 
       &__header1 {
-        font-size: 22px;
+        font-size: 28px;
         font-weight: $mobile-header-weight;
       }
 
       &__header2 {
-        font-size: 12px;
+        font-size: 18px;
+        font-weight: normal;
       }
 
       &__cta {
