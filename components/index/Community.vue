@@ -13,7 +13,7 @@
             <p>{{ $t('Lorem ipsum dolor sit amet, nec ex timeam prompta invenire, no mea') }}</p>
           </div>
         </a>
-        <a href="#" class="c-community__card">
+        <a href="https://megadojo.ie" class="c-community__card">
           <img src="~/static/images/index/megadojo.jpg" />
           <div class="c-community__card-text center-text">
             <h3>MegaDojos</h3>

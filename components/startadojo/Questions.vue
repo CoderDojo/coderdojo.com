@@ -7,7 +7,7 @@
       <h1 class="c-questions__header center-text">{{ $t('Have more questions?') }}</h1>
       <div class="c-questions__wrapper">
         <p class="c-questions__text">{{ $t('We\'ve created a course for people who want a structured way to start a Dojo') }}</p>
-        <a href="#" class="c-questions__link">{{ $t('View our help articles') }}</a>  
+        <a href="https://www.futurelearn.com/courses/start-a-coder-dojo" class="c-questions__link">{{ $t('Start a Dojo course') }}</a>  
       </div>
       <hr class="c-questions__divider">
       <div class="c-questions__wrapper">

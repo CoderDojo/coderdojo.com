@@ -17,27 +17,29 @@
       </div>
       <div class="c-footer__row">
         <div class="c-footer__links">
-          <a href="#">{{ $t('Get Involved') }}</a>
+          <p class="c-footer__links-header">{{ $t('Get Involved') }}</p>
           <a href="https://zen.coderdojo.com/">{{ $t('Find a Dojo near you') }}</a>
           <a href="/volunteer">{{ $t('Volunteer') }}</a>
           <a href="/start-a-dojo">{{ $t('Start a Dojo') }}</a>
           <a href="/donate">{{ $t('Donate') }}</a>
         </div>
         <div class="c-footer__links">
-          <a href="/about">{{ $t('About CoderDojo') }}</a>
+          <p class="c-footer__links-header">{{ $t('About CoderDojo') }}</p>
           <a href="/foundation">{{ $t('Foundation') }}</a>
           <a href="/movement">{{ $t('History') }}</a>
           <a href="/team">{{ $t('Our team') }}</a>
           <a href="/contact">{{ $t('Contact Us') }}</a>
         </div>
         <div class="c-footer__links">
-          <a href="#">{{ $t('Community') }}</a>
+          <p class="c-footer__links-header">{{ $t('Community') }}</p>
           <a href="https://zen.coderdojo.com/badges">{{ $t('Badges') }}</a>
           <a href="/coderdojo-global-slack/">{{ $t('Join our Slack') }}</a>
           <a href="/newsletter/">{{ $t('Newsletter') }}</a>
         </div>
         <div class="c-footer__links">
-          <a href="https://help.coderdojo.com/hc">{{ $t('Help') }}</a>
+          <p class="c-footer__links-header">{{ $t('Need help?') }}</p>
+          <a href="https://help.coderdojo.com/hc">{{ $t('Our help center') }}</a>
+          <a href="/resources">{{ $t('Resources') }}</a>
         </div>
       </div>
       <div class="c-footer__address">
@@ -117,7 +119,10 @@
 
     &__links {
       flex: 1;
-
+      &-header {
+        text-decoration: underline;
+        font-weight: bold;
+      }
       a {
         display: block;
         text-decoration: none;
