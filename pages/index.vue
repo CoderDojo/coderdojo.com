@@ -29,8 +29,13 @@ export default {
         { hid: 'og:site-name', name: 'og:site-name', property: 'og:site-name', content: 'CoderDojo' },
         { hid: 'og:url', name: 'og:url', property: 'og:url', content: 'https://coderdojo.com' },
         { hid: 'og:type', name: 'og:type', property: 'og:type', content: 'website' },
-        { hid: 'og:image', name: 'og:image', property: 'og:image', content: '' },
-        { hid: 'og:description', name: 'og:description', property: 'og:description', content: 'CoderDojo believes that an understanding of programming languages is increasingly important in the modern world, that it’s both better and easier to learn these skills early, and that nobody should be denied the opportunity to do so! Any young person aged 7 - 17 can join and attend a Dojo for FREE...' }
+        { hid: 'og:image', name: 'og:image', property: 'og:image', content: '~/static/images/index/meta-header.png' },
+        { hid: 'og:description', name: 'og:description', property: 'og:description', content: 'CoderDojo is a global movement of free, volunteer-led, community-based computer programming clubs for young people. Children can visit a Dojo where they can learn to code, build websites, create apps or games, and explore technology in an creative and social environment.' },
+        { hid: 'twitter:title', name: 'twitter:title', property: 'twitter:title', content: 'CoderDojo – Enabling young people worldwide to create and explore technology together' },
+        { hid: 'twitter:url', name: 'twitter:url', property: 'twitter:url', content: 'https://coderdojo.com' },
+        { hid: 'twitter:image', name: 'twitter:image', property: 'twitter:image', content: '~/static/images/index/meta-header.png' },
+        { hid: 'twitter:description', name: 'twitter:description', property: 'twitter:description', content: 'CoderDojo is a global movement of free, volunteer-led, community-based computer programming clubs for young people. Children can visit a Dojo where they can learn to code, build websites, create apps or games, and explore technology in an creative and social environment.' },
+        { hid: 'twitter:card', name: 'twitter:card', property: 'twitter:card', content: 'summary_large_image' }
       ]
     }
   },
