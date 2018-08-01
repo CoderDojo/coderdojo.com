@@ -1,6 +1,6 @@
 <template>
   <div class="c-organisational-resources">
-    <h1 class="center-text">{{ $t('Resources to help your Dojo run smoothly') }}</h1>
+    <h2 class="center-text">{{ $t('Resources to help your Dojo run smoothly') }}</h2>
     <p class="center-text">{{ $t('CoderDojo resources such as our new e-learning modules and erasmus+ recommended practice.') }}</p>
     <div class="c-organisational-resources__section" v-for="(resource, i) in resources" :key="i">
       <div class="c-organisational-resources__section-image" v-if="i % 2 === 0">
@@ -8,7 +8,7 @@
         <iframe width="560" height="315" :src="resource.videoSrc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen v-if="resource.videoSrc"></iframe>
       </div>
       <div class="c-organisational-resources__section-text">
-        <h1>{{ $t(resource.title) }}</h1>
+        <h2>{{ $t(resource.title) }}</h2>
         <p>{{ $t(resource.description) }}</p>
         <a :href="resource.anchorHref">{{ $t(resource.anchorText) }}</a>
       </div>

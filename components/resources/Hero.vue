@@ -52,11 +52,13 @@
     }
 
     &__header {
-      font-size: 22px;
+      font-size: $mobile-h1-size;
+      font-weight: $mobile-h1-weight;
     }
 
     &__text {
-      font-size: 12px;
+      font-size: $mobile-h2-size;
+      font-weight: $mobile-h2-weight;
     }
   }
 }
