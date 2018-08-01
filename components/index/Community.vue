@@ -10,21 +10,21 @@
           <img src="~/static/images/index/coolest-projects.jpg" />
           <div class="c-community__card-text center-text">
             <h3>Coolest Projects</h3>
-            <p>{{ $t('Lorem ipsum dolor sit amet, nec ex timeam prompta invenire, no mea') }}</p>
+            <p>{{ $t('We hold big yearly events called Coolest Projects for young people to show off what they have made.') }}</p>
           </div>
         </a>
         <a href="#" class="c-community__card">
           <img src="~/static/images/index/megadojo.jpg" />
           <div class="c-community__card-text center-text">
             <h3>MegaDojos</h3>
-            <p>{{ $t('Lorem ipsum dolor sit amet, nec ex timeam prompta invenire, no mea') }}</p>
+            <p>{{ $t('There are less formal, regional MegaDojos, which are day-long Dojo sessions where kids can make whatever they want.') }}</p>
           </div>
         </a>
         <a href="#" class="c-community__card">
           <img src="~/static/images/index/dojocon.jpg" />
           <div class="c-community__card-text center-text">
             <h3>DojoCons</h3>
-            <p>{{ $t('Lorem ipsum dolor sit amet, nec ex timeam prompta invenire, no mea') }}</p>
+            <p>{{ $t('We have many DojoCons every year all around the world, where volunteers get together and share their joys and learning!') }}</p>
           </div>
         </a>
       </div>

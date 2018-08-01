@@ -7,8 +7,7 @@
       </div>
       <div class="c-how__individual c-how__rpi">
         <h1>{{ $t('How much technical expertise do I need?') }}</h1>
-        <p>{{ $t('It\'s OK to have no technical experience, or lots of experience, or anything in between — there will be something useful you can do for your local Dojo.') }}</p>
-        <p>{{ $t('We need awesome people to help with organisation as well as mentoring: registration at events, updating social media, producing fliers etc. All help is appreciated!') }}</p>
+        <p>{{ $t('It\'s OK to have no technical experience, or lots of experience, or anything in between — there will be something useful you can do for your local Dojo. All help is appreciated!') }}</p>
       </div>  
     </div>    
    </div>

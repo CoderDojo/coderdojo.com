@@ -11,10 +11,10 @@
       <div class="c-champion__content-individual">
         <div class="c-champion__quote-cards">
           <div class="c-champion__quote-card">
-            <p class="c-champion__quote">{{ $t('CoderDojo isn\'t primarily about code. It\'s about providing a place where children can be inquisitive and create things without fear of failure. They can be themselves') }}</p>
+            <p class="c-champion__quote">{{ $t('Realising that I had created such a wonderful place for the children also ignited a spark in me.') }}</p>
             <div class="c-champion__quote-attr">
               <img class="c-champion__quote-attr-image" src="https://picsum.photos/36/36?image=2" />
-              <span class="c-champion__quote-attr-text">Yohei Yasukawa - CoderDojo Tokyo</span>
+              <span class="c-champion__quote-attr-text">Marloes, Netherlands</span>
             </div>
           </div>
         </div> 
