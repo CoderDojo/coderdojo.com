@@ -71,7 +71,6 @@ export default {
 
       &__header1 {
         font-size: 22px;
-        font-weight: $mobile-header-weight;
       }
 
       &__header2 {

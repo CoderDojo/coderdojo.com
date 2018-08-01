@@ -104,7 +104,22 @@
 
       &__text {
         padding: 0 20px;
+        h2 {
+          font-size: 18px;
+        }
       }
+      &__quote {
+
+      &-text {
+        font-size: 18px;
+      }
+
+      &-attr {
+        &-text {
+          font-size: 14px;
+        }
+      }
+    }     
     }
   }
 </style>

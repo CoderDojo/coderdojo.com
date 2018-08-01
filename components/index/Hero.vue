@@ -97,7 +97,7 @@ export default {
       &-desc {
         display: block;
         text-decoration: none;
-        font-size: 13px;
+        font-size: 14px;
         text-align: left;
         color: $black;
       }
@@ -115,7 +115,6 @@ export default {
 
       &__header1 {
         font-size: 28px;
-        font-weight: $mobile-header-weight;
       }
 
       &__header2 {

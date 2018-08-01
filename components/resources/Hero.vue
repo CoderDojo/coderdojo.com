@@ -35,7 +35,6 @@
     &__header {
       font-size: 41px;
       font-family: Libre Franklin;
-      font-weight: 300;
     }
 
     &__text {
@@ -54,7 +53,6 @@
 
     &__header {
       font-size: 22px;
-      font-weight: $mobile-header-weight;
     }
 
     &__text {
