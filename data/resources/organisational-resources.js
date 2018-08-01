@@ -1,9 +1,9 @@
 export default [
   {
     videoSrc: 'https://www.youtube.com/embed/LclMufAPRXo',
-    title: 'Our Online Courses on starting a dojo and mentoring in one',
-    description: 'Learning isn’t just for the young. At CoderDojo we fully believe in lifelong learning which is why we are launching our first E-Learning modules. These two pilot modules are made for volunteers to improve their knowledge of the CoderDojo Ethos and how to mentor at CoderDojo.',
-    anchorText: 'Our e-learning modules',
+    title: 'Learn how to set up a programming club for young people',
+    description: 'If you need to build your confidence and knowledge in order to to start a Dojo just use our online course where you\'ll learn how to help young people explore technology in an informal, creative and social environment.',
+    anchorText: 'Our Start a Dojo course',
     anchorHref: '#',
   },
 ];

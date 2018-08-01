@@ -3,7 +3,8 @@
     <div class="c-community__content">
       <div class="c-community__text">
         <h1 class="center-text">{{ $t('Our community is one vast family!') }}</h1>
-        <p>{{ $t('We\'re a global family that gets together in lots of places to talk, both online and face to face. We hold big events for young people, like the yearly Coolest Projects International, and less formal, regional MegaDojos, which are day-long Dojo sessions where kids can make whatever they want. And around the world, we also have many DojoCons every year, where volunteers get together and share their joys and learning!') }}</p>
+        <p>{{ $t('We\'re a global family that gets together in lots of places to talk, both online and face to face.') }}
+        {{ $t('We hold big events for young people and volunteers all around the world. So find what you want to get involved in!') }}</p>
       </div>
       <div class="c-community__cards">
         <a href="#" class="c-community__card">
