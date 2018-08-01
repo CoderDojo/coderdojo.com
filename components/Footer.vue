@@ -6,13 +6,18 @@
           <img src="~/static/images/coderdojo.svg" />
           <p>{{ $t('The CoderDojo movement believes that an understanding of programming languages is increasingly important in the modern world, that it’s both better and easier to learn these skills early, and that nobody should be denied the opportunity to do so.') }}</p>
         </div>
-        <div class="c-footer__social">
-          <a href="#"><img src="~/static/images/social/twitter.svg" /></a>
-          <a href="#"><img src="~/static/images/social/facebook.svg" /></a>
-          <a href="#"><img src="~/static/images/social/google.svg" /></a>
-          <a href="#"><img src="~/static/images/social/linkedin.svg" /></a>
-          <a href="#"><img src="~/static/images/social/email.svg" /></a>
-          <a href="#"><img src="~/static/images/social/slack.svg" /></a>
+        <div class="c-footer__side--right">
+          <span class="c-footer__side-social">
+            <a href="#"><img src="~/static/images/social/twitter.svg" /></a>
+            <a href="#"><img src="~/static/images/social/facebook.svg" /></a>
+            <a href="#"><img src="~/static/images/social/google.svg" /></a>
+            <a href="#"><img src="~/static/images/social/linkedin.svg" /></a>
+            <a href="#"><img src="~/static/images/social/email.svg" /></a>
+            <a href="#"><img src="~/static/images/social/slack.svg" /></a>
+          </span>
+          <span class="c-footer__side-lang">
+            <lang-picker></lang-picker>
+          </span>
         </div>
       </div>
       <div class="c-footer__row">
@@ -48,7 +53,13 @@
 </template>
 
 <script>
+  import LangPicker from '@/components/LangPicker';
 
+  export default {
+    components: {
+      LangPicker,  
+    },
+  };
 </script>
 
 <style lang="scss" scoped>
@@ -85,33 +96,43 @@
       }
     }
 
-    &__social {
-      flex: 2;
-      display: flex;
-      justify-content: flex-end;
+    &__side {
+      &--right {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+      }
+      &-social {
+        justify-content: flex-end;
+        flex: 1;
+        flex-direction: row;
+        a {
+          margin: 0 5px;
 
-      a {
-        margin: 0 5px;
+          &:first-child {
+            margin-left: 0;
+          }
 
-        &:first-child {
-          margin-left: 0;
+          &:last-child {
+            margin-right: 0;
+          }
         }
 
-        &:last-child {
-          margin-right: 0;
+        img {
+          display: inline-block;
+          height: 35px;
+          border-radius: 100%;
+          transition: transform 0.2s cubic-bezier(.68,-.55,.265,1.55), background 0.2s ease-out;
+
+          &:hover {
+            background: #642D8D;
+            transform: scale(1.25);
+          }
         }
       }
-
-      img {
-        display: inline-block;
-        height: 35px;
-        border-radius: 100%;
-        transition: transform 0.2s cubic-bezier(.68,-.55,.265,1.55), background 0.2s ease-out;
-
-        &:hover {
-          background: #642D8D;
-          transform: scale(1.25);
-        }
+      &-lang {
+        flex: 1;
       }
     }
 
@@ -149,9 +170,16 @@
         flex-direction: column;
       }
 
-      &__social {
-        margin: 40px 0;
-      justify-content: flex-start;
+      &__side{
+        &--right {
+          margin: 20px 0 40px 0;
+          align-items: flex-start;
+          flex-direction: column-reverse;
+          justify-content: space-around;
+        }
+        &-social {
+          padding: 20px 0px 0px 0px;
+        }
       }
 
       &__links {
