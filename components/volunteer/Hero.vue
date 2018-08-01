@@ -30,8 +30,7 @@ export default {
 
   .c-hero {
     padding: 0 0 80px 0;
-    background-image:
-      linear-gradient(to bottom, $cd-purple 0%, $cd-purple-gradient 100%);
+    background-color: $cd-purple;
 
     &__header1 {
       color: $white;
@@ -68,11 +67,11 @@ export default {
 
   @include media-breakpoint-max(sm) {
     .c-hero {
-      background-image:
-        linear-gradient(to bottom, $cd-purple 0%, $cd-purple-gradient 100%);
+      background-color: $cd-purple;
 
       &__header1 {
         font-size: 22px;
+        font-weight: $mobile-header-weight;
       }
 
       &__header2 {
