@@ -4,7 +4,7 @@
       <img src="~/static/images/help.svg" />
     </div>
     <div class="c-questions__content">
-      <h1 class="c-questions__header center-text">{{ $t('Have more questions?') }}</h1>
+      <h2 class="c-questions__header center-text">{{ $t('Have more questions?') }}</h2>
       <div class="c-questions__wrapper">
         <p class="c-questions__text">{{ $t('We\'ve created a course for people who want a structured way to start a Dojo') }}</p>
         <a href="#" class="c-questions__link">{{ $t('View our help articles') }}</a>  
@@ -41,7 +41,7 @@
       background: $grey-bg;
     }
     &__header {
-      font-size: 28px;
+      font-size: $mobile-h2-size;
       margin: 10px 0;
     }
     &__wrapper {
@@ -81,7 +81,10 @@
   }
 
   @include media-breakpoint-max(sm) {
-    .c-questions {    
+    .c-questions {   
+      &__header {
+        text-align: left;
+      } 
       &__wrapper {
         margin: 0;
         flex-direction: column;

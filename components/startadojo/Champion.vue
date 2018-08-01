@@ -1,6 +1,6 @@
 <template>
   <div class="c-champion">
-    <h1 class="c-champion__header center-text">{{ $t('What is a Champion?') }}</h1>
+    <h2 class="c-champion__header center-text">{{ $t('What is a Champion?') }}</h2>
     <div class="c-champion__content">
       <div class="c-champion__content-individual">
         <div class="c-champion__text">
@@ -42,7 +42,6 @@
       justify-content: space-between;
     }
     &__text {
-      font-size: 18px;
       max-width: 80%;
       margin: 0 auto;
       p {
@@ -68,7 +67,6 @@
       border-radius: 5px;
     }
     &__quote {
-      font-size: 18px;
       &-attr {
         display: flex;
         margin-top: 24px;
@@ -78,7 +76,7 @@
           border-radius: 100%;
         }
         &-text {
-          font-size: 13px;
+          font-size: $subtext;
           margin-left: 10px;
         }
       }
@@ -100,6 +98,9 @@
   }
   @include media-breakpoint-max(sm) {
     .c-champion {
+      &__header {
+        font-size: $mobile-h2-size;
+      }
       &__quote-cards {
         flex-direction: column;
       }

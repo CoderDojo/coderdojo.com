@@ -70,11 +70,8 @@ export default {
       background-color: $cd-purple;
 
       &__header1 {
-        font-size: 22px;
-      }
-
-      &__header2 {
-        font-size: 12px;
+        font-size: $mobile-h1-size;
+        font-weight: $mobile-h1-weight;
       }
 
       &__images {

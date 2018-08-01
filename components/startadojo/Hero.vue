@@ -4,26 +4,26 @@
     <div class="c-hero__step-cards">
       <div class="c-hero__step-card">
         <img class="c-hero__step-image" src="~/static/images/doc.svg" />
-        <h1 class="c-hero__step-header">
+        <h2 class="c-hero__step-header">
           <span class="c-hero__step-number">{{ $t('1') }}</span>
           <span class="c-hero__step-name">{{ $t('Register') }}</span>
-        </h1>
+        </h2>
         <p class="c-hero__step-text">{{ $t('Register with us as a Champion so we can support you as you build your club.') }}</p>
       </div>
       <div class="c-hero__step-card">
         <img class="c-hero__step-image" src="~/static/images/pin.svg" />
-        <h1 class="c-hero__step-header">
+        <h2 class="c-hero__step-header">
           <span class="c-hero__step-number">{{ $t('2') }}</span>
           <span class="c-hero__step-name">{{ $t('Find') }}</span>
-        </h1>
+        </h2>
         <p class="c-hero__step-text">{{ $t('Find a public location to hold your Dojo. Libraries, schools, businesses and clubs are often used.') }}</p>
       </div>
       <div class="c-hero__step-card">
         <img class="c-hero__step-image" src="~/static/images/screen.svg" />
-        <h1 class="c-hero__step-header">
+        <h2 class="c-hero__step-header">
           <span class="c-hero__step-number">{{ $t('3') }}</span>
           <span class="c-hero__step-name">{{ $t('Create') }}</span>
-        </h1>
+        </h2>
         <p class="c-hero__step-text">{{ $t('Create an event using our events system and use over 200 ready made projects to run a great first event.') }}</p>
       </div>      
     </div>
@@ -45,12 +45,7 @@
       margin: 0 auto;
       padding: 50px 20px;
     }
-    &__header2 {
-      color: $white;
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 0 20px;
-    }
+
     &__cta {
       display: flex;
       justify-content: center;
@@ -143,10 +138,8 @@
     .c-hero {
       background-color: $cd-purple;
       &__header1 {
-        font-size: 22px;
-      }
-      &__header2 {
-        font-size: 12px;
+        font-size: $mobile-h1-size;
+        font-weight: $mobile-h1-weight;
       }
       &__step-cards {
         flex-direction: column;

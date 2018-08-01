@@ -4,7 +4,7 @@
       <img src="~/static/images/help.svg" />
     </div>
     <div class="c-resources__content">
-      <h1 class="c-resources__header">{{ $t('Resources to help you mentor') }}</h1>
+      <h2 class="c-resources__header">{{ $t('Resources to help you mentor') }}</h2>
       <a href="#" class="c-resources__link">{{ $t('View our help articles') }}</a>
       <hr class="c-resources__divider">
       <a href="#" class="c-resources__link">{{ $t('View our other resources for mentors') }}</a>
@@ -32,7 +32,6 @@
     }
 
     &__header {
-      font-size: 28px;
       margin: 10px 0;
     }
 
@@ -41,7 +40,6 @@
       color: $cd-orange;
       margin: 16px 0;
       padding: 24px 0;
-      font-size: 18px;
       font-weight: bold;
       text-decoration: none;
 
