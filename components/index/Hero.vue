@@ -1,7 +1,7 @@
 <template>
   <div class="c-hero center-text">
     <h1 class="c-hero__header1">{{ $t('The community of {count} free, open and local programming clubs for young people', { count: numOfDojos }) }}</h1>
-    <h2 class="c-hero__header2">{{ $t('70,000 young people are creating with technology with the help of 240,000 volunteers in {countries} countries. Join us!', { countries: numOfCountries }) }}</h2>
+    <h3 class="c-hero__header2">{{ $t('70,000 young people are creating with technology with the help of 240,000 volunteers in {countries} countries. Join us!', { countries: numOfCountries }) }}</h3>
     <div class="c-hero__cta">
       <a href="https://zen.coderdojo.com" class="c-button c-button--orange c-button--search">{{ $t('Find a Dojo') }}</a>
       <a href="/start-dojo" class="c-button c-button--teal">{{ $t('Start a Dojo') }}</a>
@@ -54,11 +54,10 @@ export default {
 
     &__header1 {
       color: $white;
-      font-weight: 300;
-      font-size: 40px;
       max-width: 900px;
       margin: 0 auto;
       padding: 50px 20px;
+      font-weight: bold;
     }
 
     &__header2 {
@@ -66,6 +65,7 @@ export default {
       max-width: 900px;
       margin: 0 auto;
       padding: 0 20px;
+      font-weight: normal;
     }
 
     &__cta {
@@ -98,7 +98,7 @@ export default {
       &-desc {
         display: block;
         text-decoration: none;
-        font-size: 13px;
+        font-size: $subtext;
         text-align: left;
         color: $black;
       }
@@ -115,11 +115,13 @@ export default {
       background-repeat: no-repeat;
 
       &__header1 {
-        font-size: 22px;
+        font-size: $mobile-h1-size;
+        font-weight: $mobile-h1-weight;
       }
 
       &__header2 {
-        font-size: 12px;
+        font-size: $mobile-h2-size;
+        font-weight: $mobile-h2-weight;
       }
 
       &__cta {

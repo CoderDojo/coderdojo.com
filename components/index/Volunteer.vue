@@ -5,8 +5,8 @@
         <img src="~/static/images/index/volunteer.png" />
       </div>
       <div class="c-volunteer__text">
-        <h1>{{ $t('Volunteer at a Dojo') }}</h1>
-        <h2>{{ $t('Join us and meet like 6742 like minded mentors') }}</h2>
+        <h2>{{ $t('Volunteer at a Dojo') }}</h2>
+        <h3>{{ $t('Join us and meet like 6742 like minded mentors') }}</h3>
         <p>{{ $t('Whether you can code or not you can help a local club with just a few hours a month! Clubs need general volunteers and mentors. Even mentors don’t have to be technical, they help mainly by encouraging young people to discover their own way forward.') }}</p>
         <div class="c-volunteer__quote">
           <p class="c-volunteer__quote-text">I have to say that it has been one of the most interesting and rewarding things I’ve been involved in in my career.</p>
@@ -61,7 +61,6 @@
       margin: 40px 0;
 
       &-text {
-        font-size: 15px;
         font-style: italic;
       }
 
@@ -76,7 +75,7 @@
         }
 
         &-text {
-          font-size: 13px;
+          font-size: $subtext;
           margin-left: 10px;
         }
       }
@@ -104,7 +103,22 @@
 
       &__text {
         padding: 0 20px;
+        h2 {
+          font-size: $mobile-h2-size;
+        }
       }
+      &__quote {
+
+      &-text {
+        font-size: $mobile-p-size;
+      }
+
+      &-attr {
+        &-text {
+          font-size: $subtext;
+        }
+      }
+    }     
     }
   }
 </style>
