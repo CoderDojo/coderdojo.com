@@ -97,6 +97,11 @@
 
       &__card {
         margin: 20px 40px;
+          &-text {
+            p {
+              font-size: 14px;
+            }
+        }  
       }
 
       &__text {
