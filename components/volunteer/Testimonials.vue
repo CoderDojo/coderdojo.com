@@ -17,7 +17,7 @@
       </div>      
     </div>
     <div class="c-testimonials__cta">
-      <a href="#" class="c-button c-button--orange c-button--search">{{ $t('Find a Dojo to volunteer at') }}</a>
+      <a href="https://zen.coderdojo.com/" class="c-button c-button--orange c-button--search">{{ $t('Find a Dojo to volunteer at') }}</a>
     </div>
 
   </div>      

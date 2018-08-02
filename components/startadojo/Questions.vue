@@ -7,17 +7,17 @@
       <h1 class="c-questions__header center-text">{{ $t('Have more questions?') }}</h1>
       <div class="c-questions__wrapper">
         <p class="c-questions__text">{{ $t('We\'ve created a course for people who want a structured way to start a Dojo') }}</p>
-        <a href="#" class="c-questions__link">{{ $t('View our help articles') }}</a>  
+        <a href="https://www.futurelearn.com/courses/start-a-coder-dojo" class="c-questions__link">{{ $t('Start a Dojo course') }}</a>  
       </div>
       <hr class="c-questions__divider">
       <div class="c-questions__wrapper">
         <p class="c-questions__text">{{ $t('Here\'s a help centre of great articles to answer your questions or ask us new ones!') }}</p>
-        <a href="#" class="c-questions__link">{{ $t('CoderDojo Help Center') }}</a>  
+        <a href="https://help.coderdojo.com" class="c-questions__link">{{ $t('CoderDojo Help Center') }}</a>  
       </div>  
       <hr class="c-questions__divider">
       <div class="c-questions__wrapper">
         <p class="c-questions__text">{{ $t('No need to worry about projects!') }}</p>
-        <a href="#" class="c-questions__link">{{ $t('200+ lessons built for you') }}</a>  
+        <a href="https://projects.raspberrypi.org/en/coderdojo" class="c-questions__link">{{ $t('200+ lessons built for you') }}</a>  
       </div>
       <hr class="c-questions__divider">
       <div class="c-questions__wrapper">

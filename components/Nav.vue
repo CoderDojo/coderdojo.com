@@ -4,7 +4,7 @@
       <nuxt-link :to="localePath({ name: navItem.name })" v-if="!navItem.url">{{ $t(navItem.title) }}</nuxt-link>
       <a :href="navItem.url " v-if="navItem.url">{{ $t(navItem.title) }}</a>
     </span>
-    <a class="c-nav__login">{{ $t('Login') }}</a>
+    <a href="https://zen.coderdojo.com/login" class="c-nav__login">{{ $t('Login') }}</a>
   </nav>
 </template>
 

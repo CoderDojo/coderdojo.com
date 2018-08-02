@@ -28,7 +28,7 @@
       </div>      
     </div>
      <div class="c-hero__cta">
-      <a href="#" class="c-button c-button--teal">{{ $t('Start a Dojo') }}</a>
+      <a href="https://zen.coderdojo.com/dashboard/start-dojo" class="c-button c-button--teal">{{ $t('Start a Dojo') }}</a>
     </div>
   </div>
 </template>
