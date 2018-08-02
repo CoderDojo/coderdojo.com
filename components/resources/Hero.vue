@@ -2,7 +2,7 @@
   <div class="c-hero">
     <div class="c-hero__content center-text">
       <h1 class="c-hero__header">{{ $t('Resources') }}</h1>
-      <h2 class="c-hero__text">{{ $t('We have collected resources, produced by community members, partners and the Foundation itself, that can help you in setting up and running your Dojo.') }}</h2>
+      <h3 class="c-hero__text">{{ $t('We have collected resources, produced by community members, partners and the Foundation itself, that can help you in setting up and running your Dojo.') }}</h3>
       <Projects />
     </div>
   </div>
@@ -33,14 +33,15 @@
     }
 
     &__header {
-      font-size: 41px;
       font-family: Libre Franklin;
+      font-weight: bold;
     }
 
     &__text {
       max-width: 735px;
       margin: 40px auto 80px auto;
-      font-size: 18px;
+      font-weight: normal;
+
     }
   }
   @include media-breakpoint-max(sm) {

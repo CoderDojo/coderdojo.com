@@ -41,7 +41,6 @@
       background: $grey-bg;
     }
     &__header {
-      font-size: $mobile-h2-size;
       margin: 10px 0;
     }
     &__wrapper {

@@ -34,11 +34,10 @@ export default {
 
     &__header1 {
       color: $white;
-      font-weight: 300;
-      font-size: 40px;
       max-width: 900px;
       margin: 0 auto;
       padding: 50px 20px;
+      font-weight: bold;
     }
 
     &__images {

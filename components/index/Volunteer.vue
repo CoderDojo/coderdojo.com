@@ -61,7 +61,6 @@
       margin: 40px 0;
 
       &-text {
-        font-size: 15px;
         font-style: italic;
       }
 
@@ -76,7 +75,7 @@
         }
 
         &-text {
-          font-size: 13px;
+          font-size: $subtext;
           margin-left: 10px;
         }
       }
