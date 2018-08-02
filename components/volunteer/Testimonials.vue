@@ -9,7 +9,7 @@
       </div>    
       <div class="c-testimonials__individual-content">
         <div class="c-testimonials__quote-card">
-          <p class="c-testimonials__quote">{{ $t('When I see them do things on their own, getting their ideas out there. It really gives me so much enjoyment.') }}</p>
+          <p class="c-testimonials__quote">“{{ $t('When I see them do things on their own, getting their ideas out there. It really gives me so much enjoyment.') }}”</p>
           <div class="c-testimonials__quote-attr">
             <img class="c-testimonials__quote-attr-image" src="https://picsum.photos/36/36?image=2" />
             <span class="c-testimonials__quote-attr-text">Ekaterina, Bulgaria</span>

@@ -11,7 +11,7 @@
       <div class="c-champion__content-individual">
         <div class="c-champion__quote-cards">
           <div class="c-champion__quote-card">
-            <p class="c-champion__quote">{{ $t('Realising that I had created such a wonderful place for the children also ignited a spark in me.') }}</p>
+            <p class="c-champion__quote">“{{ $t('Realising that I had created such a wonderful place for the children also ignited a spark in me.') }}”</p>
             <div class="c-champion__quote-attr">
               <img class="c-champion__quote-attr-image" src="https://picsum.photos/36/36?image=2" />
               <span class="c-champion__quote-attr-text">Marloes, Netherlands</span>
