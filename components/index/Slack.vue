@@ -4,7 +4,7 @@
       <img src="~/static/images/index/globe.png" />
     </div>
     <div class="c-slack__content center-text">
-      <h1 class="c-slack__header">{{ $t('Talk to our community') }}</h1>
+      <h2 class="c-slack__header">{{ $t('Talk to our community') }}</h2>
       <a href="/coderdojo-global-slack/" class="c-slack__link">{{ $t('Join our Slack community') }}</a>
     </div>
   </div>
@@ -32,7 +32,6 @@
     }
 
     &__header {
-      font-size: 28px;
       margin: 10px 0;
     }
 

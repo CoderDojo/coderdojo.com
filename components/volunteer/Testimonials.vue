@@ -1,6 +1,6 @@
 <template>
   <div class="c-testimonials">
-    <h1 class="c-testimonials__header center-text">{{ $t('What does it mean to volunteer at a Dojo?') }}</h1>
+    <h2 class="c-testimonials__header center-text">{{ $t('What does it mean to volunteer at a Dojo?') }}</h2>
     <div class="c-testimonials__content">
       <div class="c-testimonials__text c-testimonials__individual-content">
         <p>{{ $t('There are {number} Volunteers in {dojonumber} Dojos and they come in many forms.', { number: 100, dojonumber: 1000 }) }}</p>
@@ -67,7 +67,6 @@
     }
 
     &__quote {
-      font-size: 18px;
 
       &-attr {
         display: flex;
@@ -80,7 +79,7 @@
         }
 
         &-text {
-          font-size: 13px;
+          font-size: $subtext;
           margin-left: 10px;
         }
       }

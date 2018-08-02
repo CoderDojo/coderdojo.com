@@ -8,6 +8,14 @@ $cd-orange: #ED684A;
 $cd-orange-gradient: #EC431D;
 $cd-teal: #41BAC1;
 
+$mobile-h1-size: 28px;
+$mobile-h1-weight: bold;
+$mobile-h2-size: 22px;
+$mobile-h2-weight: normal;
+$mobile-h3-size: 18px;
+$mobile-p-size: 18px;
+$subtext: 14px;
+
 $breakpoints: (sm: 576px, md: 768px, lg: 992px, xl: 1200px);
 
 @function get-breakpoint($name) {

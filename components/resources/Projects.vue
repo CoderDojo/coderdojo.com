@@ -1,6 +1,6 @@
 <template>
   <div class="c-projects center-text">
-    <h1>{{ $t('Projects for your Dojo') }}</h1>
+    <h2>{{ $t('Projects for your Dojo') }}</h2>
     <div class="c-projects__cards">
       <a :href="projectsUrl" class="c-projects__card" v-for="(project, i) in projects" :key="i">
         <img :src="project.imgSrc" />
