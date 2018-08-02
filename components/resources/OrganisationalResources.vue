@@ -8,7 +8,7 @@
         <iframe width="560" height="315" :src="resource.videoSrc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen v-if="resource.videoSrc"></iframe>
       </div>
       <div class="c-organisational-resources__section-text">
-        <h2>{{ $t(resource.title) }}</h2>
+        <h3>{{ $t(resource.title) }}</h3>
         <p>{{ $t(resource.description) }}</p>
         <a :href="resource.anchorHref">{{ $t(resource.anchorText) }}</a>
       </div>
@@ -77,7 +77,7 @@
       &__section {
         flex-direction: column;
         &-text {
-          padding: 0px 15px;
+          padding: 48px 16px 0;
         }
       }
     }
