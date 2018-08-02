@@ -1,6 +1,9 @@
 <template>
   <nav class="c-nav">
-    <nuxt-link v-for="navItem in navItems" :key="navItem.title" :to="localePath({ name: navItem.name })">{{ $t(navItem.title) }}</nuxt-link>
+    <span v-for="navItem in navItems" :key="navItem.title"> 
+      <nuxt-link :to="localePath({ name: navItem.name })" v-if="!navItem.url">{{ $t(navItem.title) }}</nuxt-link>
+      <a :href="navItem.url " v-if="navItem.url">{{ $t(navItem.title) }}</a>
+    </span>
     <a href="https://zen.coderdojo.com/login" class="c-nav__login">{{ $t('Login') }}</a>
   </nav>
 </template>
@@ -11,12 +14,17 @@ export default {
     return {
       navItems: [
         {
-          name: 'get-involved',
-          title: 'Get Involved',
+          name: 'find-dojo',
+          title: 'Find a Dojo',
+          url: 'https://zen.coderdojo.com',
         },
         {
-          name: 'about',
-          title: 'About',
+          name: 'volunteer',
+          title: 'Volunteer',
+        },
+        {
+          name: 'start-a-dojo',
+          title: 'Start a Dojo',
         },
         {
           name: 'resources',
@@ -33,9 +41,9 @@ export default {
 
   .c-nav {
     display: flex;
+    justify-content: space-evenly;
 
     a {
-      padding: 0 28px;
       line-height: 45px;
       color: $white;
       text-decoration: none;
