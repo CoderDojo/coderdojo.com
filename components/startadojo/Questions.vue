@@ -6,23 +6,23 @@
     <div class="c-questions__content">
       <h2 class="c-questions__header center-text">{{ $t('Have more questions?') }}</h2>
       <div class="c-questions__wrapper">
-        <p class="c-questions__text">{{ $t('We\'ve created a course for people who want a structured way to start a Dojo') }}</p>
+        <p class="c-questions__text">{{ $t('We offer a free online course for people who\'d like a structured way to start a Dojo') }}</p>
         <a href="https://www.futurelearn.com/courses/start-a-coder-dojo" class="c-questions__link">{{ $t('Start a Dojo course') }}</a>  
       </div>
       <hr class="c-questions__divider">
       <div class="c-questions__wrapper">
-        <p class="c-questions__text">{{ $t('Here\'s a help centre of great articles to answer your questions or ask us new ones!') }}</p>
-        <a href="https://help.coderdojo.com" class="c-questions__link">{{ $t('CoderDojo Help Center') }}</a>  
+        <p class="c-questions__text">{{ $t('In our help section, you\'ll find great articles to answer your questions, and you can ask us for advice directly!') }}</p>
+        <a href="https://help.coderdojo.com" class="c-questions__link">{{ $t('Help desk') }}</a>  
       </div>  
       <hr class="c-questions__divider">
       <div class="c-questions__wrapper">
-        <p class="c-questions__text">{{ $t('No need to worry about projects!') }}</p>
-        <a href="https://projects.raspberrypi.org/en/coderdojo" class="c-questions__link">{{ $t('200+ lessons built for you') }}</a>  
+        <p class="c-questions__text">{{ $t('There\'s no need to worry about projects or content for your Dojo') }}</p>
+        <a href="https://projects.raspberrypi.org/en/coderdojo" class="c-questions__link">{{ $t('200+ coding lessons built for you') }}</a>  
       </div>
       <hr class="c-questions__divider">
       <div class="c-questions__wrapper">
-        <p class="c-questions__text">{{ $t('Think you need to see it live?') }}</p>
-        <a href="#" class="c-questions__link">{{ $t('Find a Dojo event near you') }}</a>  
+        <p class="c-questions__text">{{ $t('Want to see it all in person?') }}</p>
+        <a href="#" class="c-questions__link">{{ $t('Find a Dojo event near you to visit') }}</a>  
       </div>                   
     </div>
   </div>

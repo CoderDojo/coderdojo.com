@@ -3,15 +3,16 @@
     <h2 class="c-testimonials__header center-text">{{ $t('What does it mean to volunteer at a Dojo?') }}</h2>
     <div class="c-testimonials__content">
       <div class="c-testimonials__text c-testimonials__individual-content">
-        <p>{{ $t('There are {number} Volunteers in {dojonumber} Dojos and they come in many forms.', { number: 100, dojonumber: 1000 }) }}</p>
-        <p>{{ $t('You do not have to be a coder to mentor at a Dojo. Dojos benefit from a mix of Mentors providing support, guidance and encouragement to CoderDojo youth (Ninjas) and general volunteers who focus on organising the events. A lot of mentors are parents of attendees with no technical experience at all. The easiest way to see if you might want to volunteer is to check out our videos above and then find a Dojo event to turn up to and see how a Dojo session works! ') }}</p>
+
+        <p>{{ $t('There are {number} volunteers in {dojonumber} Dojos, and they do all sorts of things to help their clubs.', { number: 100, dojonumber: 1000 }) }}</p>
+        <p>{{ $t('You do not need to be a programmer to mentor at a Dojo! A lot of mentors are attendees\' parents who have no technical experience at all when they start. Dojos benefit from having mentors with different skills, backgrounds, and levels of knowledge who provide support and encouragement to CoderDojo youth (Ninjas). The clubs also need general volunteers who focus on organising the events. The easiest way to see what volunteering is like: watch our video, and find a Dojo event to drop by to discover in person how a Dojo works!') }}</p>
       </div>    
       <div class="c-testimonials__individual-content">
         <div class="c-testimonials__quote-card">
-          <p class="c-testimonials__quote">{{ $t('CoderDojo isn\'t primarily about code. It\'s about providing a place where children can be inquisitive and create things without fear of failure. They can be themselves') }}</p>
+          <p class="c-testimonials__quote">{{ $t('When I see them do things on their own, getting their ideas out there. It really gives me so much enjoyment.') }}</p>
           <div class="c-testimonials__quote-attr">
             <img class="c-testimonials__quote-attr-image" src="https://picsum.photos/36/36?image=2" />
-            <span class="c-testimonials__quote-attr-text">Yohei Yasukawa - CoderDojo Tokyo</span>
+            <span class="c-testimonials__quote-attr-text">Ekaterina, Bulgaria</span>
           </div>
         </div>
       </div>      

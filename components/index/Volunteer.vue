@@ -6,13 +6,13 @@
       </div>
       <div class="c-volunteer__text">
         <h2>{{ $t('Volunteer at a Dojo') }}</h2>
-        <h3>{{ $t('Join us and meet like 6742 like minded mentors') }}</h3>
-        <p>{{ $t('Whether you can code or not you can help a local club with just a few hours a month! Clubs need general volunteers and mentors. Even mentors don’t have to be technical, they help mainly by encouraging young people to discover their own way forward.') }}</p>
+        <h3>{{ $t('Join us and meet 6742 like-minded volunteers') }}</h3>
+        <p>{{ $t('Whether or not you can code, you can help a local club in just a few hours a month! Dojos need general volunteers, and mentors for sessions. Even mentors don’t have to have technical skills, because they help the young people mainly by encouraging them to discover their own way forward.') }}</p>
         <div class="c-volunteer__quote">
-          <p class="c-volunteer__quote-text">I have to say that it has been one of the most interesting and rewarding things I’ve been involved in in my career.</p>
+          <p class="c-volunteer__quote-text">When I see them doing things on their own, getting their ideas out there, and seeing creativity spur out of the moment, really gives me so much joy</p>
           <div class="c-volunteer__quote-attr">
             <img class="c-volunteer__quote-attr-image" src="~/static/images/index/lauren.png" />
-            <span class="c-volunteer__quote-attr-text">Lauren - CoderDojo Dun Laoghaire, Ireland</span>
+            <span class="c-volunteer__quote-attr-text">Ekaterina, Dojo volunteer in Bulgaria</span>
           </div>
         </div>
         <a href="/volunteer" class="c-button c-button--orange">{{ $t('See how easy it is to try out') }}</a>

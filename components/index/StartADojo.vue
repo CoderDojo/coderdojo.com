@@ -4,19 +4,19 @@
       <div class="c-start__text">
         <h2>{{ $t('Want to start a Dojo?') }}</h2>
         <h3>{{ $t('It\'s just 3 steps!') }}</h3>
-        <p>{{ $t('CoderDojo Champions are passionate, driven (not always techie!) volunteers who take charge of setting up, running and maintaining a Dojo.') }}</p>
+        <p>{{ $t('CoderDojo champions are passionate, driven (and often not techie!) volunteers who take charge of setting up and maintaining a Dojo.') }}</p>
         <div class="c-start__steps">
           <div class="c-start__step">
             <span class="c-start__step-number">1</span>
-            <span class="c-start__step-text">{{ $t('Register with us as a Champion so we can support you as you build your club.') }}</span>
+            <span class="c-start__step-text">{{ $t('Register with us as a champion so we can support you as you build and grow your Dojo.') }}</span>
           </div>
           <div class="c-start__step">
             <span class="c-start__step-number">2</span>
-            <span class="c-start__step-text">{{ $t('Find a public location to hold your Dojo. Libraries, schools, businesses and clubs are often used.') }}</span>
+            <span class="c-start__step-text">{{ $t('Find a public venue to hold your Dojo events. Libraries, schools, offices, and clubs are often used.') }}</span>
           </div>
           <div class="c-start__step">
             <span class="c-start__step-number">3</span>
-            <span class="c-start__step-text">{{ $t('Create an event using our events system and use over 200 ready made projects to run a great first event.') }}</span>
+            <span class="c-start__step-text">{{ $t('Schedule your first event using our simple online events system, and use some of over 200 ready-made coding projects to run a great first Dojo session.') }}</span>
           </div>
         </div>
         <a href="/start-a-dojo" class="c-button c-button--teal">{{ $t('Start a Dojo') }}</a>
