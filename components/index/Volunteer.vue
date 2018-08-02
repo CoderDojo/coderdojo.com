@@ -9,7 +9,7 @@
         <h3>{{ $t('Join us and meet 6742 like-minded volunteers') }}</h3>
         <p>{{ $t('Whether or not you can code, you can help a local club in just a few hours a month! Dojos need general volunteers, and mentors for sessions. Even mentors don’t have to have technical skills, because they help the young people mainly by encouraging them to discover their own way forward.') }}</p>
         <div class="c-volunteer__quote">
-          <p class="c-volunteer__quote-text">When I see them doing things on their own, getting their ideas out there, and seeing creativity spur out of the moment, really gives me so much joy</p>
+          <p class="c-volunteer__quote-text">{{ $t('When I see them doing things on their own, getting their ideas out there, and seeing creativity spur out of the moment, really gives me so much joy') }}</p>
           <div class="c-volunteer__quote-attr">
             <img class="c-volunteer__quote-attr-image" src="~/static/images/index/lauren.png" />
             <span class="c-volunteer__quote-attr-text">Ekaterina, Dojo volunteer in Bulgaria</span>

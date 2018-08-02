@@ -11,7 +11,7 @@
         </div>
       </div>
       <div class="c-testimonials__quote-card">
-        <p class="c-testimonials__quote">{{ $t('"It’s a place to go to learn really cool coding activities and make friends. I’ve got a chance to try things from scratch to drones and even how to live code music with sonic pi!"') }}</p>
+        <p class="c-testimonials__quote">{{ $t('“It’s a place to go to learn really cool coding activities and make friends. I’ve got a chance to try things from scratch to drones and even how to live code music with sonic pi!”') }}</p>
         <div class="c-testimonials__quote-attr">
           <img class="c-testimonials__quote-attr-image" src="~/static/images/index/lauren.png" />
           <span class="c-testimonials__quote-attr-text">Aoibheann, 11, Ireland</span>
