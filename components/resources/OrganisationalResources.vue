@@ -1,7 +1,7 @@
 <template>
   <div class="c-organisational-resources">
-    <h2 class="center-text">{{ $t('Resources to help your Dojo run smoothly') }}</h2>
-    <p class="center-text">{{ $t('CoderDojo resources such as our new e-learning modules and erasmus+ recommended practice.') }}</p>
+    <h2 class="center-text">{{ $t('Our free online training on starting a Dojo') }}</h2>
+    <p class="center-text">{{ $t('Use our free resources, such as e-learning modules and recommended practices, to make running your Dojo easier.') }}</p>
     <div class="c-organisational-resources__section" v-for="(resource, i) in resources" :key="i">
       <div class="c-organisational-resources__section-image" v-if="i % 2 === 0">
         <img :src="resource.imgSrc" v-if="resource.imgSrc"/>

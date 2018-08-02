@@ -4,12 +4,12 @@
       <img src="~/static/images/help.svg" />
     </div>
     <div class="c-resources__content">
-      <h2 class="c-resources__header">{{ $t('Resources to help you mentor') }}</h2>
-      <a href="https://help.coderdojo.com/hc" class="c-resources__link">{{ $t('View our help articles') }}</a>
+      <h2 class="c-resources__header">{{ $t('Resources to help you mentor young people') }}</h2>
+      <a href="https://help.coderdojo.com/hc" class="c-resources__link">{{ $t('View our resources for good mentoring') }}</a>
       <hr class="c-resources__divider">
-      <a href="/resources" class="c-resources__link">{{ $t('View our other resources for mentors') }}</a>
+      <a href="/resources" class="c-resources__link">{{ $t('View our help articles') }}</a>
       <hr class="c-resources__divider">
-      <a href="/contact" class="c-resources__link">{{ $t('Or ask us directly') }}</a>
+      <a href="/contact" class="c-resources__link">{{ $t('Ask us directly') }}</a>
     </div>
   </div>
 </template>
