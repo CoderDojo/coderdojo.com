@@ -10,7 +10,6 @@
       <cd-nav class="c-header__nav"></cd-nav>
       <div class="c-header__right">
         <a class="c-header__login" href="https://zen.coderdojo.com/login">{{ $t('Login') }}</a>
-        <lang-picker></lang-picker>
       </div>
       <div class="c-header__hamburger">
         <img class="c-header__hamburger-close" src="~/static/images/x-orange.svg" @click="toggleMobileNav" />
@@ -19,19 +18,16 @@
     </div>
     <div class="c-header__mobile-nav">
       <cd-nav></cd-nav>
-      <lang-picker></lang-picker>
     </div>
   </div>
 </template>
 
 <script>
 import CdNav from '@/components/Nav';
-import LangPicker from '@/components/LangPicker';
 
 export default {
   components: {
     CdNav,
-    LangPicker,
   },
   data() {
     return {
@@ -72,6 +68,7 @@ export default {
 
     &__logo {
       flex: 1;
+      max-width: 200px;
       img {
         height: 45px;
       }
@@ -84,7 +81,7 @@ export default {
     }
 
     &__nav {
-      flex: 2;
+      flex: 3;
       justify-content: center;
     }
 
@@ -92,6 +89,7 @@ export default {
       flex: 1;
       display: flex;
       justify-content: flex-end;
+      max-width: 120px;
     }
 
     &__login {
