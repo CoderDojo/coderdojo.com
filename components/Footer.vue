@@ -26,6 +26,7 @@
           <a href="https://zen.coderdojo.com/">{{ $t('Find a Dojo near you') }}</a>
           <a href="/volunteer">{{ $t('Volunteer') }}</a>
           <a href="/start-a-dojo">{{ $t('Start a Dojo') }}</a>
+          <a href="/news">{{ $t('News') }}</a>
           <a href="/donate">{{ $t('Donate') }}</a>
         </div>
         <div class="c-footer__links">
