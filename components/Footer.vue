@@ -48,7 +48,7 @@
         </div>
       </div>
       <div class="c-footer__address">
-        <p>CoderDojo Foundation, Dogpatch Labs Unit 1, The CHQ building, Custom House Quay, Dublin, Ireland, D01 Y6H7</p>
+        <p>CoderDojo Foundation (CRO No: 524255 a registered charity: CHY 20812), Dogpatch Labs Unit 1, The CHQ building, Custom House Quay, Dublin, Ireland, D01 Y6H7</p>
       </div>
     </div>
   </div>
