@@ -17,6 +17,7 @@
           </span>
           <span class="c-footer__side-lang">
             <lang-picker></lang-picker>
+            <a href="https://crowdin.com/profile/coderdojo" class="c-footer__side-lang-translate">{{ $t('Help us with translations') }}</a>
           </span>
         </div>
       </div>
@@ -136,6 +137,12 @@
       }
       &-lang {
         flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        &-translate {
+          margin-top: 18px;
+        }
       }
     }
 
@@ -185,6 +192,7 @@
         }
         &-social {
           padding: 20px 0px 0px 0px;
+          align-self: center;
         }
       }
 
