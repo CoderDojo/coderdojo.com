@@ -6,7 +6,7 @@
       </div>
       <div class="c-volunteer__text">
         <h2>{{ $t('Volunteer at a Dojo') }}</h2>
-        <h3>{{ $t('Join us and meet 6742 like-minded volunteers') }}</h3>
+        <h3>{{ $t('Join us and meet {count} like-minded volunteers', { count: '12,000' }) }}</h3>
         <p>{{ $t('Whether or not you can code, you can help a local club in just a few hours a month! Dojos need general volunteers, and mentors for sessions. Even mentors don’t have to have technical skills, because they help the young people mainly by encouraging them to discover their own way forward.') }}</p>
         <div class="c-volunteer__quote">
           <p class="c-volunteer__quote-text">{{ $t('When I see them doing things on their own, getting their ideas out there, and seeing creativity spur out of the moment, really gives me so much joy') }}</p>
