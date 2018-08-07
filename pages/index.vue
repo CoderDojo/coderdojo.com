@@ -6,7 +6,7 @@
     <StartADojo />
     <Community />
     <OurTeam />
-    <Slack />
+    <Facebook />
   </div>
 </template>
 
@@ -18,7 +18,7 @@ import Volunteer from '~/components/index/Volunteer';
 import StartADojo from '~/components/index/StartADojo';
 import Community from '~/components/index/Community';
 import OurTeam from '~/components/index/OurTeam';
-import Slack from '~/components/index/Slack';
+import Facebook from '~/components/index/Facebook';
 
 export default {
   head () {
@@ -46,7 +46,7 @@ export default {
     StartADojo,
     Community,
     OurTeam,
-    Slack,
+    Facebook,
   },
   async asyncData () {
     const { data } = await axios.post('https://zen.coderdojo.com/api/2.0/dojos', {
