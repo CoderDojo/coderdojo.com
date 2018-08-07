@@ -14,13 +14,6 @@
             <p class="c-community__card-text-content">{{ $t('We hold big yearly events called Coolest Projects for young people to show off what they have made.') }}</p>
           </div>
         </a>
-        <a href="https://megadojo.ie" class="c-community__card">
-          <img src="~/static/images/index/megadojo.jpg" />
-          <div class="c-community__card-text center-text">
-            <p class="c-community__card-title">MegaDojos</p>
-            <p class="c-community__card-text-content">{{ $t('There are less formal, regional MegaDojos, which are day-long Dojo sessions where kids can make whatever they want.') }}</p>
-          </div>
-        </a>
         <a href="https://dojocon.coderdojo.com" class="c-community__card">
           <img src="~/static/images/index/dojocon.jpg" />
           <div class="c-community__card-text center-text">
