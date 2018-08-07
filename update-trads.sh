@@ -7,7 +7,6 @@ for lang in fr jp; do
   crowdin download -l ${lang} --verbose; 
 done
 cd coderdojo.com
-#git remote set-url origin https://${GITHUB_AUTH_TOKEN}@github.com/CoderDojo/coderdojo.com.git
 git add locales/
 git commit -m "Updating translations"
 git push origin HEAD:master
