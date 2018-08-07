@@ -35,10 +35,12 @@
       },
     },
     async mounted () {
-      const projects = await Promise.all(projectsConf.map(
+      this.projects = await Promise.all(projectsConf.map(
         p => axios.get(`https://learning-admin.raspberrypi.org/api/v1/${this.locale}/${p.slug}`)
-      ));
-      this.projects = projects.map(p => p.data);
+          .then(d => ({ ...p, title: d.data.data.attributes.title })) 
+      ))
+      // Reset the projects to the default conf in case CORS blocks the translation
+      .catch(() => this.projects = projectsConf);
     },
   };
 </script>
