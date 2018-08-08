@@ -1,5 +1,5 @@
 <template>
-  <div class="c-community">
+  <div class="c-community" id="community">
     <div class="c-community__content">
       <div class="c-community__text">
         <h2 class="center-text">{{ $t('Our community is one vast family!') }}</h2>

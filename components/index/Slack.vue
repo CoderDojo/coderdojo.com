@@ -1,5 +1,5 @@
 <template>
-  <div class="c-slack">
+  <div class="c-slack" id="slack">
     <div class="c-slack__illustration">
       <img src="~/static/images/index/globe.png" />
     </div>

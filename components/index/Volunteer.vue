@@ -1,5 +1,5 @@
 <template>
-  <div class="c-volunteer">
+  <div class="c-volunteer" id="volunteer">
     <div class="c-volunteer__content">
       <div class="c-volunteer__illustration">
         <img src="~/static/images/index/volunteer.png" />
