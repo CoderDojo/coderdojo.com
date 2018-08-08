@@ -1,7 +1,7 @@
 <template>
   <div>
     <Hero :dojos="dojos" />
-    <Testimonials />
+    <Testimonials id="testimonials"/>
     <Volunteer />
     <StartADojo />
     <Community />
@@ -19,6 +19,7 @@ import StartADojo from '~/components/index/StartADojo';
 import Community from '~/components/index/Community';
 import OurTeam from '~/components/index/OurTeam';
 import Slack from '~/components/index/Slack';
+import Router from 'vue-router'
 
 export default {
   head () {
