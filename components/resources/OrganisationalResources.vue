@@ -1,5 +1,5 @@
 <template>
-  <div class="c-organisational-resources">
+  <div class="c-organisational-resources" id="org-resources">
     <h2 class="center-text">{{ $t('Our free online training on starting a Dojo') }}</h2>
     <p class="center-text">{{ $t('Use our free resources, such as e-learning modules and recommended practices, to make running your Dojo easier.') }}</p>
     <div class="c-organisational-resources__section" v-for="(resource, i) in resources" :key="i">

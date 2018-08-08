@@ -1,5 +1,5 @@
 <template>
-  <div class="c-testimonials">
+  <div class="c-testimonials" id="testimonials">
     <h2 class="c-testimonials__header center-text">{{ $t('What does it mean to volunteer at a Dojo?') }}</h2>
     <div class="c-testimonials__content">
       <div class="c-testimonials__text c-testimonials__individual-content">

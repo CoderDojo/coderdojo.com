@@ -1,5 +1,5 @@
 <template>
-  <div class="c-questions">
+  <div class="c-questions" id="questions">
     <div class="c-questions__illustration">
       <img src="~/static/images/help.svg" />
     </div>

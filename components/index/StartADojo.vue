@@ -1,5 +1,5 @@
 <template>
-  <div class="c-start" id="start">
+  <div class="c-start" id="startadojo">
     <div class="c-start__content">
       <div class="c-start__text">
         <h2>{{ $t('Want to start a Dojo?') }}</h2>

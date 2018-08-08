@@ -1,5 +1,5 @@
 <template>
-  <div class="c-our-team">
+  <div class="c-our-team" id="team">
     <div class="c-our-team__content">
       <div class="c-our-team__photo">
         <img src="~/static/images/index/team.jpg" />
