@@ -1,5 +1,5 @@
 <template>
-  <div class="c-testimonials">
+  <div class="c-testimonials" id="testimonials">
     <h2 class="c-testimonials__header center-text">{{ $t('Dojos are relaxed and fun programming clubs!') }}</h2>
     <img class="c-testimonials__illustration" src="~/static/images/index/dojo.png" />
     <div class="c-testimonials__quote-cards">

@@ -1,7 +1,7 @@
 <template>
   <div>
     <Hero :dojos="dojos" />
-    <Testimonials />
+    <Testimonials/>
     <Volunteer />
     <StartADojo />
     <Community />
