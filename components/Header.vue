@@ -3,8 +3,8 @@
     <div class="c-header__content">
       <div class="c-header__logo">
         <nuxt-link :to="localePath({ name: 'index' })">
-          <img class="c-header__logo-img" src="/images/coderdojo.svg" />
-          <img class="c-header__logo-img--black" src="/images/coderdojo-black.svg" />
+          <img class="c-header__logo-img" src="~/static/images/coderdojo.svg" />
+          <img class="c-header__logo-img--black" src="~/static/images/coderdojo-black.svg" />
         </nuxt-link>
       </div>
       <cd-nav class="c-header__nav"></cd-nav>
