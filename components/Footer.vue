@@ -109,7 +109,7 @@
       }
       &-social {
         justify-content: flex-end;
-        flex: 1;
+        flex: 2;
         flex-direction: row;
         a {
           margin: 0 5px;
@@ -136,7 +136,7 @@
         }
       }
       &-lang {
-        flex: 1;
+        flex: 3;
         display: flex;
         flex-direction: column;
         align-self: center;
