@@ -39,6 +39,7 @@
           <p class="c-footer__links-header">{{ $t('Community') }}</p>
           <a href="https://zen.coderdojo.com/badges">{{ $t('Badges') }}</a>
           <a href="/news">{{ $t('News') }}</a>
+          <a href="/girlsinitiative/">{{ $t('Girls initiative') }}</a>
           <a href="/coderdojo-global-slack/">{{ $t('Join our Slack') }}</a>
           <a href="/newsletter/">{{ $t('Newsletter') }}</a>
         </div>
