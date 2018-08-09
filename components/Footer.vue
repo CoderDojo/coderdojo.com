@@ -34,7 +34,7 @@
           <a href="/foundation">{{ $t('Foundation') }}</a>
           <a href="/movement">{{ $t('History') }}</a>
           <a href="/team">{{ $t('Our team') }}</a>
-          <a href="/contact">{{ $t('Contact Us') }}</a>
+          <a href="/supporters">{{ $t('Our supporters') }}</a>
         </div>
         <div class="c-footer__links">
           <p class="c-footer__links-header">{{ $t('Community') }}</p>
@@ -47,6 +47,7 @@
           <p class="c-footer__links-header">{{ $t('Need help?') }}</p>
           <a href="https://help.coderdojo.com/hc">{{ $t('Our help center') }}</a>
           <a href="/resources">{{ $t('Resources') }}</a>
+          <a href="/contact">{{ $t('Contact Us') }}</a>
         </div>
       </div>
       <div class="c-footer__address">
