@@ -1,7 +1,7 @@
 <template>
   <div class="c-video">
     <div class="c-video__content" @click="openModal()">
-      <img class="c-video__img" :src="img" />
+      <img class="c-video__img" :src="imgSrc" />
       <div class="c-video__overlay">
         <p class="c-video__overlay-text">{{ $t(text) }}</p>
         <span role="button" class="c-video__overlay-play">
@@ -17,6 +17,11 @@
 </template>
 
 <script>
+// Required for webpack to pick the images into the build
+const choices = {
+  index: require('~/static/images/index/hero/what-is.png'),
+  volunteer: require('~/static/images/volunteer/why.png'),
+};
 export default {
   props: [
     'img',
@@ -26,6 +31,7 @@ export default {
   data() {
     return {
       isOpen: false,
+      imgSrc: choices[this.img],
     };
   },
   computed: {

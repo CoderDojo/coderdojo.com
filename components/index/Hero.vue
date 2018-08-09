@@ -12,7 +12,7 @@
         <a href="https://zen.coderdojo.com/dojos/us/indiana/west-lafayette-in/west-lafayette-indiana-anvil" class="c-hero__image-desc">CoderDojo Anvil, Indiana, USA</a>
       </div>
       <div class="c-hero__image">
-        <VideoModal img="/images/index/hero/what-is.png" src="https://www.youtube.com/embed/7XQOVKd-vVI" text="What is CoderDojo?"/>
+        <VideoModal img="index" src="https://www.youtube.com/embed/7XQOVKd-vVI" text="What is CoderDojo?"/>
       </div>
       <div class="c-hero__image">
         <img src="~/static/images/index/hero/nurnberg.jpg"/>
