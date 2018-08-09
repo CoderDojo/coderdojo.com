@@ -18,14 +18,19 @@
 </template>
 
 <script>
-  import projects from '~/data/resources/projects';
+  import projectsConf from '~/data/resources/projects';
+  const projectImages = {
+    appInventor: require('~/static/images/resources/appInventor.png'),
+    scratch: require('~/static/images/resources/scratch.png'),
+    html: require('~/static/images/resources/sushi.png')
+  }
   export default {
-    data() {
-      return {
-        projects,
-      };
-    },
     computed: {
+      projects: function () {
+        return Object.keys(projectsConf).map((index) => {
+          return { ...projectsConf[index], imgSrc : projectImages[index] };
+        });
+      },
       locale: function () {
         return this.$store.state.locale;
       },

@@ -1,14 +1,11 @@
-export default [
-  {
-    imgSrc: '/images/resources/appInventor.png',
+export default {
+  appInventor: {
     title: 'App Inventor for social enterprise',
   },
-  {
-    imgSrc: '/images/resources/scratch.png',
+  scratch: {
     title: 'Scratch for social enterprise',
   },
-  {
-    imgSrc: '/images/resources/sushi.png',
+  html: {
     title: 'HTML & CSS for social enterprise',
   },
-];
+};
