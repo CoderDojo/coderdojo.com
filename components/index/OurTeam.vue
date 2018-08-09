@@ -6,12 +6,21 @@
       </div>
       <div class="c-our-team__text">
         <h2 class="c-our-team__header">{{ $t('Our team & history') }}</h2>
-        <p>{{ $t('We\’re a 7-year-old foundation with amazing growth and an eventful story.') }}</p>
-        <a href="/team">{{ $t('Find out more about us!') }}</a>
+        <p>{{ $t('We\’re a {year}-year-old foundation with amazing growth and an eventful story.', { year }) }}</p>
+        <a href="/foundation">{{ $t('Find out more about us!') }}</a>
       </div>
     </div>
   </div>
 </template>
+<script>
+  export default {
+    computed: {
+      year: function() {
+        return Math.floor((Date.now() - new Date('2013-02-23T18:00:00'))/(1000 * 60 * 60 * 24 * 365));
+      },
+    },
+  };
+</script>
 
 <style lang="scss" scoped>
   @import '~/assets/_variables.scss';

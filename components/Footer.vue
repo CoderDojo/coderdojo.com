@@ -17,6 +17,7 @@
           </span>
           <span class="c-footer__side-lang">
             <lang-picker></lang-picker>
+            <a href="https://crowdin.com/profile/coderdojo" class="c-footer__side-lang-translate">{{ $t('Help us with translations') }}</a>
           </span>
         </div>
       </div>
@@ -32,12 +33,13 @@
           <p class="c-footer__links-header">{{ $t('About CoderDojo') }}</p>
           <a href="/foundation">{{ $t('Foundation') }}</a>
           <a href="/movement">{{ $t('History') }}</a>
-          <a href="/team">{{ $t('Our team') }}</a>
-          <a href="/contact">{{ $t('Contact Us') }}</a>
+          <a href="/supporters">{{ $t('Our supporters') }}</a>
         </div>
         <div class="c-footer__links">
           <p class="c-footer__links-header">{{ $t('Community') }}</p>
           <a href="https://zen.coderdojo.com/badges">{{ $t('Badges') }}</a>
+          <a href="/news">{{ $t('News') }}</a>
+          <a href="/girlsinitiative/">{{ $t('Girls initiative') }}</a>
           <a href="/coderdojo-global-slack/">{{ $t('Join our Slack') }}</a>
           <a href="/newsletter/">{{ $t('Newsletter') }}</a>
         </div>
@@ -45,10 +47,11 @@
           <p class="c-footer__links-header">{{ $t('Need help?') }}</p>
           <a href="https://help.coderdojo.com/hc">{{ $t('Our help center') }}</a>
           <a href="/resources">{{ $t('Resources') }}</a>
+          <a href="/contact">{{ $t('Contact Us') }}</a>
         </div>
       </div>
       <div class="c-footer__address">
-        <p>CoderDojo Foundation, Dogpatch Labs Unit 1, The CHQ building, Custom House Quay, Dublin, Ireland, D01 Y6H7</p>
+        <p>CoderDojo Foundation (CRO No: 524255 a registered charity: CHY 20812), Dogpatch Labs Unit 1, The CHQ building, Custom House Quay, Dublin, Ireland, D01 Y6H7</p>
       </div>
     </div>
   </div>
@@ -107,7 +110,7 @@
       }
       &-social {
         justify-content: flex-end;
-        flex: 1;
+        flex: 2;
         flex-direction: row;
         a {
           margin: 0 5px;
@@ -134,7 +137,13 @@
         }
       }
       &-lang {
-        flex: 1;
+        flex: 3;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        &-translate {
+          margin-top: 18px;
+        }
       }
     }
 
@@ -184,6 +193,7 @@
         }
         &-social {
           padding: 20px 0px 0px 0px;
+          align-self: center;
         }
       }
 
