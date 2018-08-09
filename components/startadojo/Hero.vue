@@ -16,7 +16,7 @@
           <span class="c-hero__step-number">{{ $t('2') }}</span>
           <span class="c-hero__step-name">{{ $t('Find') }}</span>
         </h2>
-        <p class="c-hero__step-text">{{ $t('Find a public venue to hold your Dojo events. Libraries, schools, offices, and clubs are often used.') }}</p>
+        <p class="c-hero__step-text">{{ $t('Find a public venue to hold your Dojo events. Libraries, offices and community centres are often used.') }}</p>
       </div>
       <div class="c-hero__step-card">
         <img class="c-hero__step-image" src="~/static/images/screen.svg" />

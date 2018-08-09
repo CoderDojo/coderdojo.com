@@ -12,7 +12,7 @@
           </div>
           <div class="c-start__step">
             <span class="c-start__step-number">2</span>
-            <span class="c-start__step-text">{{ $t('Find a public venue to hold your Dojo events. Libraries, schools, offices, and clubs are often used.') }}</span>
+            <span class="c-start__step-text">{{ $t('Find a public venue to hold your Dojo events. Libraries, offices and community centres are often used.') }}</span>
           </div>
           <div class="c-start__step">
             <span class="c-start__step-number">3</span>
