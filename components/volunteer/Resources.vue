@@ -7,7 +7,7 @@
       <h2 class="c-resources__header">{{ $t('Resources to help you mentor young people') }}</h2>
       <a href="https://help.coderdojo.com/hc/en-us/sections/360000232943-Training-and-support" class="c-resources__link">{{ $t('Training and supports for volunteers') }}</a>
       <hr class="c-resources__divider">
-      <a href="/resources" class="c-resources__link">{{ $t('View our help articles') }}</a>
+      <a href="/resources" class="c-resources__link">{{ $t('View our ready made resources for Dojos') }}</a>
       <hr class="c-resources__divider">
       <a href="/contact" class="c-resources__link">{{ $t('Ask us directly') }}</a>
     </div>
