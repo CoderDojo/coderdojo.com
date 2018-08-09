@@ -6,14 +6,14 @@
       <div class="c-testimonials__quote-card">
         <p class="c-testimonials__quote">“{{ $t('When I started to attend the CoderDojo courses, I only knew how to copy/paste. Now, I can build websites and I even experiment with game development.') }}”</p>
         <div class="c-testimonials__quote-attr">
-          <img class="c-testimonials__quote-attr-image" src="~/static/images/index/lauren.png" />
+          <img class="c-testimonials__quote-attr-image" src="~/static/images/index/daniel.jpg" />
           <span class="c-testimonials__quote-attr-text">Daniel, 14, Moldova</span>
         </div>
       </div>
       <div class="c-testimonials__quote-card">
         <p class="c-testimonials__quote">“{{ $t('It’s a place to go to learn really cool coding activities and make friends. I’ve got a chance to try things from scratch to drones and even how to live code music with sonic pi!') }}”</p>
         <div class="c-testimonials__quote-attr">
-          <img class="c-testimonials__quote-attr-image" src="~/static/images/index/lauren.png" />
+          <img class="c-testimonials__quote-attr-image" src="~/static/images/index/Aoibheann.jpg" />
           <span class="c-testimonials__quote-attr-text">Aoibheann, 11, Ireland</span>
         </div>
       </div>
