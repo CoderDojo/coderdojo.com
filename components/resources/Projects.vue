@@ -18,11 +18,12 @@
 </template>
 
 <script>
-  import projects from '~/data/resources/projects';
+  import axios from 'axios';
+  import projectsConf from '~/data/resources/projects';
   export default {
     data() {
       return {
-        projects,
+        projects: [],
       };
     },
     computed: {
@@ -32,6 +33,14 @@
       projectsUrl: function () {
         return `https://projects.raspberrypi.org/${this.locale}/coderdojo`
       },
+    },
+    async mounted () {
+      this.projects = await Promise.all(projectsConf.map(
+        p => axios.get(`https://learning-admin.raspberrypi.org/api/v1/${this.locale}/${p.slug}`)
+          .then(d => ({ ...p, title: d.data.data.attributes.title })) 
+      ))
+      // Reset the projects to the default conf in case CORS blocks the translation
+      .catch(() => this.projects = projectsConf);
     },
   };
 </script>

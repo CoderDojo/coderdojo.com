@@ -47,6 +47,9 @@ export default {
         this.$router.replace(this.switchLocalePath(this.closestMatchingLocale));
       }
       this.$store.commit('setLocale', this.localeCookie || this.closestMatchingLocale);
+    } else {
+      // We still need the value of the store accessible to other components
+      this.$store.commit('setLocale', this.locale);
     }
   },
 };
