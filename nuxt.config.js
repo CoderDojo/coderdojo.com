@@ -64,6 +64,6 @@ module.exports = {
     }],
     ['@nuxtjs/google-analytics', {
       id: 'UA-25136319-2'
-    }]
+    }],
   ],
 }

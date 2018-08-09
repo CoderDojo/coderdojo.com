@@ -7,7 +7,7 @@
         <a href="https://zen.coderdojo.com/dojos/de/nuremberg/nuernberg" class="c-hero__image-desc">CoderDojo Nürnberg, Germany</a>
       </div>
       <div class="c-hero__image">
-        <VideoModal img="/images/volunteer/why.png" src="https://www.youtube.com/embed/Q6M0IdEn07E" text="Being a mentor"/>
+        <VideoModal img="volunteer" src="https://www.youtube.com/embed/Q6M0IdEn07E" text="Being a mentor"/>
       </div>
       <div class="c-hero__image">
         <img src="~/static/images/volunteer/nyc.jpg" />
