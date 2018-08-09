@@ -20,32 +20,38 @@
 <script>
   import axios from 'axios';
   import projectsConf from '~/data/resources/projects';
+  // Required for webpack to prepare the images 
   const projectImages = {
     appInventor: require('~/static/images/resources/appInventor.png'),
     scratch: require('~/static/images/resources/scratch.png'),
     html: require('~/static/images/resources/sushi.png')
   }
   export default {
+    data() {
+      return {
+        projects: [],
+        translatedProjects: [],
+      }
+    },
     computed: {
-      projects: function () {
-        return Object.keys(projectsConf).map((index) => {
-          return { ...projectsConf[index], imgSrc : projectImages[index] };
-        });
-      },
       locale: function () {
-        return this.$store.state.locale;
+        return this.$store.state.locale === 'en-US' ? 'en' : this.$store.state.locale ;
       },
       projectsUrl: function () {
         return `https://projects.raspberrypi.org/${this.locale}/coderdojo`
       },
     },
     async mounted () {
-      this.projects = await Promise.all(projectsConf.map(
+      this.translatedProjects = await Promise.all(projectsConf.map(
         p => axios.get(`https://learning-admin.raspberrypi.org/api/v1/${this.locale}/${p.slug}`)
           .then(d => ({ ...p, title: d.data.data.attributes.title })) 
       ))
       // Reset the projects to the default conf in case CORS blocks the translation
-      .catch(() => this.projects = projectsConf);
+      .catch(() => this.translatedProjects = projectsConf);
+      // Assign an image to each projects
+      this.projects = this.translatedProjects.map(p => {
+        return { ...p, imgSrc : projectImages[p.key] };
+      });
     },
   };
 </script>
