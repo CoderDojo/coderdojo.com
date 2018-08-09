@@ -13,7 +13,7 @@
           <div class="c-champion__quote-card">
             <p class="c-champion__quote">“{{ $t('Realising that I had created such a wonderful place for the children also ignited a spark in me.') }}”</p>
             <div class="c-champion__quote-attr">
-              <img class="c-champion__quote-attr-image" src="https://picsum.photos/36/36?image=2" />
+              <img class="c-champion__quote-attr-image" src="~/static/images/startadojo/marloes.jpeg" />
               <span class="c-champion__quote-attr-text">Marloes, Netherlands</span>
             </div>
           </div>

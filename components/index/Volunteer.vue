@@ -11,7 +11,7 @@
         <div class="c-volunteer__quote">
           <p class="c-volunteer__quote-text">{{ $t('When I see them doing things on their own, getting their ideas out there, and seeing creativity spur out of the moment, really gives me so much joy') }}</p>
           <div class="c-volunteer__quote-attr">
-            <img class="c-volunteer__quote-attr-image" src="~/static/images/index/lauren.png" />
+            <img class="c-volunteer__quote-attr-image" src="~/static/images/index/Ekaterina.png" />
             <span class="c-volunteer__quote-attr-text">Ekaterina, Dojo volunteer in Bulgaria</span>
           </div>
         </div>
