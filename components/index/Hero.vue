@@ -103,7 +103,6 @@ export default {
       }
       &-desc {
         display: block;
-        text-decoration: none;
         font-size: $subtext;
         text-align: left;
         color: $black;

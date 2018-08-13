@@ -57,7 +57,6 @@ export default {
       &-desc {
         display: block;
         font-size: 13px;
-        text-decoration: none;
         text-align: left;
         color: $white;
       }

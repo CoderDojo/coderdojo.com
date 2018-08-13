@@ -41,7 +41,6 @@
       margin: 20px 0;
       padding: 20px 0;
       font-weight: bold;
-      text-decoration: none;
 
       &:hover {
         text-decoration: underline;
