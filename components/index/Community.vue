@@ -71,6 +71,7 @@
       &-text {
         margin: 20px 20px 40px 20px;
         &-content {
+          margin-top: 18px;
           font-size: $subtext;
         }
       }
