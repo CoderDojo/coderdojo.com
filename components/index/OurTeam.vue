@@ -7,7 +7,9 @@
       <div class="c-our-team__text">
         <h2 class="c-our-team__header">{{ $t('Our team & history') }}</h2>
         <p>{{ $t('We\’re a {year}-year-old foundation with amazing growth and an eventful story.', { year }) }}</p>
-        <a href="/foundation">{{ $t('Find out more about us!') }}</a>
+        <div class="c-our-team__text-link">
+          <a href="/foundation">{{ $t('Find out more about us!') }}</a>
+        </div>
       </div>
     </div>
   </div>
@@ -47,19 +49,18 @@
 
     &__text {
       flex: 1;
-      display: flex;
-      flex-direction: column;
       margin-left: 20px;
 
       p {
-        flex: 1;
         margin: 10px 0;
       }
 
-      a {
-        color: $cd-orange;
+      &-link {
         margin: 25px 0;
-        font-weight: bold;
+        a {
+          color: $cd-orange;
+          font-weight: bold;
+        }
       }
     }
 
