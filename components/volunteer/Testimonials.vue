@@ -59,7 +59,7 @@
       margin: 0 16px;
 
       p {
-        margin: 40px 0;
+        margin-bottom: 40px;
       }
     }    
 

@@ -45,7 +45,7 @@
       max-width: 80%;
       margin: 0 auto;
       p {
-        margin: 40px 0;
+        margin-bottom: 40px;
       }
     }    
     &__illustration {
