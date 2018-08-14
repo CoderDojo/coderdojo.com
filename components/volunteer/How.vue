@@ -18,6 +18,7 @@
   @import '~/assets/_variables.scss';
 
   .c-how {
+    margin-top: 20px;
     &__section {
       padding: 0 0 40px;
       margin: auto auto 40px;
@@ -63,10 +64,12 @@
       }      
       &__led {
         background-position: 5% 25%;    
+        margin-bottom: 20px;
       } 
 
       &__rpi {
         background-position: 5% 10%;  
+        margin-bottom: 20px;
       }       
     }
   }

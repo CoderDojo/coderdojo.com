@@ -111,7 +111,7 @@
         margin: 0 40px;
       }      
       &__content {
-        margin-top: 0;
+        margin-top: 40px;
         flex-direction: column;
       }
       &__text {

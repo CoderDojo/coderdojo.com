@@ -189,3 +189,12 @@ export default {
     }
   }
 </style>
+<style lang="scss">
+  .c-header--mobile-nav-open {
+    .c-nav {
+      a {
+        display: block;
+      }
+    }
+  }
+</style>
