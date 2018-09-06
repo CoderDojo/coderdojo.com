@@ -10,7 +10,7 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'CoderDojo is a global movement of free, volunteer-led, community-based computer programming clubs for young people. Children can visit a Dojo where they can learn to code, build websites, create apps or games, and explore technology in an creative and social environment.' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: 'https://coderdojo.com/wp-content/themes/cd-theme/static/img/coderdojo/favicon.ico' },
       { rel: 'stylesheet', type: 'text/css', href: 'https://fonts.googleapis.com/css?family=Lato:400,400i,700,900|Libre+Franklin:300,600,700' }
     ]
   },
