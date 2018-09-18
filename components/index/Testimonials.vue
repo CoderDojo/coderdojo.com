@@ -19,7 +19,7 @@
       </div>
     </div>
     <div class="c-testimonials__cta">
-      <a href="https://zen.coderdojo.com" class="c-button c-button--teal c-button--search">{{ $t('Find a Dojo to attend') }}</a>
+      <a href="https://zen.coderdojo.com/find" class="c-button c-button--teal c-button--search">{{ $t('Find a Dojo to attend') }}</a>
     </div>
   </div>
 </template>

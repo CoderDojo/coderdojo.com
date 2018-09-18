@@ -16,7 +16,7 @@ export default {
         {
           name: 'find-dojo',
           title: 'Find a Dojo',
-          url: 'https://zen.coderdojo.com',
+          url: 'https://zen.coderdojo.com/find',
         },
         {
           name: 'volunteer',

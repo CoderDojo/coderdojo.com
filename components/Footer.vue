@@ -24,7 +24,7 @@
       <div class="c-footer__row">
         <div class="c-footer__links">
           <p class="c-footer__links-header">{{ $t('Get Involved') }}</p>
-          <a href="https://zen.coderdojo.com/">{{ $t('Find a Dojo near you') }}</a>
+          <a href="https://zen.coderdojo.com/find">{{ $t('Find a Dojo near you') }}</a>
           <a href="/volunteer">{{ $t('Volunteer') }}</a>
           <a href="/start-a-dojo">{{ $t('Start a Dojo') }}</a>
           <a href="/donate">{{ $t('Donate') }}</a>
