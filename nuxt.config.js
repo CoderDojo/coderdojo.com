@@ -85,7 +85,7 @@ module.exports = {
           code: 'it-IT',
           shortCode: 'it',
           iso: 'it-IT',
-          name: 'Italiano'
+          name: 'Italiano',
           file: 'it-IT.json',
         },
         {
