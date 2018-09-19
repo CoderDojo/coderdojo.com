@@ -3,7 +3,7 @@
     <h1 class="c-hero__header1">{{ $t('The community of {count} free, open and local programming clubs for young people', { count: numOfDojos }) }}</h1>
     <h3 class="c-hero__header2">{{ $t('{youth} young people are being creative with technology with the help of {volunteers} volunteers in {countries} countries. Join us!', { countries: numOfCountries, youth, volunteers }) }}</h3>
     <div class="c-hero__cta">
-      <a href="https://zen.coderdojo.com" class="c-button c-button--orange c-button--search">{{ $t('Find a Dojo') }}</a>
+      <a href="https://zen.coderdojo.com/find" class="c-button c-button--orange c-button--search">{{ $t('Find a Dojo') }}</a>
       <a href="/start-a-dojo" class="c-button c-button--teal">{{ $t('Start a Dojo') }}</a>
     </div>
     <div class="c-hero__images">

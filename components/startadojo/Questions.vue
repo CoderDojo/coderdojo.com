@@ -22,7 +22,7 @@
       <hr class="c-questions__divider">
       <div class="c-questions__wrapper">
         <p class="c-questions__text">{{ $t('Want to see it all in person?') }}</p>
-        <a href="https://zen.coderdojo.com" class="c-questions__link">{{ $t('Find a Dojo event near you to visit') }}</a>  
+        <a href="https://zen.coderdojo.com/find" class="c-questions__link">{{ $t('Find a Dojo event near you to visit') }}</a>  
       </div>                   
     </div>
   </div>
