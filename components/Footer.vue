@@ -17,7 +17,7 @@
           </span>
           <span class="c-footer__side-lang">
             <lang-picker></lang-picker>
-            <a href="https://help.coderdojo.com/hc/en-us/articles/115002700443-Help-CoderDojo-with-translation" class="c-footer__side-lang-translate">{{ $t('Help us with translations') }}</a>
+            <a href="https://crowdin.com/profile/coderdojo" class="c-footer__side-lang-translate">{{ $t('Help us with translations') }}</a>
           </span>
         </div>
       </div>
