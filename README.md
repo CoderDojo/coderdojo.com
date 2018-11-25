@@ -23,7 +23,10 @@ For detailed explanation on how things work, checkout the [Nuxt.js docs](https:/
 ```
 ## Translations
 
-Translations are pulled regularly from crowdin and commited in this repo. Please be aware that locales other than en_US will be overwritten in production.
+If you like to translate, please do so on [crowdin].
+Translations are pulled regularly from [crowdin] and commited in this repo. Please be aware that locales other than en_US will be overwritten in production.
+
+[crowdin]: https://crowdin.com/project/coderdojo-com
 
 ### Building
 
@@ -44,5 +47,6 @@ Translations are pulled regularly from crowdin and commited in this repo. Please
 sudo iptables -t nat -A OUTPUT -o lo -p tcp --dport 80 -j REDIRECT --to-port 3000
 sudo su
 echo "127.0.0.1  coderdojo.com" >> /etc/hosts
+
 
 ```
