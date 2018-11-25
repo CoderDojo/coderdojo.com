@@ -31,6 +31,7 @@
         </div>
         <div class="c-footer__links">
           <p class="c-footer__links-header">{{ $t('About CoderDojo') }}</p>
+          <a href="/reporting-governance">{{ $t('Governance') }}</a>
           <a href="/foundation">{{ $t('Foundation') }}</a>
           <a href="/movement">{{ $t('History') }}</a>
           <a href="/supporters">{{ $t('Our supporters') }}</a>
