@@ -69,4 +69,9 @@ export default {
       }
     }
   }
+  @supports (-ms-accelerator: true) { /* Edge only */
+    .c-nav {
+      justify-content: space-around;
+    }
+  }
 </style>
