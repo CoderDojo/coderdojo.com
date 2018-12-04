@@ -69,4 +69,9 @@ export default {
       }
     }
   }
+  @supports (-ms-ime-align:auto) { /* Edge only */
+    .c-nav {
+      justify-content: space-around;
+    }
+  }
 </style>
