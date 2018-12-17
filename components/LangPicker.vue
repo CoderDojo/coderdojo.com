@@ -70,5 +70,8 @@ export default {
     font-size: 18px;
     line-height: 40px;
     padding: 0 40px 0 12px;
+    option {
+      color: black;
+    }
   }
 </style>
