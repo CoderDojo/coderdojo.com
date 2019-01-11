@@ -113,7 +113,7 @@ module.exports = {
           code: 'de-DE',
           shortcode: 'de',
           iso: 'de-DE',
-          name: 'Deutsche',
+          name: 'Deutsch',
           file: 'de-DE.json',
         },
         {
