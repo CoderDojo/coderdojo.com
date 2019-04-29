@@ -1,17 +1,17 @@
 export default [
   {
-    title: 'App Inventor for social enterprise',
-    slug: 'pathways/app-inventor-for-social-enterprise',
-    key: 'appInventor',
+    title: 'Make a chatbot using Scratch',
+    slug: 'projects/chatbot',
+    key: 'chatBot',
   },
   {
-    title: 'Scratch for social enterprise',
-    slug: 'pathways/scratch-for-social-enterprise',
-    key: 'scratch',
+    title: 'Create a meme generator in HTML',
+    slug: 'projects/cat-meme-generator',
+    key: 'catMeme',
   },
   {
-    title: 'HTML & CSS for social enterprise',
-    slug: 'pathways/html-css-for-social-enterprise',
-    key: 'html',
+    title: 'Code a pong game using Python',
+    slug: 'projects/sense-hat-pong',
+    key: 'pong',
   },
 ];
