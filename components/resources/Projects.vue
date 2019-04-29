@@ -22,9 +22,9 @@
   import projectsConf from '~/data/resources/projects';
   // Required for webpack to prepare the images 
   const projectImages = {
-    appInventor: require('~/static/images/resources/appInventor.png'),
-    scratch: require('~/static/images/resources/scratch.png'),
-    html: require('~/static/images/resources/sushi.png')
+    chatBot: require('~/static/images/resources/chatbot.png'),
+    catMeme: require('~/static/images/resources/cat-meme-gen.png'),
+    pong: require('~/static/images/resources/sense-hat-pong.png')
   }
   export default {
     data() {
