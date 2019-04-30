@@ -61,6 +61,9 @@
   "App Inventor for social enterprise": "App Inventorで社会の課題を解決する",
   "Scratch for social enterprise": "Scratchで社会の課題を解決する",
   "HTML & CSS for social enterprise": "HTML＆CSSで社会の課題を解決する",
+  "Make a chatbot using Scratch": "Make a chatbot using Scratch",
+  "Create a meme generator in HTML": "Create a meme generator in HTML",
+  "Code a pong game using Python": "Code a pong game using Python",
   "View more CoderDojo projects": "CoderDojoプロジェクトをもっとみる",
   "If you've created a piece of learning content for your Dojo or found an online resource that others might find useful, please share and talk about it on our forums!": "道場用の学習コンテンツを作成したり、他の人の役に立ちそうなオンラインリソースを見つけたら、フォーラムで共有し話し合ってください！",
   "Discuss your content on our forums": "フォーラムでコンテンツについて話し合う",
@@ -112,5 +115,6 @@
   "Training and supports for volunteers": "ボランティア向けのトレーニングとサポート",
   "View our ready made resources for Dojos": "道場向けに作成されたリソースを表示する",
   "Ask us directly": "直接問い合わせる",
-  "Girls initiative": "ガールズイニシアチブ"
+  "Girls initiative": "ガールズイニシアチブ",
+  "Governance": "Governance"
 }

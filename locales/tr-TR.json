@@ -61,6 +61,9 @@
   "App Inventor for social enterprise": "Sosyal girişim için App Inventor",
   "Scratch for social enterprise": "Sosyal girişim için Scratch",
   "HTML & CSS for social enterprise": "Sosyal girişim için HTML ve CSS",
+  "Make a chatbot using Scratch": "Make a chatbot using Scratch",
+  "Create a meme generator in HTML": "Create a meme generator in HTML",
+  "Code a pong game using Python": "Code a pong game using Python",
   "View more CoderDojo projects": "Daha fazla CoderDojo projesi görün",
   "If you've created a piece of learning content for your Dojo or found an online resource that others might find useful, please share and talk about it on our forums!": "Şayet kendi Dojo'nuz için küçük de olsa bir eğitim içeriği oluşturmuşsanız veya diğerlerinin faydalı olduğunu düşüneceği çevrimiçi bir kaynak bulmuşsanız, lütfen forum sayfalarımızda paylaşın ve bundan bize biraz bahsedin!",
   "Discuss your content on our forums": "İçeriğinizi forumlarımızda tartışın",
@@ -112,5 +115,6 @@
   "Training and supports for volunteers": "Gönüllüler için eğitim ve destekler",
   "View our ready made resources for Dojos": "Dojolar için hazır kaynaklarımızı görün",
   "Ask us directly": "Bize doğrudan sorun",
-  "Girls initiative": "Kızların girişimi"
+  "Girls initiative": "Kızların girişimi",
+  "Governance": "Governance"
 }

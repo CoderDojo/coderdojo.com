@@ -61,6 +61,9 @@
   "App Inventor for social enterprise": "用于社会企业的App Inventor",
   "Scratch for social enterprise": "用于社会企业的Scratch",
   "HTML & CSS for social enterprise": "用于社会企业的 HTML 和 CSS",
+  "Make a chatbot using Scratch": "Make a chatbot using Scratch",
+  "Create a meme generator in HTML": "Create a meme generator in HTML",
+  "Code a pong game using Python": "Code a pong game using Python",
   "View more CoderDojo projects": "查看更多的 CoderDojo 项目",
   "If you've created a piece of learning content for your Dojo or found an online resource that others might find useful, please share and talk about it on our forums!": "如果您为 Dojo 创建了一篇学习内容，或者找到了可能会对其他人有用的在线资源，请在我们的论坛上分享并讨论！",
   "Discuss your content on our forums": "在我们的论坛上讨论您的内容",
@@ -112,5 +115,6 @@
   "Training and supports for volunteers": "培训并支持志愿者",
   "View our ready made resources for Dojos": "查看我们为Dojo准备好的资源",
   "Ask us directly": "直接询问我们",
-  "Girls initiative": "女性主导"
+  "Girls initiative": "女性主导",
+  "Governance": "Governance"
 }
