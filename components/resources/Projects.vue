@@ -4,7 +4,9 @@
     <div class="c-projects__cards">
       <a :href="projectsUrl" class="c-projects__card" v-for="(project, i) in projects" :key="i">
         <img :src="project.imgSrc" />
-        <h3>{{ $t(project.title) }}</h3>
+        <h3 v-if="$t(project.title) !== project.title">{{ $t(project.title) }}</h3>
+        <h3 v-else-if="project.remoteTitle">{{ project.remoteTitle }}</h3>
+        <h3 v-else>{{ project.title }}</h3>
       </a>
     </div>
     <div class="c-projects__cta">
@@ -44,7 +46,7 @@
     async mounted () {
       this.translatedProjects = await Promise.all(projectsConf.map(
         p => axios.get(`https://learning-admin.raspberrypi.org/api/v1/${this.locale}/${p.slug}`)
-          .then(d => ({ ...p, title: d.data.data.attributes.content.title }))
+          .then(d => ({ ...p, remoteTitle: d.data.data.attributes.content.title }))
       ))
       // Reset the projects to the default conf in case CORS blocks the translation
       .catch(() => this.translatedProjects = projectsConf);
