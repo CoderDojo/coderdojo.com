@@ -61,9 +61,9 @@
   "App Inventor for social enterprise": "App Inventor szociális vállalkozás számára",
   "Scratch for social enterprise": "Scratch szociális vállalkozás számára",
   "HTML & CSS for social enterprise": "HTML és CSS szociális vállalkozás számára",
-  "Make a chatbot using Scratch": "Make a chatbot using Scratch",
-  "Create a meme generator in HTML": "Create a meme generator in HTML",
-  "Code a pong game using Python": "Code a pong game using Python",
+  "Make a chatbot using Scratch": "Készíts csevegőrobotot Scratchben",
+  "Create a meme generator in HTML": "Készíts mémgenerátort HTML-ben",
+  "Code a pong game using Python": "Kódolj Pong játékot Pythonban",
   "View more CoderDojo projects": "Nézz több CoderDojo projektet",
   "If you've created a piece of learning content for your Dojo or found an online resource that others might find useful, please share and talk about it on our forums!": "Ha készítettel valamilyen tananyagot a Dojódnak, vagy találtál egy online segédanyagot, amely másnak is hasznos lehet, oszd meg és beszélj róla a fórumunkon!",
   "Discuss your content on our forums": "Beszélgess a tartalmaidról a fórumunkon",
@@ -116,5 +116,5 @@
   "View our ready made resources for Dojos": "Nézd meg az előre elkészített segédanyagainkat a Dojóknak",
   "Ask us directly": "Kérdezz tőlünk közvetlenül",
   "Girls initiative": "Kezdeményezés lányoknak",
-  "Governance": "Governance"
+  "Governance": "Irányítás"
 }
