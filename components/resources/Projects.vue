@@ -4,7 +4,7 @@
     <div class="c-projects__cards">
       <a :href="projectsUrl" class="c-projects__card" v-for="(project, i) in projects" :key="i">
         <img :src="project.imgSrc" />
-        <h3 v-if="$t(project.title) !== project.title">{{ $t(project.title) }}</h3>
+        <h3 v-if="$t(project.title) !== project.title || locale === 'en'">{{ $t(project.title) }}</h3>
         <h3 v-else-if="project.remoteTitle">{{ project.remoteTitle }}</h3>
         <h3 v-else>{{ project.title }}</h3>
       </a>
