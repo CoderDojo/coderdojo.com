@@ -24,6 +24,11 @@
         <p class="c-questions__text">{{ $t('Want to see it all in person?') }}</p>
         <a href="https://zen.coderdojo.com/find" class="c-questions__link">{{ $t('Find a Dojo event near you to visit') }}</a>  
       </div>                   
+      <hr class="c-questions__divider">
+      <div class="c-questions__wrapper">
+        <p class="c-questions__text">{{ $t('Want more information about starting a Dojo and what our team can support you with? Join a webinar!') }}</p>
+        <a href="https://help.coderdojo.com/hc/en-us/articles/360022696411" class="c-questions__link">{{ $t('Start a Dojo: Webinar') }}</a>  
+      </div>                   
     </div>
   </div>
 </template>
