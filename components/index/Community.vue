@@ -14,7 +14,7 @@
             <p class="c-community__card-text-content">{{ $t('We hold big yearly events called Coolest Projects for young people to show off what they have made.') }}</p>
           </div>
         </a>
-        <a href="http://dojocon.coderdojo.com" class="c-community__card">
+        <a href="https://coderdojo.com/2018/10/16/supporting-dojocons-in-the-future/" class="c-community__card">
           <img src="~/static/images/index/dojocon.jpg" />
           <div class="c-community__card-text center-text">
             <p class="c-community__card-title">DojoCons</p>
