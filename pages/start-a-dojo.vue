@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Banner />
     <Hero />
     <Champion />
     <Questions />
@@ -7,6 +8,7 @@
 </template>
 
 <script>
+import Banner from '~/components/startadojo/Banner';
 import Hero from '~/components/startadojo/Hero';
 import Champion from '~/components/startadojo/Champion';
 import Questions from '~/components/startadojo/Questions';
@@ -31,6 +33,7 @@ export default {
     }
   },
   components: {
+    Banner,
     Hero,
     Champion,
     Questions,
