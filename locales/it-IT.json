@@ -61,8 +61,8 @@
   "App Inventor for social enterprise": "App Inventor per l'impresa sociale",
   "Scratch for social enterprise": "Scratch per l'impresa sociale",
   "HTML & CSS for social enterprise": "HTML & CSS per l'impresa sociale",
-  "Make a chatbot using Scratch": "Make a chatbot using Scratch",
-  "Create a meme generator in HTML": "Create a meme generator in HTML",
+  "Make a chatbot using Scratch": "Crea una chatbot usando Scratch",
+  "Create a meme generator in HTML": "Crea un generatore di meme in HTML",
   "Code a pong game using Python": "Code a pong game using Python",
   "View more CoderDojo projects": "Esplora altri progetti di CoderDojo",
   "If you've created a piece of learning content for your Dojo or found an online resource that others might find useful, please share and talk about it on our forums!": "Se hai creato dei contenuti per il tuo CoderDojo o hai trovato delle risorse online che possono essere utili ad altre persone, condividile e parlane sui nostri forum!",
@@ -118,5 +118,10 @@
   "Girls initiative": "Iniziative per ragazze",
   "Governance": "Governance",
   "Want more information about starting a Dojo and what our team can support you with? Join a webinar!": "Want more information about starting a Dojo and what our team can support you with? Join a webinar!",
-  "Start a Dojo: Webinar": "Start a Dojo: Webinar"
+  "Start a Dojo: Webinar": "Apri un Dojo: Webinar",
+  "Thank you for your interest in joining the CoderDojo community!": "Grazie per esserti unito alla community di CoderDojo!",
+  "Due to the coronavirus pandemic, we have paused the Dojo verification process.": "Due to the coronavirus pandemic, we have paused the Dojo verification process.",
+  "In the meantime, we’re providing exciting opportunities for young people, parents, volunteers, and educators to get creative with tech through": "Nel frattempo stiamo offrendo nuove fantastiche opportunità per ragazzi, genitori, volontari ed educatori per essere creativi con la tecnologia",
+  "Digital Making at Home": "Digital Making at Home",
+  "from the Raspberry Pi Foundation.": "from the Raspberry Pi Foundation."
 }
