@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Banner />
     <Hero :dojos="dojos" />
     <Testimonials/>
     <Volunteer />
@@ -12,6 +13,7 @@
 
 <script>
 import axios from 'axios';
+import Banner from '~/components/Banner';
 import Hero from '~/components/index/Hero';
 import Testimonials from '~/components/index/Testimonials';
 import Volunteer from '~/components/index/Volunteer';
@@ -41,6 +43,7 @@ export default {
     }
   },
   components: {
+    Banner,
     Hero,
     Testimonials,
     Volunteer,
