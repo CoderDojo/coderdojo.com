@@ -1,6 +1,6 @@
 # coderdojo.com
 
-> CoderDojo Main Site
+> CoderDojo Main Site 
 
 ## Build Setup
 
@@ -36,7 +36,7 @@ Translations are pulled regularly from [crowdin] and commited in this repo. Plea
 
 `docker run --entrypoint "/bin/bash" -it -e GITHUB_AUTH_TOKEN=xxxx -e CROWDIN_API_KEY=xxxx crowdin-cd-com`
 
-### Publishing
+### Publishing 
 
 `docker tag crowdin-cd-com coderdojo/crowdin-cd-com`
 `docker push coderdojo/crowdin-cd-com`
