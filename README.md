@@ -28,6 +28,10 @@ Translations are pulled regularly from [crowdin] and commited in this repo. Plea
 
 [crowdin]: https://crowdin.com/project/coderdojo-com
 
+If a new language is added on crowdin, you will need to add it into the [update-trads.sh](./update-trads.sh) script, get that reviewed, merge it, then build and publish the container as below.  There is a regular Cron job run on the Zen Kubernetes platform which triggers the above pull from crowdin and commit to this repo.
+
+When the cron runs and adds any new languages to the repository, (look in the [locales](./locales) folder), you will need to edit [nuxt.config.js](./nuxt-config.js) to add this to the 'nuxt-i18n' locales section.
+
 ### Building
 
 `docker build -f crowdin.dockerfile . -t crowdin-cd-com`
@@ -35,6 +39,15 @@ Translations are pulled regularly from [crowdin] and commited in this repo. Plea
 ### Testing
 
 `docker run --entrypoint "/bin/bash" -it -e GITHUB_AUTH_TOKEN=xxxx -e CROWDIN_API_KEY=xxxx crowdin-cd-com`
+
+GITHUB_AUTH_TOKEN - generate one of these in https://github.com/settings/tokens and use that.
+
+CROWDIN_API_KEY - get it from here: https://crowdin.com/project/coderdojo-com/settings#api
+
+In the console, run something like the following to test:
+`crowdin download -l it --verbose;`
+
+Watch the output (It does something like create a new directory called coderdojo.com and save a zipfile for the lang in there).
 
 ### Publishing 
 

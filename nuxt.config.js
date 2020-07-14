@@ -144,6 +144,13 @@ module.exports = {
           name: '한국어',
           file: 'ko-KR.json',
         },
+        {
+          code: 'ar-SA',
+          shortcode: 'ar',
+          iso: 'ar-SA',
+          name: 'اَلْعَرَبِيَّةُ',
+          file: 'ar-SA.json',
+        },
       ],
       lazy: true,
       langDir: 'locales/',
