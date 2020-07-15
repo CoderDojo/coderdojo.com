@@ -32,6 +32,14 @@ If a new language is added on crowdin, you will need to add it into the [update-
 
 When the cron runs and adds any new languages to the repository, (look in the [locales](./locales) folder), you will need to edit [nuxt.config.js](./nuxt-config.js) to add this to the 'nuxt-i18n' locales section.
 
+If the language is also right-to-left, you will need to update [typography.scss](./assets/typography.scss) to set the text alignment for the language.  Add another selector, e.g. `html[lang="ar-SA"]` to this rule:
+
+```css
+html[lang="ar-SA"] {
+  direction: rtl;
+}
+```
+
 ### Building
 
 `docker build -f crowdin.dockerfile . -t crowdin-cd-com`

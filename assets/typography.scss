@@ -11,6 +11,10 @@ html {
   color: $black;
 }
 
+html[lang="ar-SA"] {
+  direction: rtl;
+}
+
 h1, h2, h3 {
   font-family: 'Libre Franklin', sans-serif;
 }
@@ -47,5 +51,5 @@ h3 {
   }
   h3 {
     font-size: 18px;
-  }  
+  }
 }

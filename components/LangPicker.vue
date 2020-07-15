@@ -32,7 +32,7 @@ export default {
     closestMatchingLocale() {
       const browserLocaleCode = navigator.language;
       const browserLocaleShortCode = navigator.language.split('-')[0];
-      const matchingCode = this.$i18n.locales.find(locale => locale.code === browserLocaleCode);
+      const matchingCode = this.$i18n.locales.find(locale => locale.code === browserLocaleCode || locale.shortcode === browserLocaleCode);
       if (matchingCode) return matchingCode.code;
       const matchingShortCode = this.$i18n.locales.find(locale => locale.shortCode === browserLocaleShortCode);
       if (matchingShortCode) return matchingShortCode.code;
