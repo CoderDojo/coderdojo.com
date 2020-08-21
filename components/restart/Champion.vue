@@ -5,7 +5,7 @@
       <div class="c-champion__content-individual">
         <div class="c-champion__text">
           <p>{{ $t('Dojos are championed by individuals all around the world who are passionate about giving young people the opportunity to learn to code. CoderDojo champions are enthusiastic, driven (and often not techie!) volunteers who take charge of setting up and maintaining a Dojo.') }}</p>
-          <p>{{ $t('But champions are never alone! They find volunteers to help them organise their Dojo and mentor the young people. And champions always have CoderDojo\'s resources and our 200+ projects to help them run their club and engage the kids, and they can always ask us, the CoderDojo team, for our help directly.') }}</p>
+          <p>{{ $t('But champions are never alone! They find volunteers to help them organise their Dojo and mentor the young people. And champions always have CoderDojo\'s resources and our 200+ projects to help them run their club and engage the kids, and they can always ask us, the CoderDojo team, for our help directly.') }} </p>
         </div>   
       </div>
       <div class="c-champion__content-individual">
