@@ -45,8 +45,8 @@
           <h3>Resources</h3>
           <ul>
             <li><a href="">Which tool is right for you?</a></li>
-            <li><a>Session structure template pdf</a></li>
-            <li><a>Code of conduct for children</a></li>
+            <li><a href="">Session structure template pdf</a></li>
+            <li><a href="">Code of conduct for children</a></li>
           </ul>
         </div>
       </div>
@@ -165,6 +165,9 @@
     <div class="c-sessions__cta">
       <p><a class="c-button c-button--orange" href="">Read our guidance</a></p>
     </div>
+    
+    <hr />
+
     <h2>Adapting over time</h2>
 
     <p>You may need to adapt and change how you run your club as restrictions in your local area change  and combine elements of online, remote and in-person activities, or you may do different things at different times. Here are some example1s from the community of how they have combined the above options.</p>
@@ -195,7 +198,6 @@
       justify-content: space-between;
     }
     &__text {
-      max-width: 80%;
       margin: 0 auto;
       p {
         margin-bottom: 40px;
@@ -236,7 +238,12 @@
     }
     &__cta {
       text-align: center;
-      margin: 80px auto 80px auto;
+      margin: 2rem auto;
+    }
+
+    hr {
+      margin: 2rem auto;
+      border-color: $grey-bg;
     }
   }
   @include media-breakpoint-max(sm) {

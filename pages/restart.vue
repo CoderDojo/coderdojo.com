@@ -11,7 +11,6 @@
 import Banner from '~/components/Banner';
 import Hero from '~/components/restart/Hero';
 import Sessions from '~/components/restart/Sessions';
-import Questions from '~/components/restart/Questions';
 export default {
   head () {
     return {
@@ -36,7 +35,6 @@ export default {
     Banner,
     Hero,
     Sessions,
-    Questions,
   },
 };
 </script>
