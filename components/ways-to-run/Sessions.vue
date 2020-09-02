@@ -1,40 +1,5 @@
 <template>
   <div class="c-sessions" id="sessions">
-    <h2 id="how-to-run" class="c-sessions__header center-text">{{ $t('How to run your coding club safely during the pandemic') }}</h2>
-    <table class="c-how-to-run__table">
-      <thead>
-        <tr>
-          <th scope="col">My current situation</th>
-          <th scope="col">Recommended club activities</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>It is not safe to run in-person club sessions right now.</td>
-          <td>
-            <ul>
-              <li>Online sessions</li>
-              <li>Remote activities</li>
-              <li>A mixture of online sessions and remote activities</li>
-            </ul>
-          </td>
-        </tr>
-        <tr>
-          <td>I am able to run in-person club sessions with safety measures such as social distancing.</td>
-          <td>
-            <ul>
-              <li>In-person sessions respecting local safety guidance</li>
-              <li>Online sessions</li>
-              <li>Remote activities</li>
-              <li>A mixture of in-person sessions, online sessions, and remote activities</li>
-            </ul>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-
-    <hr/>
-
     <h2 id="in-person-sessions" class="c-sessions__header center-text">{{ $t('In-person sessions') }}</h2>
     <p>In-person sessions during the pandemic need to run in compliance with guidance from your local health authorities and host venue. For example, this may mean using safety measures regarding hygiene, social distancing, and check-ins.</p>
     <div class="c-sessions__content">
@@ -183,29 +148,6 @@
 </template>
 <style lang="scss" scoped>
 @import "~/assets/_variables.scss";
-
-.c-how-to-run__table {
-  border: solid 1px #ccc;
-  border-collapse: collapse;
-  border-spacing: 0;
-  margin: 2rem auto 2.5rem auto;
-  width: 90%;
-
-  thead th {
-    background-color: #f4f4f4;
-    border: solid 1px #ccc;
-    color: #000;
-    padding: 10px;
-    text-align: left;
-  }
-
-  tbody td {
-    border: solid 1px #ccc;
-    color: #333;
-    padding: 10px;
-  }
-}
-
 .c-sessions {
   max-width: $content-width;
   margin: 0 auto 40px;
