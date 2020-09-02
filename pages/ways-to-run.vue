@@ -14,14 +14,14 @@ import Sessions from "~/components/ways-to-run/Sessions";
 export default {
   head() {
     return {
-      title: this.$t("Start a CoderDojo club in your local area"),
+      title: this.$t("Ways to run a CoderDojo club"),
       meta: [
         {
           hid: "description",
           name: "description",
           property: "description",
           content: this.$t(
-            "Starting a Dojo is a fun and incredibly rewarding experience. The most important attribute you should have is that you can bring people together for a shared goal. Our registration process will guide you every step of the way making sure you have the most useful resources to hand."
+            "CoderDojo volunteers and clubs all around the world have been affected by the coronavirus pandemic. Champions and mentors from across the globe have talked to us to share how they are running their clubs now, and we're amazed by their resilience and creativity."
           ),
         },
         {
@@ -29,14 +29,14 @@ export default {
           name: "og:description",
           property: "og:description",
           content: this.$t(
-            "Starting a Dojo is a fun and incredibly rewarding experience. The most important attribute you should have is that you can bring people together for a shared goal. Our registration process will guide you every step of the way making sure you have the most useful resources to hand."
+            "CoderDojo volunteers and clubs all around the world have been affected by the coronavirus pandemic. Champions and mentors from across the globe have talked to us to share how they are running their clubs now, and we're amazed by their resilience and creativity."
           ),
         },
         {
           hid: "og:title",
           name: "og:title",
           property: "og:title",
-          content: this.$t("Start a CoderDojo club in your local area"),
+          content: this.$t("Ways to run a CoderDojo club"),
         },
         {
           hid: "og:site-name",
@@ -48,7 +48,7 @@ export default {
           hid: "og:url",
           name: "og:url",
           property: "og:url",
-          content: "https://coderdojo.com/start-a-dojo/",
+          content: "https://coderdojo.com/ways-to-run/",
         },
         {
           hid: "og:type",
@@ -66,13 +66,13 @@ export default {
           hid: "twitter:title",
           name: "twitter:title",
           property: "twitter:title",
-          content: this.$t("Start a CoderDojo club in your local area"),
+          content: this.$t("Ways to run a CoderDojo club"),
         },
         {
           hid: "twitter:url",
           name: "twitter:url",
           property: "twitter:url",
-          content: "https://coderdojo.com/start-a-dojo/",
+          content: "https://coderdojo.com/ways-to-run/",
         },
         {
           hid: "twitter:image",
@@ -85,7 +85,7 @@ export default {
           name: "twitter:description",
           property: "twitter:description",
           content: this.$t(
-            "Starting a Dojo is a fun and incredibly rewarding experience. The most important attribute you should have is that you can bring people together for a shared goal. Our registration process will guide you every step of the way making sure you have the most useful resources to hand."
+            "CoderDojo volunteers and clubs all around the world have been affected by the coronavirus pandemic. Champions and mentors from across the globe have talked to us to share how they are running their clubs now, and we're amazed by their resilience and creativity."
           ),
         },
         {
