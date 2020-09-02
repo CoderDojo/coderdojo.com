@@ -85,7 +85,7 @@
       </div>
     </div>
     <div class="c-sessions__cta">
-      <p><a class="c-button c-button--orange" href="">Read our guidance</a></p>
+      <p><a class="c-button c-button--orange" href="">Guidance on online sessions</a></p>
     </div>
 
     <hr />
@@ -132,7 +132,7 @@
       </div>
     </div>
     <div class="c-sessions__cta">
-      <p><a class="c-button c-button--orange" href="">Read our guidance</a></p>
+      <p><a class="c-button c-button--orange" href="">Guidance on remote activites</a></p>
     </div>
 
     <hr />
@@ -152,12 +152,13 @@
   max-width: $content-width;
   margin: 0 auto 40px;
   padding: 40px 0 40px;
-  &__in-person {
+  &__header {
+    margin-bottom: 20px;
   }
   &__content {
     display: flex;
     max-width: $content-width;
-    margin: 60px auto 0 auto;
+    margin: 20px auto 0 auto;
   }
   &__content-individual {
     flex: 1;
@@ -166,7 +167,7 @@
   &__text {
     margin: 0 auto;
     p {
-      margin-bottom: 40px;
+      margin-bottom: 20px;
     }
   }
   &__image {

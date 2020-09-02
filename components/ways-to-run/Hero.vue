@@ -135,6 +135,7 @@ export default {
     }
   }
 }
+
 @include media-breakpoint-max(md) {
   .c-hero {
     &__step-cards {
