@@ -50,8 +50,8 @@
       </div>
     </div>
     <div class="c-sessions__content">
-      <div class="c-sessions__content-individual">
-        image
+      <div class="c-sessions__content-individual c-sessions__image">
+        <img src="~/static/images/ways-to-run/distancing.png"/>
       </div>
       <div class="c-sessions__content-individual">
         <div class="c-sessions__text">
@@ -62,9 +62,6 @@
           </ul>
         </div>
       </div>
-    </div>
-    <div class="c-sessions__cta">
-      <p><a class="c-button c-button--orange" href="">Read our guidance</a></p>
     </div>
 
     <hr/>
@@ -96,8 +93,8 @@
       </div>
     </div>
     <div class="c-sessions__content">
-      <div class="c-sessions__content-individual">
-        image
+      <div class="c-sessions__content-individual c-sessions__image">
+        <img src="~/static/images/ways-to-run/zoom-call.png"/>
       </div>
       <div class="c-sessions__content-individual">
         <div class="c-sessions__text">
@@ -144,8 +141,8 @@
       </div>
     </div>
     <div class="c-sessions__content">
-      <div class="c-sessions__content-individual">
-        image
+      <div class="c-sessions__content-individual c-sessions__image">
+        <img src="~/static/images/ways-to-run/learning-from-home.png"/>
       </div>
       <div class="c-sessions__content-individual">
         <div class="c-sessions__text">
@@ -180,7 +177,7 @@
   border: solid 1px #ccc;
   border-collapse: collapse;
   border-spacing: 0;
-  margin: 2rem auto;
+  margin: 2rem auto 2.5rem auto;
   width: 90%;
 
   thead th {
@@ -217,6 +214,15 @@
     margin: 0 auto;
     p {
       margin-bottom: 40px;
+    }
+  }
+  &__image {
+    flex: 1;
+    margin-right: 2rem;
+
+    img {
+      max-width: 445px;
+      width: 100%;
     }
   }
   &__illustration {
