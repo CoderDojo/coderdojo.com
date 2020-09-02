@@ -48,6 +48,17 @@
           </ul>
         </div>
       </div>
+      <!-- <div class="c-sessions__content-individual">
+        <div class="c-sessions__quote-cards">
+          <div class="c-sessions__quote-card">
+            <p class="c-sessions__quote">“{{ $t('Realising that I had created such a wonderful place for the children also ignited a spark in me.') }}”</p>
+            <div class="c-sessions__quote-attr">
+              <img class="c-sessions__quote-attr-image" src="~/static/images/startadojo/marloes.jpeg" />
+              <span class="c-sessions__quote-attr-text">Marloes, Netherlands</span>
+            </div>
+          </div>
+        </div>
+      </div> -->
     </div>
     <div class="c-sessions__content">
       <div class="c-sessions__content-individual c-sessions__image">
@@ -80,7 +91,7 @@
           </ul>
         </div>
       </div>
-      <div class="c-sessions__content-individual">
+      <!-- <div class="c-sessions__content-individual">
         <div class="c-sessions__quote-cards">
           <div class="c-sessions__quote-card">
             <p class="c-sessions__quote">“{{ $t('Realising that I had created such a wonderful place for the children also ignited a spark in me.') }}”</p>
@@ -90,7 +101,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
     <div class="c-sessions__content">
       <div class="c-sessions__content-individual c-sessions__image">
@@ -128,7 +139,7 @@
           </ul>
         </div>
       </div>
-      <div class="c-sessions__content-individual">
+      <!-- <div class="c-sessions__content-individual">
         <div class="c-sessions__quote-cards">
           <div class="c-sessions__quote-card">
             <p class="c-sessions__quote">“{{ $t('Realising that I had created such a wonderful place for the children also ignited a spark in me.') }}”</p>
@@ -138,7 +149,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
     <div class="c-sessions__content">
       <div class="c-sessions__content-individual c-sessions__image">
