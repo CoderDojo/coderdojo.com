@@ -1,6 +1,5 @@
 <template>
   <div>
-    <Banner />
     <Hero />
     <Sessions />
     <Questions />
@@ -8,7 +7,6 @@
 </template>
 
 <script>
-import Banner from "~/components/Banner";
 import Hero from "~/components/ways-to-run/Hero";
 import Sessions from "~/components/ways-to-run/Sessions";
 export default {
@@ -98,7 +96,6 @@ export default {
     };
   },
   components: {
-    Banner,
     Hero,
     Sessions,
   },
