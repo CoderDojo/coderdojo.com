@@ -105,8 +105,16 @@ export default {
   }
 
   &__step-card {
-    background-color: $white;
+    background-color: #fee6e5;
     border-radius: 8px;
+
+    &:nth-child(2) {
+      background-color: #ffebcb;
+    }
+
+    &:nth-child(3) {
+      background-color: #daf1db;
+    }
   }
 
   &__step {
