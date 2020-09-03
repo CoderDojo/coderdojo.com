@@ -5,7 +5,7 @@
     <div class="c-sessions__content">
       <div class="c-sessions__content-individual">
         <div class="c-sessions__text">
-          <p>The key considerations of running in-person sessions are:</p>
+          <p>When planning in-person sessions, consider:</p>
           <ul>
             <li>Following local public health and host venue guidance</li>
             <li>Planning suitable safety measures with the help of our checklist</li>
@@ -43,16 +43,15 @@
     <hr/>
 
     <h2 id="online-sessions" class="c-sessions__header center-text">{{ $t('Online sessions') }}</h2>
-    <p>You can run online sessions using video conferencing or live-streaming tools. In online sessions, young people work on a project together, or they work independently on different activities. Volunteers support them to write and debug their code in real time.</p>
+    <p>You can run online sessions using video conferencing or live-streaming tools. In online sessions, young people work on a project together, or they work independently on different activities. Volunteers support them to write and debug their code during the session.</p>
     <div class="c-sessions__content">
       <div class="c-sessions__content-individual">
         <div class="c-sessions__text">
-          <p>The key considerations of running online sessions are:</p>
+          <p>When planning online sessions, consider:</p>
           <ul>
-            <li>Ensuring safety of young people online</li>
-            <li>Choosing the right tool for you</li>
-            <li>Communicating with parents</li>
-            <li>Structuring your session</li>
+            <li>The safety of children online</li>
+            <li>The tools you will use</li>
+            <li>How to communicate with parents</li>
           </ul>
         </div>
       </div>
@@ -95,7 +94,7 @@
     <div class="c-sessions__content">
       <div class="c-sessions__content-individual">
         <div class="c-sessions__text">
-          <p>The key considerations for sending remote activities are:</p>
+          <p>When planning remote sessions, consider:</p>
           <ul>
             <li>Communicating with young people and their parents</li>
             <li>Choosing projects or challenges</li>

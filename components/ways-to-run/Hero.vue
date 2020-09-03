@@ -42,6 +42,9 @@
          </div>
       </div>
     </div>
+      <div class="c-hero__cta">
+        <a href=""  data-action="click" data-category="Download club options framework" data-label="Ways to Run Downloads" class="c-button c-button--teal">{{ $t('Download our club options framework') }}</a>
+      </div>
   </div>
 </template>
 
@@ -94,7 +97,7 @@ export default {
 
   &__step-container {
     max-width: 1200px;
-    margin: 60px auto 0 auto;
+    margin: 60px auto;
   }
 
   &__step-cards {
