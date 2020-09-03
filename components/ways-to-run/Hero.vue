@@ -15,9 +15,9 @@
             <h2 class="c-hero__step-title">It is not safe to run in-person sessions right now.</h2>
             <p class="c-hero__step-text">We recommend:</p>
             <ul class="c-hero__step-list">
-              <li>Online sessions</li>
-              <li>Remote activities</li>
-              <li>A mixture of online sessions and remote activities</li>
+              <li><a href="#online">Online sessions</a></li>
+              <li><a href="#remote">Remote activities</a></li>
+              <li><a href="#flexibility">A mixture of online sessions and remote activities</a></li>
             </ul>
          </div>
          <div class="c-hero__step-card">
@@ -25,10 +25,10 @@
             <h2 class="c-hero__step-title">I am able to run in-person club sessions with safety measures such as social distancing.</h2>
             <p class="c-hero__step-text">We recommend:</p>
             <ul class="c-hero__step-list">
-              <li>In-person sessions respecting local safety guidance</li>
-              <li>Online sessions</li>
-              <li>Remote activities</li>
-              <li>A mixture of in-person sessions, online sessions and remote activities</li>
+              <li><a href="#in-person">In-person sessions respecting local safety guidance</a></li>
+              <li><a href="#online">Online sessions</a></li>
+              <li><a href="#remote">Remote activities</a></li>
+              <li><a href="#flexibility">A mixture of in-person sessions, online sessions and remote activities</a></li>
             </ul>
          </div>
         <div class="c-hero__step-card">
@@ -36,8 +36,8 @@
             <h2 class="c-hero__step-title">I am able to run in-person club sessions with no safety measures.</h2>
             <p class="c-hero__step-text">We recommend:</p>
             <ul class="c-hero__step-list">
-              <li>In-person sessions</li>
-              <li>A mixture of in-person sessions, online sessions and remote activities</li>
+              <li><a href="#in-person">In-person sessions</a></li>
+              <li><a href="#flexibility">A mixture of in-person sessions, online sessions and remote activities</a></li>
             </ul>
          </div>
       </div>
@@ -143,6 +143,16 @@ export default {
 
     &-list {
       margin: 10px 20px 20px 20px;
+
+      a,
+      a:visited {
+        color: #000000;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
     }
   }
 }

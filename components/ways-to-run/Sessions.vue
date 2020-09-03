@@ -1,5 +1,5 @@
 <template>
-  <div class="c-sessions" id="sessions">
+  <div class="c-sessions" id="in-person">
     <h2 id="in-person-sessions" class="c-sessions__header center-text">{{ $t('In-person sessions') }}</h2>
     <p>In-person sessions during the pandemic need to run in compliance with guidance from your local health authorities and host venue. For example, this may mean using safety measures regarding hygiene, social distancing, and check-ins.</p>
     <div class="c-sessions__content">
@@ -42,7 +42,7 @@
 
     <hr/>
 
-    <h2 id="online-sessions" class="c-sessions__header center-text">{{ $t('Online sessions') }}</h2>
+    <h2 id="online" class="c-sessions__header center-text">{{ $t('Online sessions') }}</h2>
     <p>You can run online sessions using video conferencing or live-streaming tools. In online sessions, young people work on a project together, or they work independently on different activities. Volunteers support them to write and debug their code during the session.</p>
     <div class="c-sessions__content">
       <div class="c-sessions__content-individual">
@@ -89,7 +89,7 @@
 
     <hr />
 
-    <h2 id="remote-activities" class="c-sessions__header center-text">{{ $t('Remote activites') }}</h2>
+    <h2 id="remote" class="c-sessions__header center-text">{{ $t('Remote activites') }}</h2>
     <p>Remote activities are projects and challenges that you send to young people from them to complete at home. This option is particularly suitable for your Dojo if your Dojo members have limited access to computers or to good-bandwidth internet.</p>
     <div class="c-sessions__content">
       <div class="c-sessions__content-individual">
@@ -136,7 +136,7 @@
 
     <hr />
 
-    <h2>Adapting over time</h2>
+    <h2 id="flexibility">Adapting over time</h2>
     <p>You may need to adapt and change how you run your club as restrictions in your local area change  and combine elements of online, remote and in-person activities, or you may do different things at different times. <a href="">Here are some examples from the community</a> of how they have combined the above options.</p>
 
     <hr />
