@@ -1,6 +1,6 @@
 <template>
   <div class="c-hero center-text">
-    <h1 class="c-hero__header1">{{ $t('Options for running your Dojo') }}</h1>
+    <h1 class="c-hero__header1">{{ $t('Ways to run your Dojo') }}</h1>
     <div class="c-hero__intro">
       <p>CoderDojo volunteers and clubs all around the world have been affected by the coronavirus pandemic. Champions and mentors from across the globe have talked to us to share how they are running their clubs now, and we're amazed by their resilience and creativity.</p>
 
