@@ -33,8 +33,8 @@
         <div class="c-sessions__text">
           <h3>Resources</h3>
           <ul>
-            <li><a href="">In-person session planning checklist</a></li>
-            <li><a href="">Promotional material</a></li>
+            <li><a href="" data-action="click" data-category="In-person session planning checklist" data-label="Ways to Run Downloads">In-person session planning checklist</a></li>
+            <li><a href="" data-action="click" data-category="Promotional material" data-label="Ways to Run Downloads">Promotional material</a></li>
           </ul>
         </div>
       </div>
@@ -76,10 +76,10 @@
         <div class="c-sessions__text">
           <h3>Resources</h3>
           <ul>
-            <li><a href="">'Comparison of tools' table</a></li>
-            <li><a href="">'Session structure template' PDF download</a></li>
-            <li><a href="">Online Code of Behaviour for Young People</a></li>
-            <li><a href="">Supporting your child at an online coding session</a></li>
+            <li><a href="" data-action="click" data-category="Comparison of tools table" data-label="Ways to Run Downloads">'Comparison of tools' table</a></li>
+            <li><a href="" data-action="click" data-category="Session structure template PDF download" data-label="Ways to Run Downloads">'Session structure template' PDF download</a></li>
+            <li><a href="" data-action="click" data-category="Online Code of Behaviour for Young People" data-label="Ways to Run Downloads">Online Code of Behaviour for Young People</a></li>
+            <li><a href="" data-action="click" data-category="Supporting your child at an online coding session" data-label="Ways to Run Downloads">Supporting your child at an online coding session</a></li>
           </ul>
         </div>
       </div>
@@ -124,9 +124,9 @@
         <div class="c-sessions__text">
           <h3>Resources</h3>
           <ul>
-            <li><a href="">Remote activities planning checklist</a></li>
-            <li><a href="">Tips for engaging parents and ninjas</a></li>
-            <li><a href="">Learning pathway</a></li>
+            <li><a href="" data-action="click" data-category="Remote activities planning checklist" data-label="Ways to Run Downloads">Remote activities planning checklist</a></li>
+            <li><a href="" data-action="click" data-category="Tips for engaging parents" data-label="Ways to Run Downloads">Tips for engaging parents and ninjas</a></li>
+            <li><a href="" data-action="click" data-category="Learning pathway" data-label="Ways to Run Downloads">Learning pathway</a></li>
           </ul>
         </div>
       </div>
@@ -146,6 +146,30 @@
     <p>Join our <a href="https://rpf.io/ccalls">regular community calls</a>, connect with other community members on our <a href="https://coderdojo.com/2020/01/23/5-reasons-to-be-a-part-of-our-global-slack/">Global CoderDojo slack instance</a>, or let us know how you are getting on <a href="/contact/">by email</a>.</p>
   </div>
 </template>
+
+<script>
+export default {
+  mounted() {
+    trackLinks();
+  },
+};
+
+function trackLinks() {
+  const trackedLinks = document.querySelectorAll("a[data-action]");
+  for (let trackedLink of trackedLinks) {
+    let data = trackedLink.dataset;
+
+    if (data.action !== "click") {
+      continue;
+    }
+
+    trackedLink.addEventListener(data.action, () =>
+      ga("send", "event", data.category, data.action, data.label)
+    );
+  }
+}
+</script>
+
 <style lang="scss" scoped>
 @import "~/assets/_variables.scss";
 .c-sessions {
