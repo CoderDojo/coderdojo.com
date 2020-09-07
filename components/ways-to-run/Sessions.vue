@@ -214,6 +214,7 @@ function trackLinks() {
     box-shadow: #f1e7f6 12px 9px 40px 0;
     display: flex;
     flex-direction: column;
+    font-style: italic;
     justify-content: space-between;
     padding: 24px 32px;
     border-radius: 5px;
