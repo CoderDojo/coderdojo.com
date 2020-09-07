@@ -8,15 +8,15 @@
           <p>When planning in-person sessions, consider:</p>
           <ul>
             <li>Following local public health and host venue guidance</li>
-            <li>Planning suitable safety measures with the help of our checklist</li>
-            <li>Communicating the safety measures to all Dojo members</li>
+            <li>Planning suitable safety measures eg. contract tracing</li>
+            <li>Communicating safety measures to all Dojo members</li>
           </ul>
         </div>
       </div>
       <div class="c-sessions__content-individual">
         <div class="c-sessions__quote-cards">
           <div class="c-sessions__quote-card">
-            <p class="c-sessions__quote">“{{ $t('The kids were very enthusiastic, they wanted to come back again. We started after the schools went back. A lot of parents were at ease when they saw the rules because they were the same rules as when you go to a restaurant or a cinema.') }}”</p>
+            <p class="c-sessions__quote">“{{ $t('We started after the schools went back. The kids were very enthusiastic. A lot of parents were at ease when they saw the rules because they were the same rules as when you go to a restaurant or a cinema.') }}”</p>
             <div class="c-sessions__quote-attr">
               <img class="c-sessions__quote-attr-image" src="~/static/images/ways-to-run/adult-1.png" />
               <span class="c-sessions__quote-attr-text">Martijn, Leusden Dojo, Netherlands</span>
@@ -33,7 +33,7 @@
         <div class="c-sessions__text">
           <h3>Resources</h3>
           <ul>
-            <li><a href="" data-action="click" data-label="Promotional material" data-category="Ways to Run Downloads">Promotional material</a></li>
+            <li><a href="https://help.coderdojo.com/hc/en-us/articles/360048197312-Resources-for-promoting-your-Dojo-during-the-coronavirus-pandemic" data-action="click" data-label="Promotional material" data-category="Ways to Run Downloads">Promotional material</a></li>
             <li><a href="https://dojo.soy/pathway" data-action="click" data-label="Learning pathway" data-category="Ways to Run Downloads">Learning pathway</a></li>
           </ul>
         </div>
@@ -58,7 +58,7 @@
       <div class="c-sessions__content-individual">
         <div class="c-sessions__quote-cards">
           <div class="c-sessions__quote-card">
-            <p class="c-sessions__quote">“{{ $t('Starting out, hosting online sessions was a bit challenging, but we accepted it, and we’re very glad we did. It is definitely important to host sessions online and keep young people coding in a relaxed environment, especially during this time.') }}”</p>
+            <p class="c-sessions__quote">“{{ $t('Starting out, hosting online sessions was a bit challenging, but we accepted it, and we’re very glad we did. It is definitely important to keep young people coding in a relaxed environment, especially during this time.') }}”</p>
             <div class="c-sessions__quote-attr">
               <img class="c-sessions__quote-attr-image" src="~/static/images/ways-to-run/adult-8.png" />
               <span class="c-sessions__quote-attr-text">Shubhi and Shriya, CoderDojo Clark, USA</span>
@@ -104,7 +104,7 @@
       <div class="c-sessions__content-individual">
         <div class="c-sessions__quote-cards">
           <div class="c-sessions__quote-card">
-            <p class="c-sessions__quote">“{{ $t('We’re posting workshops and challenges to keep our community active. The challenges are open-ended to allow engagement for all ages and enabling creativity and personalisation. Utilising this set up our community can participate in their own time, at their own pace.') }}”</p>
+            <p class="c-sessions__quote">“{{ $t('We’re posting workshops and challenges. The challenges are open-ended to allow engagement for all ages and enabling creativity and personalisation. Our community can participate in their own time, at their own pace.') }}”</p>
             <div class="c-sessions__quote-attr">
               <img class="c-sessions__quote-attr-image" src="~/static/images/ways-to-run/adult-6.png" />
               <span class="c-sessions__quote-attr-text">Amy, CoderDojo Warrington, UK</span>
@@ -121,8 +121,9 @@
         <div class="c-sessions__text">
           <h3>Resources</h3>
           <ul>
-            <li><a href="https://static.raspberrypi.org/files/clubs/Guidance_on_remote_activities.pdf" data-action="click" data-label="Remote activities planning checklist" data-category="Ways to Run Downloads">Remote activities planning checklist</a></li>
-            <li><a href="" data-action="click" data-label="Tips for engaging parents" data-category="Ways to Run Downloads">Tips for engaging parents and ninjas</a></li>
+            <li><a href="https://static.raspberrypi.org/files/clubs/Code_Club_and_CoderDojo_CV_Remote_Activities_Planning_Checklist.pdf" data-action="click" data-label="Remote activities planning checklist" data-category="Ways to Run Downloads">Remote activities planning checklist</a></li>
+            <li><a href="https://help.coderdojo.com/hc/en-us/articles/360049267931" data-action="click" data-label="Tips for engaging parents" data-category="Ways to Run Downloads">Tips for engaging parents and ninjas</a></li>
+            <li><a href="https://help.coderdojo.com/hc/en-us/articles/360048783512-Certificates-to-reward-your-Ninjas-and-volunteers-in-2020" data-action="click" data-label="Remote activities certificates" data-category="Ways to Run Downloads">Remote activities certificates</a></li>
           </ul>
         </div>
       </div>
