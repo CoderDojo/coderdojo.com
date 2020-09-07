@@ -11,7 +11,7 @@
     <div class="c-hero__step-container">
       <div class="c-hero__step-cards">
          <div class="c-hero__step-card">
-            <img src="~/static/images/ways-to-run/athens-club-1.jpg" class="c-hero__step-image">
+            <img src="~/static/images/ways-to-run/ways-red.jpg" class="c-hero__step-image">
             <h2 class="c-hero__step-title">It is not safe to run in-person sessions right now.</h2>
             <p class="c-hero__step-text">We recommend:</p>
             <ul class="c-hero__step-list">
@@ -21,7 +21,7 @@
             </ul>
          </div>
          <div class="c-hero__step-card">
-            <img src="~/static/images/ways-to-run/athens-club-2.jpg" class="c-hero__step-image">
+            <img src="~/static/images/ways-to-run/ways-yellow.jpg" class="c-hero__step-image">
             <h2 class="c-hero__step-title">I am able to run in-person club sessions with safety measures such as social distancing.</h2>
             <p class="c-hero__step-text">We recommend:</p>
             <ul class="c-hero__step-list">
@@ -32,7 +32,7 @@
             </ul>
          </div>
         <div class="c-hero__step-card">
-            <img src="~/static/images/ways-to-run/tesco-club.jpg" class="c-hero__step-image">
+            <img src="~/static/images/ways-to-run/ways-green.jpg" class="c-hero__step-image">
             <h2 class="c-hero__step-title">I am able to run in-person club sessions with no safety measures.</h2>
             <p class="c-hero__step-text">We recommend:</p>
             <ul class="c-hero__step-list">
