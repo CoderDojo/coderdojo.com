@@ -137,7 +137,7 @@
     <hr />
 
     <h2 id="flexibility">Adapting over time</h2>
-    <p>You may need to adapt and change how you run your club as restrictions in your local area change  and combine elements of online, remote and in-person activities, or you may do different things at different times. <a href="">Here are some examples from the community</a> of how they have combined the above options.</p>
+    <p>You may need to adapt and change how you run your club as restrictions in your local area change  and combine elements of online, remote and in-person activities, or you may do different things at different times.</p>
 
     <hr />
 
