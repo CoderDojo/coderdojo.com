@@ -43,7 +43,7 @@
       </div>
     </div>
       <div class="c-hero__cta">
-        <a href=""  data-action="click" data-category="Download club options framework" data-label="Ways to Run Downloads" class="c-button c-button--teal">{{ $t('Download our club options framework') }}</a>
+        <a href="https://static.raspberrypi.org/files/clubs/Code_Club_and_CoderDojo_CV_Framework.pdf" data-action="click" data-label="Download club options framework" data-category="Ways to Run Downloads" class="c-button c-button--teal">{{ $t('Download our club options framework') }}</a>
       </div>
   </div>
 </template>

@@ -13,17 +13,17 @@
           </ul>
         </div>
       </div>
-      <!-- <div class="c-sessions__content-individual">
+      <div class="c-sessions__content-individual">
         <div class="c-sessions__quote-cards">
           <div class="c-sessions__quote-card">
-            <p class="c-sessions__quote">“{{ $t('Realising that I had created such a wonderful place for the children also ignited a spark in me.') }}”</p>
+            <p class="c-sessions__quote">“{{ $t('The kids were very enthusiastic, they wanted to come back again. We started after the schools went back. A lot of parents were at ease when they saw the rules because they were the same rules as when you go to a restaurant or a cinema.') }}”</p>
             <div class="c-sessions__quote-attr">
-              <img class="c-sessions__quote-attr-image" src="~/static/images/startadojo/marloes.jpeg" />
-              <span class="c-sessions__quote-attr-text">Marloes, Netherlands</span>
+              <img class="c-sessions__quote-attr-image" src="~/static/images/ways-to-run/adult-1.png" />
+              <span class="c-sessions__quote-attr-text">Martijn, Leusden Dojo, Netherlands</span>
             </div>
           </div>
         </div>
-      </div> -->
+      </div>
     </div>
     <div class="c-sessions__content">
       <div class="c-sessions__content-individual c-sessions__image">
@@ -33,8 +33,8 @@
         <div class="c-sessions__text">
           <h3>Resources</h3>
           <ul>
-            <li><a href="" data-action="click" data-category="In-person session planning checklist" data-label="Ways to Run Downloads">In-person session planning checklist</a></li>
-            <li><a href="" data-action="click" data-category="Promotional material" data-label="Ways to Run Downloads">Promotional material</a></li>
+            <li><a href="" data-action="click" data-label="Promotional material" data-category="Ways to Run Downloads">Promotional material</a></li>
+            <li><a href="https://dojo.soy/pathway" data-action="click" data-label="Learning pathway" data-category="Ways to Run Downloads">Learning pathway</a></li>
           </ul>
         </div>
       </div>
@@ -55,17 +55,17 @@
           </ul>
         </div>
       </div>
-      <!-- <div class="c-sessions__content-individual">
+      <div class="c-sessions__content-individual">
         <div class="c-sessions__quote-cards">
           <div class="c-sessions__quote-card">
-            <p class="c-sessions__quote">“{{ $t('Realising that I had created such a wonderful place for the children also ignited a spark in me.') }}”</p>
+            <p class="c-sessions__quote">“{{ $t('Starting out, hosting online sessions was a bit challenging, but we accepted it, and we’re very glad we did. It is definitely important to host sessions online and keep young people coding in a relaxed environment, especially during this time.') }}”</p>
             <div class="c-sessions__quote-attr">
-              <img class="c-sessions__quote-attr-image" src="~/static/images/startadojo/marloes.jpeg" />
-              <span class="c-sessions__quote-attr-text">Marloes, Netherlands</span>
+              <img class="c-sessions__quote-attr-image" src="~/static/images/ways-to-run/adult-8.png" />
+              <span class="c-sessions__quote-attr-text">Shubhi and Shriya, CoderDojo Clark, USA</span>
             </div>
           </div>
         </div>
-      </div> -->
+      </div>
     </div>
     <div class="c-sessions__content">
       <div class="c-sessions__content-individual c-sessions__image">
@@ -75,10 +75,8 @@
         <div class="c-sessions__text">
           <h3>Resources</h3>
           <ul>
-            <li><a href="" data-action="click" data-category="Comparison of tools table" data-label="Ways to Run Downloads">'Comparison of tools' table</a></li>
-            <li><a href="" data-action="click" data-category="Session structure template PDF download" data-label="Ways to Run Downloads">'Session structure template' PDF download</a></li>
-            <li><a href="" data-action="click" data-category="Online Code of Behaviour for Young People" data-label="Ways to Run Downloads">Online Code of Behaviour for Young People</a></li>
-            <li><a href="" data-action="click" data-category="Supporting your child at an online coding session" data-label="Ways to Run Downloads">Supporting your child at an online coding session</a></li>
+            <li><a href="https://static.raspberrypi.org/files/clubs/Comparison_free_online_video_conferencing_tools.pdf" data-action="click" data-label="Comparison of tools table" data-category="Ways to Run Downloads">'Comparison of tools' table</a></li>
+            <li><a href="https://static.raspberrypi.org/files/clubs/Raspberry_Pi_Foundation_Online_club_session_schedule_printable_A4.pdf" data-action="click" data-label="Session structure template PDF download" data-category="Ways to Run Downloads">'Session structure template' PDF download</a></li>
           </ul>
         </div>
       </div>
@@ -103,17 +101,17 @@
           </ul>
         </div>
       </div>
-      <!-- <div class="c-sessions__content-individual">
+      <div class="c-sessions__content-individual">
         <div class="c-sessions__quote-cards">
           <div class="c-sessions__quote-card">
-            <p class="c-sessions__quote">“{{ $t('Realising that I had created such a wonderful place for the children also ignited a spark in me.') }}”</p>
+            <p class="c-sessions__quote">“{{ $t('We’re posting workshops and challenges to keep our community active. The challenges are open-ended to allow engagement for all ages and enabling creativity and personalisation. Utilising this set up our community can participate in their own time, at their own pace.') }}”</p>
             <div class="c-sessions__quote-attr">
-              <img class="c-sessions__quote-attr-image" src="~/static/images/startadojo/marloes.jpeg" />
-              <span class="c-sessions__quote-attr-text">Marloes, Netherlands</span>
+              <img class="c-sessions__quote-attr-image" src="~/static/images/ways-to-run/adult-6.png" />
+              <span class="c-sessions__quote-attr-text">Amy, CoderDojo Warrington, UK</span>
             </div>
           </div>
         </div>
-      </div> -->
+      </div>
     </div>
     <div class="c-sessions__content">
       <div class="c-sessions__content-individual c-sessions__image">
@@ -123,9 +121,8 @@
         <div class="c-sessions__text">
           <h3>Resources</h3>
           <ul>
-            <li><a href="" data-action="click" data-category="Remote activities planning checklist" data-label="Ways to Run Downloads">Remote activities planning checklist</a></li>
-            <li><a href="" data-action="click" data-category="Tips for engaging parents" data-label="Ways to Run Downloads">Tips for engaging parents and ninjas</a></li>
-            <li><a href="" data-action="click" data-category="Learning pathway" data-label="Ways to Run Downloads">Learning pathway</a></li>
+            <li><a href="https://static.raspberrypi.org/files/clubs/Guidance_on_remote_activities.pdf" data-action="click" data-label="Remote activities planning checklist" data-category="Ways to Run Downloads">Remote activities planning checklist</a></li>
+            <li><a href="" data-action="click" data-label="Tips for engaging parents" data-category="Ways to Run Downloads">Tips for engaging parents and ninjas</a></li>
           </ul>
         </div>
       </div>
