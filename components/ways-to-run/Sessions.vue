@@ -135,7 +135,7 @@
     <hr />
 
     <h2 id="flexibility">Adapting over time</h2>
-    <p>You may need to adapt and change how you run your club as restrictions in your local area change  and combine elements of online, remote and in-person activities, or you may do different things at different times.</p>
+    <p>You know your Dojo and local situation best. You can adjust how you run your club and combine different elements of online, remote, and in-person activities to suit your needs and adapt to changes in your circumstances.</p>
 
     <hr />
 
