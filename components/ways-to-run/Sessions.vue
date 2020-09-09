@@ -187,6 +187,7 @@ function trackLinks() {
     justify-content: space-between;
   }
   &__content-resources {
+    margin-left: 30px;
   }
   &__text {
     margin: 0 auto;
