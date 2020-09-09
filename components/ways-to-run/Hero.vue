@@ -54,7 +54,25 @@ export default {
   components: {
     VideoModal,
   },
+  mounted() {
+    trackLinks();
+  },
 };
+
+function trackLinks() {
+  const trackedLinks = document.querySelectorAll("a[data-action]");
+  for (let trackedLink of trackedLinks) {
+    let data = trackedLink.dataset;
+
+    if (data.action !== "click") {
+      continue;
+    }
+
+    trackedLink.addEventListener(data.action, () =>
+      ga("send", "event", data.category, data.action, data.label)
+    );
+  }
+}
 </script>
 <style lang="scss" scoped>
 @import "~/assets/_variables.scss";
