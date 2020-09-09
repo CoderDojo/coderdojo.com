@@ -82,7 +82,7 @@
       </div>
     </div>
     <div class="c-sessions__cta">
-      <p><a class="c-button c-button--orange" href="">Guidance on online sessions</a></p>
+      <p><a class="c-button c-button--orange" href="https://static.raspberrypi.org/files/clubs/Guidance_on_hosting_online_club_sessions.pdf" data-action="click" data-label="Guidance on online sessions" data-category="Ways to Run Downloads">Guidance on online sessions</a></p>
     </div>
 
     <hr />
@@ -129,7 +129,7 @@
       </div>
     </div>
     <div class="c-sessions__cta">
-      <p><a class="c-button c-button--orange" href="">Guidance on remote activites</a></p>
+      <p><a class="c-button c-button--orange" href="https://static.raspberrypi.org/files/clubs/Guidance_on_remote_activities.pdf" data-action="click" data-label="Remote activities planning checklist" data-category="Ways to Run Downloads">Guidance on remote activites</a></p>
     </div>
 
     <hr />
