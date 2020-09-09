@@ -31,7 +31,7 @@
       <div class="c-sessions__content-individual">
         <div class="c-sessions__quote-cards">
           <div class="c-sessions__quote-card">
-            <p class="c-sessions__quote">“{{ $t('We started after the schools went back. The kids were very enthusiastic. A lot of parents were at ease when they saw the rules because they were the same rules as when you go to a restaurant or a cinema.') }}”</p>
+            <p class="c-sessions__quote">“{{ $t('We started after schools went back. The kids were very enthusiastic. A lot of parents were at ease when they saw the rules because they were the same rules as when you go to a restaurant or cinema.') }}”</p>
             <div class="c-sessions__quote-attr">
               <img alt="" class="c-sessions__quote-attr-image" src="~/static/images/ways-to-run/adult-1.png" />
               <span class="c-sessions__quote-attr-text">Martijn, Leusden Dojo, Netherlands</span>
@@ -73,7 +73,7 @@
         <div class="c-sessions__content-individual">
         <div class="c-sessions__quote-cards">
           <div class="c-sessions__quote-card">
-            <p class="c-sessions__quote">“{{ $t('Starting out, hosting online sessions was a bit challenging, but we accepted it, and we’re very glad we did. It is definitely important to keep young people coding in a relaxed environment, especially during this time.') }}”</p>
+            <p class="c-sessions__quote">“{{ $t('Starting out, hosting online sessions was a bit challenging, but we’re very glad we did. It is definitely important to keep young people coding in a relaxed environment, especially during this time.') }}”</p>
             <div class="c-sessions__quote-attr">
               <img alt="" class="c-sessions__quote-attr-image" src="~/static/images/ways-to-run/adult-8.png" />
               <span class="c-sessions__quote-attr-text">Shubhi and Shriya, CoderDojo Clark, USA</span>
@@ -120,7 +120,7 @@
       <div class="c-sessions__content-individual">
         <div class="c-sessions__quote-cards">
           <div class="c-sessions__quote-card">
-            <p class="c-sessions__quote">“{{ $t('We’re posting workshops and challenges. The challenges are open-ended to allow engagement for all ages and enabling creativity and personalisation. Our community can participate in their own time, at their own pace.') }}”</p>
+            <p class="c-sessions__quote">“{{ $t('We’re posting workshops and challenges, which are open-ended to allow engagement for all ages and enabling creativity and personalisation. They can participate in their own time, at their own pace.') }}”</p>
             <div class="c-sessions__quote-attr">
               <img alt="" class="c-sessions__quote-attr-image" src="~/static/images/ways-to-run/adult-6.png" />
               <span class="c-sessions__quote-attr-text">Amy, CoderDojo Warrington, UK</span>
