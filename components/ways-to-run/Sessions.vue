@@ -62,6 +62,8 @@
           <ul>
             <li><a href="https://static.raspberrypi.org/files/clubs/Comparison_free_online_video_conferencing_tools.pdf" data-action="click" data-label="Comparison of tools table" data-category="Ways to Run Downloads">'Comparison of tools' table</a></li>
             <li><a href="https://static.raspberrypi.org/files/clubs/Raspberry_Pi_Foundation_Online_club_session_schedule_printable_A4.pdf" data-action="click" data-label="Session structure template PDF download" data-category="Ways to Run Downloads">'Session structure template' PDF download</a></li>
+            <li><a href="https://static.raspberrypi.org/files/clubs/Code_Club_and_CoderDojo_Parent_Guide_Supporting_Online_Coding_Session.pdf" data-action="click" data-label="Parent's guide for online sessions" data-category="Ways to Run Downloads">Parent's guide for online sessions</a></li>
+            <li><a href="https://static.raspberrypi.org/files/clubs/CoderDojo_Code_Club_Online_Code_of_Behaviour_A4_DIGITAL.pdf" data-action="click" data-label="Online code of behaviour for young people" data-category="Ways to Run Downloads">Online code of behaviour for young people</a></li>
           </ul>
         </div>
       </div>
