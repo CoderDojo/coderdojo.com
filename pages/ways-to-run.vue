@@ -2,7 +2,6 @@
   <div>
     <Hero />
     <Sessions />
-    <Questions />
   </div>
 </template>
 
