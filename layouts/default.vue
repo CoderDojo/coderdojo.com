@@ -17,6 +17,20 @@ export default {
     CdHeader,
     CdFooter,
   },
+  mounted:  function()
+  {
+    // Ensure the browser navigates to the correct place in the page after
+    // everything has be rehydrated.
+    this.$nextTick(() => this.scrollFix(this.$route.hash));
+  },
+  methods: {
+    scrollFix: function(hash)
+    {
+      if (hash && document.querySelector(hash)) {
+        location.href = hash;
+      }
+    }
+  }
 };
 </script>
 
