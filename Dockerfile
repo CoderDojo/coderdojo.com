@@ -9,7 +9,6 @@ RUN apt-get update \
   && apt-get install --no-install-recommends --yes \
      build-essential python-dev libsass-dev 
 COPY package.json yarn.lock /app/
-COPY .yarnrc-docker /app/.yarnrc
 RUN yarn install
 COPY . /app/
 
