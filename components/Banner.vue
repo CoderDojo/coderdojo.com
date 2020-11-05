@@ -5,9 +5,9 @@
         {{ $t('Thank you for your interest in CoderDojo!') }}
          {{ $t('The coronavirus pandemic continues to impact all our lives, including how Dojos can run.') }}
          {{ $t('See') }}
-        <a class="cd-banner-link" href="/ways-to-run">
+        <nuxt-link class="cd-banner-link" :to="localePath('ways-to-run')">
           {{ $t('our resources and guidance on the creative ways Dojos are running.') }}
-        </a>
+        </nuxt-link>
       </p>
     </div>
   </div>
