@@ -18,7 +18,7 @@
     "js-cookies": "^1.0.4",
     "node-sass": "^4.9.2",
     "nuxt": "^1.0.0",
-    "nuxt-i18n": "^4.1.0",
+    "nuxt-i18n": "^5.0.1",
     "sass-loader": "^7.0.3"
   },
   "devDependencies": {
