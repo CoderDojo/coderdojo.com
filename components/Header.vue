@@ -2,7 +2,7 @@
   <div class="c-header" :class="{'c-header--mobile-nav-open': mobileNavOpen }">
     <div class="c-header__content">
       <div class="c-header__logo">
-        <nuxt-link :to="localePath({ name: 'index' })">
+        <nuxt-link :to="localePath({ name: 'localePath' })">
           <img class="c-header__logo-img" src="~/static/images/coderdojo.svg" />
           <img class="c-header__logo-img--black" src="~/static/images/coderdojo-black.svg" />
         </nuxt-link>
