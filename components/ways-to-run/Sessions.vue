@@ -40,6 +40,9 @@
         </div>
       </div>
     </div>
+    <div class="c-sessions__cta">
+      <p><a class="c-button c-button--orange" href="https://help.coderdojo.com/hc/en-us/articles/360050231131-Planning-in-person-sessions-with-Covid-19-safety-measures-in-place" data-action="click" data-label="Guidance on in-person sessions" data-category="Ways to Run Downloads">Guidance on in-person sessions</a></p>
+    </div>
 
     <hr/>
 
