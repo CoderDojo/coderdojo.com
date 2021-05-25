@@ -1,10 +1,8 @@
-"project_identifier": "coderdojo-com"
-"api_key_env": CROWDIN_API_KEY
-"base_path": "/usr/src/app/coderdojo.com"
-"preserve_hierarchy": true
-
-"files":
-  -
-    source: '/locales/en-US.json'
-    dest: '/strings.json'
-    translation: '/locales/%locale%.json'
+project_identifier: coderdojo-com
+api_key_env: CROWDIN_API_KEY
+base_path: /usr/src/app/coderdojo.com
+preserve_hierarchy: true
+files:
+  - source: /locales/en-US.json
+    translation: /locales/%locale%.json
+    dest: /strings.json
