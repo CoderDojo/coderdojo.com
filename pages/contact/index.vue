@@ -33,7 +33,7 @@
         <p>&nbsp;</p>
         <p><span style="font-weight: 400;">If you think your local Dojo is inactive please email </span><a href="mailto:info@coderdojo.org"><span style="font-weight: 400;">info@coderdojo.org</span></a><span style="font-weight: 400;"> with the name and location of the Dojo. </span></p>
         <p>&nbsp;</p>
-        <p><span style="font-weight: 400;">No Dojo near you yet? Consider starting a Dojo in your community!</span></p>
+        <p><span style="font-weight: 400;">No Dojo near you yet? <nuxt-link :to="localePath({ name: 'start-a-dojo' })">Consider starting a Dojo in your community</nuxt-link>!</span></p>
       </div>
 
       <div class="c-form-fieldset__wrapper" data-show-prop="type" data-show-value="dojo-start">
@@ -129,6 +129,7 @@
               <option value="Content">Content</option>
               <option value="Hardware">Hardware</option>
               <option value="Software">Software</option>
+              <option value="Other">Other</option>
             </select>
           </div>
           <div class="c-form-group" data-show-prop="type" data-show-value="Events">
@@ -138,13 +139,6 @@
           <div class="c-form-group" data-show-prop="type" data-show-value="Events">
             <label class="c-form-label" for="00N3H000000xabL">Event Date</label>
             <input type="date" id="00N3H000000xabL" name="00N3H000000xabL" class="c-form-input"/>
-          </div>
-          <div class="c-form-group" data-show-prop="type" :data-show-value="arrayString('Software/Hardware/Content Partnership', 'Partnerships', 'Events', 'Media/Press/PR', 'Feedback')">
-            <label class="c-form-label" data-show-prop="type" data-show-value="Software/Hardware/Content Partnership">Partnership proposal:</label>
-            <label class="c-form-label" data-show-prop="type" :data-show-value="arrayString('Partnerships', 'Media/Press/PR')">Description:</label>
-            <label class="c-form-label" data-show-prop="type" data-show-value="Events">Event information:</label>
-            <label class="c-form-label" data-show-prop="type" data-show-value="Feedback">Description of feedback:</label>
-            <textarea id="00N3H000000xKBU" name="00N3H000000xKBU" class="c-form-input" rows="5"></textarea>
           </div>
           <div class="c-form-group" data-show-prop="type" data-show-value="Feedback">
             <label class="c-form-label" for="00N3H000000xZuk">Type of CD Community Member</label>
@@ -156,6 +150,13 @@
               <option value="Ninja">Ninja</option>
               <option value="Other">Other</option>
             </select>
+          </div>
+          <div class="c-form-group" data-show-prop="type" :data-show-value="arrayString('Software/Hardware/Content Partnership', 'Partnerships', 'Events', 'Media/Press/PR', 'Feedback')">
+            <label class="c-form-label" data-show-prop="type" data-show-value="Software/Hardware/Content Partnership">Partnership proposal:</label>
+            <label class="c-form-label" data-show-prop="type" :data-show-value="arrayString('Partnerships', 'Media/Press/PR')">Description:</label>
+            <label class="c-form-label" data-show-prop="type" data-show-value="Events">Event information:</label>
+            <label class="c-form-label" data-show-prop="type" data-show-value="Feedback">Description of feedback:</label>
+            <textarea id="00N3H000000xKBU" name="00N3H000000xKBU" class="c-form-input" rows="5"></textarea>
           </div>
         </fieldset>
       </div>
