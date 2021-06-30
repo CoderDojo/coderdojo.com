@@ -2,8 +2,7 @@
   <div class="c-contact">
     <div class="c-contact__form">
       <div class="c-form-fieldset__wrapper" data-show-prop="type" data-show-value="Software/Hardware/Content Partnership">
-        <h2><b>Thank you for getting in touch</b></h2>
-        <p><span style="font-weight: 400;">We'll get back to you as soon as we can.</span></p>
+        <h2><b>Form has been successfully submitted. Thank you.</b></h2>
       </div>
     </div>
   </div>
