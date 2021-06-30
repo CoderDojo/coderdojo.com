@@ -73,9 +73,6 @@
   }
 
   .c-form-fieldset__legend {
-    font-size: 1.92rem;
-    -webkit-margin-after: 2.4rem;
-    margin-block-end: 2.4rem;
     font-weight: 700;
     margin-top: 0;
     font-size: 2.4rem;
@@ -86,10 +83,6 @@
 
   @media only screen and (min-width: 800px) {
     .c-form-fieldset__legend {
-      font-size: 2.4rem;
-      margin-bottom: 3rem;
-      -webkit-margin-after: 3rem;
-      margin-block-end: 3rem;
       font-size: 3rem;
       margin-bottom: 1rem;
       -webkit-margin-after: 1rem;
@@ -99,9 +92,6 @@
 
   @media only screen and (min-width: 1200px) {
     .c-form-fieldset__legend {
-      margin-bottom: 3.6rem;
-      -webkit-margin-after: 3.6rem;
-      margin-block-end: 3.6rem;
       margin-bottom: 1.2rem;
       -webkit-margin-after: 1.2rem;
       margin-block-end: 1.2rem;
