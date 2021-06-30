@@ -1,7 +1,7 @@
 <template>
   <div class="c-contact">
-    <form class="c-contact__form" id="coderdojo_contact" action="https://raspberrypi--uat.my.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
-      <input type=hidden name="orgid" value="00D3H0000008ood">
+    <form class="c-contact__form" id="coderdojo_contact" action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
+      <input type=hidden name="orgid" value="00D4J000000GeqW">
       <input type=hidden name="retURL" value="https://coderdojo.com/contact/thanks">
       <input type="hidden" name="recordType" value="0124J000000MUX1" />
       <input type="hidden" name="priority" value="Medium" />
@@ -104,11 +104,11 @@
         <fieldset class="c-form-fieldset__element">
           <div class="c-form-group" data-show-prop="type" :data-show-value="arrayString('Software/Hardware/Content Partnership', 'Partnerships', 'Events', 'Media/Press/PR', 'Feedback')">
             <label class="c-form-label" for="first_name-field-id">First name</label>
-            <input type="text" id="first_name-field-id" name="00N3H000000xKKM" required="" class="c-form-input" value="" />
+            <input type="text" id="first_name-field-id" name="00N4J00000IZ1l2" required="" class="c-form-input" value="" />
           </div>
           <div class="c-form-group" data-show-prop="type" :data-show-value="arrayString('Software/Hardware/Content Partnership', 'Partnerships', 'Events', 'Media/Press/PR', 'Feedback')">
             <label class="c-form-label" for="last_name-field-id">Last name</label>
-            <input type="text" id="last_name-field-id" name="00N3H000000xKKl" required="" class="c-form-input" value="" />
+            <input type="text" id="last_name-field-id" name="00N4J00000IZ1l3" required="" class="c-form-input" value="" />
           </div>
           <div class="c-form-group" data-show-prop="type" :data-show-value="arrayString('Software/Hardware/Content Partnership', 'Partnerships', 'Events', 'Media/Press/PR', 'Feedback')">
             <label class="c-form-label" for="email-field-id">Email</label>
@@ -116,15 +116,15 @@
           </div>
           <div class="c-form-group" data-show-prop="type" :data-show-value="arrayString('Software/Hardware/Content Partnership', 'Media/Press/PR')">
             <label class="c-form-label" for="SuppliedCompany">Company</label>
-            <input type="text" id="SuppliedCompany" name="SuppliedCompany" required class="c-form-input"/>
+            <input type="text" id="SuppliedCompany" name="company" required class="c-form-input"/>
           </div>
           <div class="c-form-group" data-show-prop="type" :data-show-value="arrayString('Software/Hardware/Content Partnership', 'Media/Press/PR')">
-            <label class="c-form-label" for="00N3H000000xZuV">Position</label>
-            <input type="text" id="00N3H000000xZuV" name="00N3H000000xZuV" required class="c-form-input"/>
+            <label class="c-form-label" for="00N4J00000IZ1l6">Position</label>
+            <input type="text" id="00N4J00000IZ1l6" name="00N4J00000IZ1l6" required class="c-form-input"/>
           </div>
           <div class="c-form-group" data-show-prop="type" data-show-value="Partnerships">
-            <label class="c-form-label" for="00N3H000000xKBK">Type of Partnership</label>
-            <select id="00N3H000000xKBK" name="00N3H000000xKBK" title="Type of Partnership" class="c-form-select">
+            <label class="c-form-label" for="00N4J00000IZ1l5">Type of Partnership</label>
+            <select id="00N4J00000IZ1l5" name="00N4J00000IZ1l5" title="Type of Partnership" class="c-form-select">
               <option value="">--None--</option>
               <option value="Content">Content</option>
               <option value="Hardware">Hardware</option>
@@ -133,16 +133,16 @@
             </select>
           </div>
           <div class="c-form-group" data-show-prop="type" data-show-value="Events">
-            <label class="c-form-label" for="00N3H000000xabG">Event Name</label>
-            <input type="text" maxlength="255" id="00N3H000000xabG" name="00N3H000000xabG" class="c-form-input"/>
+            <label class="c-form-label" for="00N4J00000IZ1l1">Event Name</label>
+            <input type="text" maxlength="255" id="00N4J00000IZ1l1" name="00N4J00000IZ1l1" class="c-form-input"/>
           </div>
           <div class="c-form-group" data-show-prop="type" data-show-value="Events">
-            <label class="c-form-label" for="00N3H000000xabL">Event Date</label>
-            <input type="date" id="00N3H000000xabL" name="00N3H000000xabL" class="c-form-input"/>
+            <label class="c-form-label" for="00N4J00000IZ1l0">Event Date</label>
+            <input type="date" id="00N4J00000IZ1l0" name="00N4J00000IZ1l0" class="c-form-input"/>
           </div>
           <div class="c-form-group" data-show-prop="type" data-show-value="Feedback">
-            <label class="c-form-label" for="00N3H000000xZuk">Type of CD Community Member</label>
-            <select id="00N3H000000xZuk" name="00N3H000000xZuk" title="Type of CD Community Member" class="c-form-select">
+            <label class="c-form-label" for="00N4J00000IZ1l7">Type of CD Community Member</label>
+            <select id="00N4J00000IZ1l7" name="00N4J00000IZ1l7" title="Type of CD Community Member" class="c-form-select">
               <option value="">--None--</option>
               <option value="Champion">Champion</option>
               <option value="Volunteer/mentor">Volunteer/mentor</option>
@@ -152,11 +152,11 @@
             </select>
           </div>
           <div class="c-form-group" data-show-prop="type" :data-show-value="arrayString('Software/Hardware/Content Partnership', 'Partnerships', 'Events', 'Media/Press/PR', 'Feedback')">
-            <label class="c-form-label" data-show-prop="type" data-show-value="Software/Hardware/Content Partnership">Partnership proposal:</label>
-            <label class="c-form-label" data-show-prop="type" :data-show-value="arrayString('Partnerships', 'Media/Press/PR')">Description:</label>
-            <label class="c-form-label" data-show-prop="type" data-show-value="Events">Event information:</label>
-            <label class="c-form-label" data-show-prop="type" data-show-value="Feedback">Description of feedback:</label>
-            <textarea id="00N3H000000xKBU" name="00N3H000000xKBU" class="c-form-input" rows="5"></textarea>
+            <label class="c-form-label" for="description" data-show-prop="type" data-show-value="Software/Hardware/Content Partnership">Partnership proposal:</label>
+            <label class="c-form-label" for="description" data-show-prop="type" :data-show-value="arrayString('Partnerships', 'Media/Press/PR')">Description:</label>
+            <label class="c-form-label" for="description" data-show-prop="type" data-show-value="Events">Event information:</label>
+            <label class="c-form-label" for="description" data-show-prop="type" data-show-value="Feedback">Description of feedback:</label>
+            <textarea id="description" name="description" class="c-form-input" rows="5"></textarea>
           </div>
         </fieldset>
       </div>
