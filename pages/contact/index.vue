@@ -9,6 +9,7 @@
       <input type="hidden" id="subType" name="00N4J00000JCtvw" value="" />
 
       <div class="c-form-fieldset__wrapper">
+        <p>If you wish to contact the CoderDojo Foundation please use the following form. However, if your query is in regards to having your child attend a Dojo, volunteer at a Dojo or create a Dojo near you please use the above nav bar and follow the process outlined.</p>
         <fieldset class="c-form-fieldset__element">
           <legend class="c-form-fieldset__legend">I want to</legend>
           <div class="c-form-group">
@@ -29,75 +30,71 @@
 
       <div class="c-form-fieldset__wrapper" data-show-prop="type" data-show-value="dojo-find">
         <h2><b>Find a Dojo</b></h2>
-        <p><span style="font-weight: 400;">In order to find your nearest club (Dojo) please search our global map of Dojos by typing in the area you live in. You can search </span><a href="http://zen.coderdojo.com/"><span style="font-weight: 400;">here</span></a><span style="font-weight: 400;">. Once you have found a local club you can then contact the Dojo directly for information on attendance and registration.</span></p>
-        <p>&nbsp;</p>
-        <p><span style="font-weight: 400;">If you think your local Dojo is inactive please email </span><a href="mailto:info@coderdojo.org"><span style="font-weight: 400;">info@coderdojo.org</span></a><span style="font-weight: 400;"> with the name and location of the Dojo. </span></p>
-        <p>&nbsp;</p>
-        <p><span style="font-weight: 400;">No Dojo near you yet? <nuxt-link :to="localePath({ name: 'start-a-dojo' })">Consider starting a Dojo in your community</nuxt-link>!</span></p>
+        <p>In order to find your nearest club (Dojo) please search our global map of Dojos by typing in the area you live in. You can search <a href="http://zen.coderdojo.com/">here</a>. Once you have found a local club you can then contact the Dojo directly for information on attendance and registration.</p>
+        <p>If you think your local Dojo is inactive please email <a href="mailto:info@coderdojo.org">info@coderdojo.org</a> with the name and location of the Dojo. </p>
+        <p>No Dojo near you yet? <nuxt-link :to="localePath({ name: 'start-a-dojo' })">Consider starting a Dojo in your community</nuxt-link>!</p>
       </div>
 
       <div class="c-form-fieldset__wrapper" data-show-prop="type" data-show-value="dojo-start">
         <h2><b>Start a Dojo</b></h2>
-        <p><span style="font-weight: 400;">Awesome! </span><span style="font-weight: 400;">Starting your own Dojo is fun and rewarding. Take a look at our </span><a href="https://coderdojo.com/start-a-dojo/"><span style="font-weight: 400;">easy to follow steps</span></a><span style="font-weight: 400;">. Once you are ready to start the journey, visit our Community Platform and</span><a href="https://coderdojo.com/start-a-dojo/"><span style="font-weight: 400;"> create an account.</span></a><span style="font-weight: 400;"> We will support and guide you through the journey. </span><br>
-        <span style="font-weight: 400;">If you have any problems or queries &nbsp;get in touch with our Community team through </span><a href="mailto:info@coderdojo.org"><span style="font-weight: 400;">info@coderdojo.org</span></a></p>
+        <p>Awesome! Starting your own Dojo is fun and rewarding. Take a look at our <a href="https://coderdojo.com/start-a-dojo/">easy to follow steps</a>. Once you are ready to start the journey, visit our Community Platform and<a href="https://coderdojo.com/start-a-dojo/"> create an account.</a> We will support and guide you through the journey.</p>
+        <p>If you have any problems or queries &nbsp;get in touch with our Community team through <a href="mailto:info@coderdojo.org">info@coderdojo.org</a></p>
       </div>
 
       <div class="c-form-fieldset__wrapper" data-show-prop="type" data-show-value="dojo-mentor">
         <h2><b>Mentor at a Dojo</b></h2>
-        <p><span style="font-weight: 400;">Awesome! It’s thanks to people like you that CoderDojo is able to reach and impact ninjas all around the world! Search </span><a href="http://zen.coderdojo.com/"><span style="font-weight: 400;">here</span></a><span style="font-weight: 400;"> to find your local Dojo. Click Join Dojo. This will send a request to the Dojo notifying them that you wish to become a mentor. </span></p>
-        <h2></h2>
-        <p><span style="font-weight: 400;">Once you’re a member of the Dojo you will gain access to our mentoring E-learning modules which will give you all the information you need to know to inspire the ninjas at the Dojo! </span></p>
-        <h2></h2>
-        <p><span style="font-weight: 400;">No Dojo near you yet? Consider starting a Dojo in your community! <a href="coderdojo.com/volunteer">Do this here.</a></span></p>
+        <p>Awesome! It’s thanks to people like you that CoderDojo is able to reach and impact ninjas all around the world! Search <a href="http://zen.coderdojo.com/">here</a> to find your local Dojo. Click Join Dojo. This will send a request to the Dojo notifying them that you wish to become a mentor. </p>
+        <p>Once you’re a member of the Dojo you will gain access to our mentoring E-learning modules which will give you all the information you need to know to inspire the ninjas at the Dojo! </p>
+        <p>No Dojo near you yet? Consider starting a Dojo in your community! <a href="coderdojo.com/volunteer">Do this here.</a></p>
       </div>
 
       <div class="c-form-fieldset__wrapper" data-show-prop="type" data-show-value="Software/Hardware/Content Partnership">
         <h2><b>Start a Software, Hardware or Content partnership with CoderDojo</b></h2>
-        <p><span style="font-weight: 400;">Thank you! We are always striving to provide awesome tools and resources to the Community. To ensure that we continue to do this, we have some brief criteria set out below for these partnerships.</span></p>
+        <p>Thank you! We are always striving to provide awesome tools and resources to the Community. To ensure that we continue to do this, we have some brief criteria set out below for these partnerships.</p>
         <ul>
-        <li style="font-weight: 400;"><span style="font-weight: 400;">Software/Content/Hardware must be provided on a probono basis, </span>
-        <ul>
-        <li style="font-weight: 400;"><span style="font-weight: 400;">Discounted products will not be promoted,</span></li>
-        <li style="font-weight: 400;"><span style="font-weight: 400;">Software/Content should be offered on a semi-permanent basis (minimum 1 year access with the opportunity to continue if used by the community) in order for the community to gain a lasting benefit from the offer, </span></li>
+          <li>Software/Content/Hardware must be provided on a probono basis,
+            <ul>
+              <li>Discounted products will not be promoted,</li>
+              <li>Software/Content should be offered on a semi-permanent basis (minimum 1 year access with the opportunity to continue if used by the community) in order for the community to gain a lasting benefit from the offer, </li>
+            </ul>
+          </li>
+          <li>A minimum of 20 units should be supplied, smaller units of 5-10 will be considered depending on the product. </li>
+          <li>All products must be relevant, useful and positively impact to the CoderDojo community,</li>
+          <li>Software/Content/Hardware should be engaging to the CoderDojo community and delivered in a digestible and understandable format,</li>
         </ul>
-        </li>
-        <li style="font-weight: 400;"><span style="font-weight: 400;">A minimum of 20 units should be supplied, smaller units of 5-10 will be considered depending on the product. </span></li>
-        <li style="font-weight: 400;"><span style="font-weight: 400;">All products must be relevant, useful and positively impact to the CoderDojo community,</span></li>
-        <li style="font-weight: 400;"><span style="font-weight: 400;">Software/Content/Hardware should be engaging to the CoderDojo community and delivered in a digestible and understandable format,</span></li>
-        </ul>
-        <p><span style="font-weight: 400;">If you meet the above criteria we’d love to hear from you! Fill out the below brief questions and we’ll get back to you ASAP!</span></p>
+        <p>If you meet the above criteria we’d love to hear from you! Fill out the below brief questions and we’ll get back to you ASAP!</p>
       </div>
 
       <div class="c-form-fieldset__wrapper" data-show-prop="type" data-show-value="Partnerships">
         <h2><b>Start a Corporate partnership with CoderDojo</b></h2>
-        <p><span style="font-weight: 400;">Amazing! The CoderDojo Foundation is a registered charity in Ireland and have worked with many corporates to support the global community. There are a number of ways that corporates can get involved with the CoderDojo Foundation and the movement. </span></p>
+        <p>Amazing! The CoderDojo Foundation is a registered charity in Ireland and have worked with many corporates to support the global community. There are a number of ways that corporates can get involved with the CoderDojo Foundation and the movement.</p>
       </div>
 
       <div class="c-form-fieldset__wrapper" data-show-prop="type" data-show-value="Events">
         <h2><b>Invite CoderDojo to an Event</b></h2>
-        <p><span style="font-weight: 400;">Awesome! The CoderDojo Foundation team attend and host many different types of events. Some of the events we participate in are:</span></p>
+        <p>Awesome! The CoderDojo Foundation team attend and host many different types of events. Some of the events we participate in are:</p>
         <ul>
-          <li style="font-weight: 400;"><b>Corporate / Tech events:</b><span style="font-weight: 400;"> At these events we engage attendees with the aim of gaining support for local Dojos / the global community. Some of the ways that we get involved at these types events are:</span>
+          <li><b>Corporate / Tech events:</b> At these events we engage attendees with the aim of gaining support for local Dojos / the global community. Some of the ways that we get involved at these types events are:
           <ul>
-            <li style="font-weight: 400;"><span style="font-weight: 400;">Pop-up Dojo: these are once off Dojos at specific events where the aim is to give youth in the area the opportunity to participate and showcase CoderDojo to attendees at the event eg/ </span><a href="https://coderdojo.com/news/2015/11/13/another-great-year-for-coderdojo-at-the-web-summit/"><span style="font-weight: 400;">Web Summit Pop-up Dojo</span></a><span style="font-weight: 400;">.</span></li>
-            <li style="font-weight: 400;"><span style="font-weight: 400;">Info stand: for the Foundation to spread the word about the CoderDojo movement.</span></li>
-            <li style="font-weight: 400;"><span style="font-weight: 400;">Speaking Slot: From time to time CoderDojo Foundation members will speak at events about CoderDojo to gather support for new and existing Dojos and the community.</span></li>
+            <li>Pop-up Dojo: these are once off Dojos at specific events where the aim is to give youth in the area the opportunity to participate and showcase CoderDojo to attendees at the event eg/ <a href="https://coderdojo.com/news/2015/11/13/another-great-year-for-coderdojo-at-the-web-summit/">Web Summit Pop-up Dojo</a>.</li>
+            <li>Info stand: for the Foundation to spread the word about the CoderDojo movement.</li>
+            <li>Speaking Slot: From time to time CoderDojo Foundation members will speak at events about CoderDojo to gather support for new and existing Dojos and the community.</li>
           </ul>
           </li>
-          <li style="font-weight: 400;"><b>Community Events:</b><span style="font-weight: 400;"> We attend and support a varying level of community based events such as Coolest Projects, DojoCon, MegaDojo, Mentor / Community meetups and workshops. At these events we get involved as needed by offering advice, connecting you to other community members that can share advice or directly supporting.</span></li>
+          <li><b>Community Events:</b> We attend and support a varying level of community based events such as Coolest Projects, DojoCon, MegaDojo, Mentor / Community meetups and workshops. At these events we get involved as needed by offering advice, connecting you to other community members that can share advice or directly supporting.</li>
         </ul>
-        <p><span style="font-weight: 400;">Other Requirements:</span></p>
+        <p>Other Requirements:</p>
         <ul>
-          <li style="font-weight: 400;"><span style="font-weight: 400;">All events must be relevant, and positively impactful to the CoderDojo community.</span></li>
-          <li style="font-weight: 400;"><span style="font-weight: 400;">The space provided is pro bono.</span></li>
-          <li style="font-weight: 400;"><span style="font-weight: 400;">We will not promote a paid event to the community, if there is no relevant contribution to the community eg/ donation of 10 or more tickets for the event.</span></li>
+          <li>All events must be relevant, and positively impactful to the CoderDojo community.</li>
+          <li>The space provided is pro bono.</li>
+          <li>We will not promote a paid event to the community, if there is no relevant contribution to the community eg/ donation of 10 or more tickets for the event.</li>
         </ul>
-        <h2><span style="font-weight: 400;">If you are requesting for the CoderDojo Foundation to get involved in any of the above please fill out the following form and we will be in touch.</span></h2>
+        <p>If you are requesting for the CoderDojo Foundation to get involved in any of the above please fill out the following form and we will be in touch.</p>
       </div>
 
       <div class="c-form-fieldset__wrapper" data-show-prop="type" data-show-value="Media/Press/PR">
         <h2><b>Talk about a Media Opportunity </b></h2>
-        <p><span style="font-weight: 400;">Thank you for wanting to profile CoderDojo. Please fill in the below and we’ll be in touch ASAP!</span></p>
+        <p>Thank you for wanting to profile CoderDojo. Please fill in the below and we’ll be in touch ASAP!</p>
       </div>
 
       <div class="c-form-fieldset__wrapper" data-show-prop="type" :data-show-value="arrayString('Software/Hardware/Content Partnership', 'Partnerships', 'Events', 'Media/Press/PR', 'Feedback')">
@@ -361,6 +358,10 @@
 <style lang="scss" scoped>
   @import '~/assets/_variables.scss';
 
+  p, ul {
+    margin-bottom: 2rem;
+  }
+
   .c-contact {
     max-width: $content-width;
     margin: 0 auto;
@@ -414,6 +415,7 @@
 
   .c-form-fieldset__element {
     border: 0;
+    padding: 0;
   }
 
   .c-form-fieldset__legend {
