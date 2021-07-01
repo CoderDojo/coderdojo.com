@@ -25,8 +25,8 @@
         <div class="c-footer__links">
           <p class="c-footer__links-header">{{ $t('Get Involved') }}</p>
           <a href="https://zen.coderdojo.com/find">{{ $t('Find a Dojo near you') }}</a>
-          <a href="/volunteer">{{ $t('Volunteer') }}</a>
-          <a href="/start-a-dojo">{{ $t('Start a Dojo') }}</a>
+          <nuxt-link :to="localePath({ name: 'volunteer' })">{{ $t('Volunteer')}}</nuxt-link>
+          <nuxt-link :to="localePath({ name: 'start-a-dojo' })">{{ $t('Start a Dojo')}}</nuxt-link>
           <a href="/donate">{{ $t('Donate') }}</a>
         </div>
         <div class="c-footer__links">
@@ -47,8 +47,8 @@
         <div class="c-footer__links">
           <p class="c-footer__links-header">{{ $t('Need help?') }}</p>
           <a href="https://help.coderdojo.com/hc">{{ $t('Our help center') }}</a>
-          <a href="/resources">{{ $t('Resources') }}</a>
-          <a href="/contact">{{ $t('Contact Us') }}</a>
+          <nuxt-link :to="localePath({ name: 'resources' })">{{ $t('Resources')}}</nuxt-link>
+          <nuxt-link :to="localePath({ name: 'contact' })">{{ $t('Contact Us')}}</nuxt-link>
         </div>
       </div>
       <div class="c-footer__address">
@@ -63,7 +63,7 @@
 
   export default {
     components: {
-      LangPicker,  
+      LangPicker,
     },
   };
 </script>

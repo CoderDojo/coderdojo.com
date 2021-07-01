@@ -2,7 +2,7 @@
 
 html {
   font-family: Lato, sans-serif;
-  font-size: 18px;
+  font-size: 62.5%;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -13,6 +13,10 @@ html {
 
 html[lang="ar-SA"] {
   direction: rtl;
+}
+
+body {
+  font-size: 1.8rem;
 }
 
 h1, h2, h3 {
