@@ -7,6 +7,7 @@
       <input type="hidden" name="priority" value="Medium" />
       <input type="hidden" name="status" value="New" />
       <input type="hidden" id="subType" name="00N4J00000JCtvw" value="" />
+      <input type="hidden" id="subject" name="subject" value="" />
 
       <div class="c-form-fieldset__wrapper">
         <p>If you wish to contact the CoderDojo Foundation please use the following form. However, if your query is in regards to having your child attend a Dojo, volunteer at a Dojo or create a Dojo near you please use the above nav bar and follow the process outlined.</p>
@@ -310,7 +311,6 @@
     getVisibleState(el) {
       let { showProp, showValue, hideProp, hideValue } = el.dataset
       const value = this.state.get(showProp || hideProp)
-      console.log({ showValue })
 
       try {
         showValue = JSON.parse(showValue)
@@ -318,7 +318,6 @@
       try {
         hideValue = JSON.parse(hideValue)
       } catch (e) {}
-      console.log({ showValue })
 
       if (Array.isArray(showValue || hideValue)) {
         return (showValue || hideValue).indexOf(value) > -1
@@ -336,6 +335,7 @@
     },
     mounted() {
       const subTypeInput = this.$el.querySelector('#subType')
+      const subjectInput = this.$el.querySelector('#subject')
 
       const sessionStorageAdapter = new SessionStorageAdapter({
         storageKey: 'contact_form',
@@ -349,6 +349,10 @@
       const visibilityManager = new VisibilityManager({
         parentSelector: '#coderdojo_contact',
         storageAdapter: sessionStorageAdapter,
+      })
+
+      sessionStorageAdapter.addStateListener('type', (key, value) => {
+        subjectInput.value = value
       })
     }
   }
