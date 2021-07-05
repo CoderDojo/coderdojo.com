@@ -140,7 +140,7 @@ function trackLinks() {
 
   &__step {
     &-title {
-      font-size: 1rem;
+      font-size: 1.8rem;
       margin: 20px 20px 10px 20px;
     }
     &-image {
