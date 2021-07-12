@@ -2,6 +2,7 @@
   <div>
     <Banner />
     <Hero :dojos="dojos" />
+    <Birthday/>
     <Testimonials/>
     <Volunteer />
     <StartADojo />
@@ -15,6 +16,7 @@
 import axios from 'axios';
 import Banner from '~/components/Banner';
 import Hero from '~/components/index/Hero';
+import Birthday from '~/components/index/Birthday';
 import Testimonials from '~/components/index/Testimonials';
 import Volunteer from '~/components/index/Volunteer';
 import StartADojo from '~/components/index/StartADojo';
@@ -45,6 +47,7 @@ export default {
   components: {
     Banner,
     Hero,
+    Birthday,
     Testimonials,
     Volunteer,
     StartADojo,
