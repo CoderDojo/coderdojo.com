@@ -8,7 +8,7 @@
         <h2 class="c-birthday__header">{{ $t('Celebrating ten years of CoderDojo') }}</h2>
         <p>{{ $t('This year we’re celebrating ten years of CoderDojo. Discover how CoderDojo started and how you can get involved in the exciting activities we have planned!') }}</p>
         <div class="c-birthday__text-link">
-          <a href="/">{{ $t('TBC') }}</a>
+          <a href="/">{{ $t('Click link') }}</a>
         </div>
       </div>
     </div>
