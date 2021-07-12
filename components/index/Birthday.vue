@@ -29,8 +29,9 @@
     }
 
     &__photo {
+      display: flex;
       flex: 1;
-      margin-right: 20px;
+      margin: 20px;
 
       img {
         width: 100%;
@@ -39,8 +40,8 @@
     }
 
     &__text {
-      flex: 1;
-      margin-left: 20px;
+      flex: 4;
+      margin: 30px;
 
       p {
         margin: 10px 0;
@@ -63,11 +64,11 @@
   @include media-breakpoint-max(sm) {
     .c-birthday {
       &__content {
-        flex-direction: column-reverse;
+        flex-direction: column;
       }
 
       &__photo {
-        margin: 0;
+        margin: 2rem;
       }
 
       &__text {
