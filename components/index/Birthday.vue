@@ -2,13 +2,13 @@
   <div class="c-birthday" id="birthday">
     <div class="c-birthday__content">
       <div class="c-birthday__photo">
-        <img src="~/static/images/index/birthday.png" />
+        <img alt="" src="~/static/images/index/birthday.svg" />
       </div>
       <div class="c-birthday__text">
         <h2 class="c-birthday__header">{{ $t('Celebrating ten years of CoderDojo') }}</h2>
         <p>{{ $t('This year we’re celebrating ten years of CoderDojo. Discover how CoderDojo started and how you can get involved in the exciting activities we have planned!') }}</p>
         <div class="c-birthday__text-link">
-          <a href="/">{{ $t('Click link') }}</a>
+          <a href="https://dojo.soy/birthday10">{{ $t('Learn more') }}</a>
         </div>
       </div>
     </div>
@@ -22,13 +22,14 @@
     padding: 40px 0;
 
     &__content {
-      background: $foam;
+      background: $cd-foam;
       max-width: $content-width;
       margin: 40px auto;
       display: flex;
     }
 
     &__photo {
+      align-self: center;
       display: flex;
       flex: 1;
       margin: 20px;
