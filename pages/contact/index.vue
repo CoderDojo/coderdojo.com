@@ -1,7 +1,7 @@
 <template>
   <div class="c-contact">
     <form class="c-contact__form" id="coderdojo_contact" action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
-      <input type=hidden name='captcha_settings' value='{"keyname":"CD2Case","fallback":"true","orgId":"00D4J000000GeqW","ts":""}'>
+      <input type=hidden name="captcha_settings" :value="captcha_settings">
       <input type=hidden name="orgid" value="00D4J000000GeqW">
       <input type=hidden name="retURL" value="https://coderdojo.com/contact/thanks">
       <input type="hidden" name="recordType" value="0124J000000MUX1" />
@@ -334,6 +334,16 @@
         script: [
           { hid: 'recatpcha', src: 'https://www.google.com/recaptcha/api.js' },
         ],
+      }
+    },
+    data() {
+      return {
+        captcha_settings: JSON.stringify({
+          "keyname": "CD2Case",
+          "fallback": "true",
+          "orgId": "00D4J000000GeqW",
+          "ts": ""
+        })
       }
     },
     methods: {
