@@ -353,6 +353,20 @@
 
       sessionStorageAdapter.addStateListener('type', (key, value) => {
         subjectInput.value = value
+        switch (value) {
+          case 'Partnerships':
+            subTypeInput.value = 'Corporate';
+            break
+          case 'Events':
+            subTypeInput.value = 'Invite to Event'
+            break
+          case 'Media/Press/PR':
+            subTypeInput.value = 'Discuss Media Opportunity'
+            break
+          default:
+            subTypeInput.value = ''
+            break
+        }
       })
     }
   }
