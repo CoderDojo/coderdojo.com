@@ -1,6 +1,7 @@
 <template>
   <div class="c-contact">
     <form class="c-contact__form" id="coderdojo_contact" action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
+      <input type=hidden name="captcha_settings" :value="captcha_settings">
       <input type=hidden name="orgid" value="00D4J000000GeqW">
       <input type=hidden name="retURL" value="https://coderdojo.com/contact/thanks">
       <input type="hidden" name="recordType" value="0124J000000MUX1" />
@@ -159,6 +160,7 @@
         </fieldset>
       </div>
       <div class="c-form-submit" data-show-prop="type" :data-show-value="arrayString('Software/Hardware/Content Partnership', 'Partnerships', 'Events', 'Media/Press/PR', 'Feedback')">
+        <div class="g-recaptcha" data-sitekey="6LfRs4IbAAAAAPvwgR9BQ6VahYKkIPx0oOsMKkXA"></div>
         <button class="sc-rp-button">Submit Request</button>
       </div>
     </form>
@@ -326,7 +328,33 @@
     }
   }
 
+  function timestamp() {
+    var response = document.getElementById("g-recaptcha-response")
+    if (response == null || response.value.trim() == "") {
+      var elems = JSON.parse(document.getElementsByName("captcha_settings")[0].value)
+      elems["ts"] = JSON.stringify(new Date().getTime())
+      document.getElementsByName("captcha_settings")[0].value = JSON.stringify(elems)
+    }
+  }
+
   export default {
+    head() {
+      return {
+        script: [
+          { hid: 'recatpcha', src: 'https://www.google.com/recaptcha/api.js' },
+        ],
+      }
+    },
+    data() {
+      return {
+        captcha_settings: JSON.stringify({
+          "keyname": "CD2Case",
+          "fallback": "true",
+          "orgId": "00D4J000000GeqW",
+          "ts": ""
+        })
+      }
+    },
     methods: {
       // Vue keeps mangling prop values that look like arrays, this method avoids that
       arrayString(...args) {
@@ -334,6 +362,7 @@
       }
     },
     mounted() {
+      setInterval(timestamp, 500); 
       const subTypeInput = this.$el.querySelector('#subType')
       const subjectInput = this.$el.querySelector('#subject')
 
