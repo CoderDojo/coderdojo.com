@@ -160,7 +160,7 @@
         </fieldset>
       </div>
       <div class="c-form-submit" data-show-prop="type" :data-show-value="arrayString('Software/Hardware/Content Partnership', 'Partnerships', 'Events', 'Media/Press/PR', 'Feedback')">
-        <div class="g-recaptcha" data-sitekey="6LfRs4IbAAAAAPvwgR9BQ6VahYKkIPx0oOsMKkXA"></div>
+        <vue-recaptcha sitekey="6LfRs4IbAAAAAPvwgR9BQ6VahYKkIPx0oOsMKkXA"></vue-recaptcha>
         <button class="sc-rp-button">Submit Request</button>
       </div>
     </form>
@@ -168,6 +168,8 @@
 </template>
 
 <script>
+  import VueRecaptcha from 'vue-recaptcha'
+
   class FormDataTracker {
     constructor(options) {
       this.form = document.querySelector(options.formSelector)
@@ -341,10 +343,16 @@
     head() {
       return {
         script: [
-          { hid: 'recatpcha', src: 'https://www.google.com/recaptcha/api.js' },
+          {
+            hid: 'recatpcha',
+            src: 'https://www.google.com/recaptcha/api.js?onload=vueRecaptchaApiLoaded&render=explicit',
+            defer: true,
+            async: true
+          },
         ],
       }
     },
+    components: { VueRecaptcha },
     data() {
       return {
         captcha_settings: JSON.stringify({
@@ -362,7 +370,7 @@
       }
     },
     mounted() {
-      setInterval(timestamp, 500); 
+      setInterval(timestamp, 500);
       const subTypeInput = this.$el.querySelector('#subType')
       const subjectInput = this.$el.querySelector('#subject')
 
