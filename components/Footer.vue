@@ -46,7 +46,7 @@
         </div>
         <div class="c-footer__links">
           <p class="c-footer__links-header">{{ $t('Need help?') }}</p>
-          <a href="https://help.coderdojo.com/hc">{{ $t('Our help center') }}</a>
+          <a href="https://help.coderdojo.com/">{{ $t('Our help center') }}</a>
           <nuxt-link :to="localePath({ name: 'resources' })">{{ $t('Resources')}}</nuxt-link>
           <nuxt-link :to="localePath({ name: 'contact' })">{{ $t('Contact Us')}}</nuxt-link>
         </div>
