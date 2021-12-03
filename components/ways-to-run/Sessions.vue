@@ -112,7 +112,7 @@
           <h3>Resources</h3>
           <ul>
             <li><a href="https://static.raspberrypi.org/files/clubs/Code_Club_and_CoderDojo_CV_Remote_Activities_Planning_Checklist.pdf" data-action="click" data-label="Remote activities planning checklist" data-category="Ways to Run Downloads">Remote activities planning checklist</a></li>
-            <li><a href="https://help.coderdojo.com/hc/en-us/articles/360049267931" data-action="click" data-label="Tips for engaging parents" data-category="Ways to Run Downloads">Tips for engaging parents and ninjas</a></li>
+            <li><a href="https://help.coderdojo.com/cdkb/s/article/Tips-for-engaging-parents-and-Ninjas-in-remote-activities" data-action="click" data-label="Tips for engaging parents" data-category="Ways to Run Downloads">Tips for engaging parents and ninjas</a></li>
             <li><a href="https://help.coderdojo.com/cdkb/s/article/Certificates-to-reward-your-Ninjas-and-volunteers-in-2021" data-action="click" data-label="Remote activities certificates" data-category="Ways to Run Downloads">Remote activities certificates</a></li>
           </ul>
         </div>
