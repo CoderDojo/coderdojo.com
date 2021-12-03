@@ -17,7 +17,7 @@
         <div class="c-sessions__text">
           <h3>Resources</h3>
           <ul>
-            <li><a href="https://help.coderdojo.com/hc/en-us/articles/360048197312-Resources-for-promoting-your-Dojo-during-the-coronavirus-pandemic" data-action="click" data-label="Promotional material" data-category="Ways to Run Downloads">Promotional material</a></li>
+            <li><a href="https://help.coderdojo.com/cdkb/s/article/Resources-for-promoting-your-Dojo-during-the-coronavirus-pandemic" data-action="click" data-label="Promotional material" data-category="Ways to Run Downloads">Promotional material</a></li>
             <li><a href="https://coderdojo.com/2020/02/26/introducing-our-learning-path-resource/" data-action="click" data-label="Learning pathway" data-category="Ways to Run Downloads">Learning pathway</a></li>
           </ul>
         </div>
