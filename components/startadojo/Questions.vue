@@ -27,7 +27,7 @@
       <hr class="c-questions__divider">
       <div class="c-questions__wrapper">
         <p class="c-questions__text">{{ $t('Want more information about starting a Dojo and what our team can support you with? Join a webinar!') }}</p>
-        <a href="https://help.coderdojo.com/hc/en-us/articles/360022696411" class="c-questions__link">{{ $t('Start a Dojo: Webinar') }}</a>  
+        <a href="https://help.coderdojo.com/cdkb/s/article/Training-webinars-How-to-start-a-CoderDojo-club" class="c-questions__link">{{ $t('Start a Dojo: Webinar') }}</a>  
       </div>                   
     </div>
   </div>
