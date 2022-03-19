@@ -30,7 +30,7 @@ Translations are pulled regularly from [crowdin] and commited in this repo. Plea
 
 If a new language is added on crowdin, you will need to add it into the [update-trads.sh](./update-trads.sh) script, get that reviewed, merge it, then build and publish the container as below.  There is a regular Cron job run on the Zen Kubernetes platform which triggers the above pull from crowdin and commit to this repo.
 
-When the cron runs and adds any new languages to the repository, (look in the [locales](./locales) folder), you will need to edit [nuxt.config.js](./nuxt-config.js) to add this to the 'nuxt-i18n' locales section.
+When the cron runs and adds any new languages to the repository, (look in the [locales](./locales) folder), you will need to edit [nuxt.config.js](./nuxt.config.js) to add this to the 'nuxt-i18n' locales section.
 
 If the language is also right-to-left, you will need to update [typography.scss](./assets/typography.scss) to set the text alignment for the language.  Add another selector, e.g. `html[lang="ar-SA"]` to this rule:
 
