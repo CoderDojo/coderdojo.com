@@ -17,10 +17,10 @@ $ yarn start
 
 # generate static project
 $ yarn generate
-
+```
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
-```
+
 ## Translations
 
 If you like to translate, please do so on [crowdin].
