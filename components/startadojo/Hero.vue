@@ -25,7 +25,7 @@
           <span class="c-hero__step-name">{{ $t('Start') }}</span>
         </h2>
         <p class="c-hero__step-text">{{ $t('Schedule your first event using our events system, and use some of over 200 projects to run a great first Dojo session.') }}</p>
-      </div>      
+      </div>
     </div>
      <div class="c-hero__cta">
       <a href="https://zen.coderdojo.com/dashboard/start-dojo" class="c-button c-button--teal">{{ $t('Start a Dojo') }}</a>
@@ -63,7 +63,7 @@
       margin: 30px auto 0;
       padding: 0 0 40px;
     }
- 
+
     &__step-card {
       background-color: $white;
       flex: 1;
@@ -90,7 +90,7 @@
       }
       &:nth-child(3) .c-hero__step-name{
         color: $cd-teal;
-      }              
+      }
     }
 
     &__step {
@@ -98,11 +98,12 @@
       &-image {
         display: flex;
         margin-top: 16px;
+        max-height: 100px;
       }
 
       &-header {
         margin: 20px auto;
-        display: flex;                        
+        display: flex;
       }
 
       &-number {
@@ -115,7 +116,7 @@
         font-weight: 900;
         font-size: 20px;
         flex: 1 50px 50px;
-        margin-top: 12px;                  
+        margin-top: 12px;
       }
 
       &-name {
@@ -132,7 +133,7 @@
         }
       }
     }
-   
+
   }
   @include media-breakpoint-max(sm) {
     .c-hero {
@@ -149,7 +150,7 @@
       }
       &__step-name {
          margin-top: 16px;
-      }              
+      }
       &__cta {
         flex-direction: column;
         .c-button {
