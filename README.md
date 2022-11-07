@@ -1,6 +1,6 @@
-# coderdojo.com
+# This repo is now archived -- coderdojo.com
 
-> CoderDojo Main Site 
+> **OLD** CoderDojo Main Site 
 
 ## Build Setup
 
